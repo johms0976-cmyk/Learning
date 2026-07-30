@@ -44,14 +44,14 @@ const NODES = [
 {no:1, region:"Mossy Meadow", art:"🌙", color:"#7FB77E",
  grad:"linear-gradient(135deg,#8FCF8A,#5EA36B)",
  letters:["M"], confuse:["N","W","H"], teach:"the sound m",
- vocab:[{w:"MOON",e:"🌙"},{w:"MONKEY",e:"🐒"},{w:"MOUSE",e:"🐭"},{w:"MOP",e:"🧹"},
+ vocab:[{w:"MOON",e:"🌙"},{w:"MONKEY",e:"🐒"},{w:"MOSS",e:"🦠"},{w:"MOUSE",e:"🐭"},{w:"MOP",e:"🧹"},
         {w:"MEAT",e:"🍖"},{w:"MAN",e:"🧍"},{w:"MUM",e:"👩"},{w:"MILK",e:"🥛"}],
  words:[], family:[], hfw:[],
  plan:["sound","beginSound","trace:l","starts","tapAll","listen","match","hunt","caseMatch","trace:u"],
  story:{t:"Zib Lands in the Moss", art:"🌙🐒",
   lines:["The wind blew Zib into the *moss*.",
          "A *monkey* and a *mouse* were hiding there.",
-         "'*Mmm*,' said the monkey. 'That is my sound!'",
+         "'*mmm*,' said the monkey. 'That is my sound!'",
          "Zib put *M* in the bag. One letter home."]}},
 
 /* ── 2 ─────────────────────────────────────────────────── */
