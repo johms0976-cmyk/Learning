@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#F3F0FF">
+<title>Word Land — An Adventure in Reading</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Andika:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/wordland.css">
+</head>
+<body>
+
+<!-- ══════════════ MAP ══════════════ -->
+<div id="mapScreen" class="screen active">
+  <div class="map-aside">
+    <div class="bar">
+      <div style="display:flex;gap:6px;align-items:center;flex-shrink:0">
+        <button class="icon-btn" onclick="location.href='index.html'" aria-label="All games">🏠</button>
+        <button class="icon-btn" onclick="askGrownUp(openDash)" aria-label="Grown-ups">⚙️</button>
+      </div>
+      <h1>Word Land</h1>
+      <button class="icon-btn" onclick="openShelf()" aria-label="My storybook">📖</button>
+    </div>
+    <div class="map-intro">
+      <div class="title">The Lost Letters</div>
+      <div class="sub" id="mapSub">Help Zib carry the letters home</div>
+    </div>
+    <div class="book-strip">
+      <div class="bk">📖</div>
+      <div class="txt"><b id="bookCount">0 of 10 story pages</b>Finish a place to win its chapter</div>
+      <button class="go" onclick="openShelf()">Open</button>
+    </div>
+  </div>
+  <div class="trail-wrap"><div class="trail" id="trail"></div></div>
+  <p class="foot">Lessons 1–10 · Starting Out, Map 1</p>
+</div>
+
+<!-- ══════════════ PLAY ══════════════ -->
+<div id="playScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="quitNode()" aria-label="Back to the map">←</button>
+    <h1 id="playTitle"></h1>
+    <div style="width:42px"></div>
+  </div>
+  <div class="pips" id="pips"></div>
+  <div class="prog-txt" id="progTxt"></div>
+  <p class="instr" id="instr"></p>
+  <div id="playBody" style="width:100%;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:0"></div>
+</div>
+
+<!-- ══════════════ PLACE COMPLETE ══════════════ -->
+<div id="doneScreen" class="screen done-screen">
+  <div class="art" id="doneArt">🏅</div>
+  <h1 id="doneTitle"></h1>
+  <p class="sub" id="doneSub"></p>
+  <div class="big-stars" id="doneStars"></div>
+  <div class="reward">
+    <div class="k" id="doneRewardK">New chapter</div>
+    <div class="n" id="doneReward"></div>
+  </div>
+  <div class="done-actions">
+    <button class="big-btn primary" onclick="readStory(run.node,'done')">Read it now 📖</button>
+    <button class="big-btn quiet" onclick="toMap()">Back to the map</button>
+  </div>
+</div>
+
+<!-- ══════════════ STORY ══════════════ -->
+<div id="storyScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="storyBack()" aria-label="Back">←</button>
+    <h1>Storybook</h1>
+    <div style="width:42px"></div>
+  </div>
+  <div class="story-card" id="storyCard"></div>
+  <p class="tap-note">Tap any coloured word to hear it</p>
+  <button class="big-btn go" style="margin-top:14px" id="storyNext" onclick="storyBack()">Back to the map</button>
+</div>
+
+<!-- ══════════════ STORYBOOK SHELF ══════════════ -->
+<div id="shelfScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="toMap()" aria-label="Back to the map">←</button>
+    <h1>My storybook</h1>
+    <div style="width:42px"></div>
+  </div>
+  <p class="prog-txt" id="shelfSub" style="margin-bottom:14px"></p>
+  <div class="shelf-grid" id="shelfGrid"></div>
+</div>
+
+<!-- ══════════════ GROWN-UPS ══════════════ -->
+<div id="dashScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="toMap()" aria-label="Back to the map">←</button>
+    <h1>Grown-ups</h1>
+    <div style="width:42px"></div>
+  </div>
+  <div id="dashBody" style="width:100%"></div>
+</div>
+
+<!-- ══════════════ OVERLAYS ══════════════ -->
+<div class="sheet-bg" id="sheetBg"><div class="sheet" id="sheet"></div></div>
+
+<div class="gate-bg" id="gateBg">
+  <div class="gate">
+    <h3>Grown-ups only</h3>
+    <p id="gateQ">What is 8 + 5?</p>
+    <input id="gateIn" inputmode="numeric" autocomplete="off">
+    <div class="btns">
+      <button class="no" onclick="closeGate()">Cancel</button>
+      <button class="ok" onclick="submitGate()">Enter</button>
+    </div>
+    <p style="font-size:12px;color:var(--lav);margin-top:10px" id="gateMsg"></p>
+  </div>
+</div>
+
+<div class="cheer" id="cheer">
+  <div class="e" id="cheerE">🎉</div>
+  <div class="t" id="cheerT"></div>
+  <div class="w glyph" id="cheerW"></div>
+</div>
+<div class="confetti-c" id="confettiC"></div>
+
+<script src="js/wordland-data.js"></script>
+<script src="js/wordland-audio.js"></script>
+<script src="js/wordland.js"></script>
+</body>
+</html>
