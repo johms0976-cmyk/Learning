@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#F3F0FF">
+<title>Make the manifest — Word Land</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--purple:#5B4A8A;--lav:#9B8BB4;--lilac:#E8DFF5;--ghost:#F3EEFB;--teal:#3FA6A0;--coral:#E8763C;--mint:#96E6A1}
+body{font-family:'Fredoka',system-ui,sans-serif;color:var(--purple);
+  background:linear-gradient(170deg,#FFF8E7 0%,#F6ECFB 45%,#E8F8F1 100%);min-height:100vh;
+  display:flex;flex-direction:column;align-items:center;-webkit-tap-highlight-color:transparent;
+  padding:max(14px,env(safe-area-inset-top)) 14px max(24px,env(safe-area-inset-bottom))}
+.wrap{width:100%;max-width:560px}
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.bar h1{flex:1;text-align:center;font-size:20px;font-weight:700}
+.icon-btn{background:#fff;border:2px solid var(--lilac);border-radius:50%;width:40px;height:40px;font-size:17px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--purple);font-family:inherit;flex-shrink:0}
+.panel{background:#fff;border-radius:22px;padding:16px;margin-bottom:13px;box-shadow:0 6px 20px rgba(91,74,138,.08)}
+.panel h3{font-size:15px;font-weight:700;margin-bottom:5px}
+.panel p{font-size:13px;color:var(--lav);font-weight:500;line-height:1.55}
+.big-btn{width:100%;border:0;border-radius:19px;padding:15px;font-family:inherit;font-size:16px;font-weight:700;
+  cursor:pointer;background:var(--teal);color:#fff;margin-top:11px}
+.big-btn.quiet{background:var(--ghost);color:var(--lav)}
+.big-btn[disabled]{opacity:.5}
+.track{height:9px;background:var(--ghost);border-radius:6px;overflow:hidden;margin:13px 0 8px}
+.track i{display:block;height:100%;width:0;border-radius:6px;background:linear-gradient(90deg,#8FCF8A,#3FA6A0);transition:width .18s}
+.count{font-size:13px;color:var(--lav);font-weight:600}
+.group{margin-top:13px}
+.group h4{font-size:12px;font-weight:700;color:var(--lav);letter-spacing:.4px;margin-bottom:6px}
+.files{display:flex;flex-wrap:wrap;gap:5px}
+.f{font-size:11px;font-weight:600;padding:4px 8px;border-radius:11px;background:var(--ghost);color:var(--lav)}
+.f.yes{background:#E9FBEF;color:#2F7D4A}
+.f.no{opacity:.6}
+textarea{width:100%;height:190px;font-family:ui-monospace,Menlo,monospace;font-size:12px;line-height:1.5;
+  padding:12px;border:2px solid var(--lilac);border-radius:15px;background:var(--ghost);color:var(--purple);
+  margin-top:11px;resize:vertical;-webkit-user-select:text;user-select:text}
+.note{font-size:12px;color:var(--lav);text-align:center;line-height:1.6;margin-top:6px}
+code{background:var(--ghost);padding:1px 5px;border-radius:5px;font-size:12px}
+.warn{background:#FFF6E9;border-radius:14px;padding:11px 13px;font-size:12.5px;color:#8A6A2B;
+  font-weight:500;line-height:1.55;margin-top:11px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="bar">
+    <button class="icon-btn" onclick="location.href='index.html'" aria-label="All games">🏠</button>
+    <h1>Make the manifest</h1>
+    <div style="width:40px"></div>
+  </div>
+
+  <div class="panel">
+    <h3>What this does</h3>
+    <p>It asks the server, one file at a time, which of Word Land's recordings
+       actually exist — then writes out the <code>manifest.json</code> that lists them.
+       This is the same job as <code>tools/make-manifest.sh</code>, except it runs
+       here in the browser, so it works on an iPad where a shell script can't.</p>
+    <button class="big-btn" id="goBtn" onclick="run()">Check every file</button>
+    <div class="track"><i id="trackFill"></i></div>
+    <p class="count" id="count">Nothing checked yet.</p>
+    <div id="results"></div>
+  </div>
+
+  <div class="panel" id="outPanel" style="display:none">
+    <h3>Your manifest</h3>
+    <p>Copy this and save it as <code>audio/wordland/manifest.json</code>, replacing
+       whatever is in there now.</p>
+    <textarea id="out" readonly spellcheck="false"></textarea>
+    <button class="big-btn" onclick="copyOut()">Copy it</button>
+    <button class="big-btn quiet" onclick="downloadOut()">Save as a file</button>
+    <p class="note" id="copyNote"></p>
+  </div>
+
+</div>
+
+<script src="js/wordland-data.js"></script>
+<script>
+/* ============================================================
+   MAKE THE MANIFEST
+   ------------------------------------------------------------
+   Works out every recording Word Land could ask for, asks the
+   server which ones are really there, and prints the list.
+   ============================================================ */
+
+const $ = id => document.getElementById(id);
+const BASE = 'audio/wordland/';
+const AT_ONCE = 6;          // iOS gets unhappy with dozens of requests at once
+
+const slug = s => String(s).toLowerCase().trim()
+  .replace(/['’.,!?]/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9_-]/g, '');
+
+/* the same list the game builds, so nothing is missed or invented */
+function expected(){
+  const sounds = new Set(), words = new Set(), story = new Set();
+  spokenLetters().forEach(l => sounds.add(slug(SOUND[l] || l)));
+  NODES.forEach(n => {
+    [...n.vocab, ...n.words, ...n.family].forEach(v => words.add(slug(v.w)));
+    n.hfw.forEach(h => words.add(slug(h.w)));
+    story.add('chapter' + n.no);
+  });
+  return {
+    sounds: [...sounds].sort(),
+    words: [...words].sort(),
+    story: [...story].sort((a, b) => a.localeCompare(b, 'en', { numeric:true }))
+  };
+}
+
+/* Ask, don't listen: a HEAD request is answered even when iOS refuses to
+   load the audio itself. A page of HTML coming back means the server is
+   being polite about a file that isn't there. */
+async function exists(path){
+  try {
+    const r = await fetch(BASE + path, { method:'HEAD', cache:'no-store' });
+    if(!r.ok) return false;
+    const type = r.headers.get('content-type') || '';
+    return !/text\/html/i.test(type);
+  } catch(e) {
+    return null;                      // couldn't ask at all
+  }
+}
+
+let rows = [];
+async function run(){
+  if(typeof NODES === 'undefined'){
+    $('count').textContent = 'js/wordland-data.js did not load — put this page in the same folder as wordland.html.';
+    return;
+  }
+  const want = expected();
+  rows = [];
+  ['sounds','words','story'].forEach(kind =>
+    want[kind].forEach(name => rows.push({ kind, name, path: kind + '/' + name + '.mp3', found:null })));
+
+  $('goBtn').disabled = true;
+  $('goBtn').textContent = 'Checking…';
+  let done = 0, blocked = 0;
+
+  const draw = () => {
+    $('trackFill').style.width = (done / rows.length * 100) + '%';
+    const found = rows.filter(r => r.found === true).length;
+    $('count').textContent = `${done} of ${rows.length} checked — ${found} found.`;
+  };
+  draw();
+
+  const queue = rows.slice();
+  const worker = async () => {
+    while(queue.length){
+      const row = queue.shift();
+      const got = await exists(row.path);
+      row.found = got;
+      if(got === null) blocked++;
+      done++;
+      if(done % 4 === 0 || !queue.length) draw();
+    }
+  };
+  await Promise.all(Array.from({ length: AT_ONCE }, worker));
+
+  draw();
+  paint();
+  $('goBtn').disabled = false;
+  $('goBtn').textContent = 'Check again';
+
+  const found = rows.filter(r => r.found === true);
+  $('out').value = '[\n' + found.map(r => '  "' + r.path + '"').join(',\n') + '\n]\n';
+  $('outPanel').style.display = 'block';
+  $('copyNote').innerHTML = blocked
+    ? `<span style="color:#C75A22">${blocked} file${blocked === 1 ? '' : 's'} could not be checked.</span>
+       That usually means this page was opened straight from a folder rather than
+       through a web address — the manifest above will be incomplete.`
+    : `${found.length} recording${found.length === 1 ? '' : 's'} listed.`;
+}
+
+function paint(){
+  const label = { sounds:'sounds — audio/wordland/sounds/', words:'words — audio/wordland/words/', story:'story — audio/wordland/story/' };
+  $('results').innerHTML = ['sounds','words','story'].map(kind => {
+    const mine = rows.filter(r => r.kind === kind);
+    const got = mine.filter(r => r.found === true).length;
+    return `<div class="group">
+      <h4>${got}/${mine.length} · ${label[kind]}</h4>
+      <div class="files">${mine.map(r =>
+        `<span class="f ${r.found === true ? 'yes' : 'no'}">${r.found === true ? '✓ ' : '· '}${r.name}.mp3</span>`
+      ).join('')}</div></div>`;
+  }).join('');
+}
+
+async function copyOut(){
+  const ta = $('out');
+  try {
+    await navigator.clipboard.writeText(ta.value);
+    $('copyNote').textContent = 'Copied. Paste it into audio/wordland/manifest.json.';
+  } catch(e) {
+    ta.removeAttribute('readonly');
+    ta.focus(); ta.setSelectionRange(0, ta.value.length);
+    $('copyNote').textContent = 'Selected — press Copy on the keyboard bar, then set it back to read-only by reloading.';
+  }
+}
+function downloadOut(){
+  try {
+    const blob = new Blob([$('out').value], { type:'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'manifest.json';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  } catch(e) {
+    $('copyNote').textContent = 'Saving did not work here — use Copy instead.';
+  }
+}
+</script>
+</body>
+</html>
