@@ -10,6 +10,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Andika:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/hub.css">
+<style>
+body{font-family:'Fredoka',sans-serif;min-height:100vh;background:linear-gradient(170deg,#FFF8E7 0%,#FFECD2 30%,#FCE4EC 60%,#E8F5E9 100%);display:flex;flex-direction:column;align-items:center;padding:0;overflow-x:hidden;-webkit-tap-highlight-color:transparent}
+
+  /* ═══════════════════════════════════════════
+   LOCK SCREEN (grown-ups gate)
+   ═══════════════════════════════════════════ */
+.lock-screen{justify-content:center;min-height:100vh;text-align:center}
+.lock-card{background:#fff;border-radius:26px;padding:28px 24px 24px;box-shadow:0 10px 40px rgba(91,74,138,.14);border:3px solid var(--ghost);width:100%;max-width:340px;animation:slideUp .45s ease both}
+.lock-emoji{font-size:54px;animation:float 3.2s ease-in-out infinite;line-height:1.1}
+.lock-card h2{font-size:23px;font-weight:700;color:var(--purple);margin:8px 0 2px}
+.lock-question{font-size:16px;font-weight:500;color:var(--lav);margin-bottom:16px;line-height:1.4}
+.lock-input{width:100%;height:56px;border-radius:15px;border:3px solid var(--lilac);background:var(--ghost);font-family:'Fredoka',sans-serif;font-size:24px;font-weight:600;color:var(--purple);text-align:center;letter-spacing:3px;outline:none;transition:border-color .2s}
+.lock-input:focus{border-color:var(--peri);background:#fff}
+.lock-input.wrong{animation:shake .4s ease;border-color:var(--coral)}
+.lock-error{font-size:14px;font-weight:500;color:var(--coral);min-height:20px;margin-top:8px}
+.lock-hint{font-size:12px;color:#C8BFD8;margin-top:2px}
+.lock-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:4px}
+
+  </style>
 </head>
 <body>
 
@@ -53,6 +72,83 @@
     </div>
     <div class="go">Play →</div>
   </a>
+
+<!-- ══════ LOCK / PASSWORD GATE ══════ -->
+<div id="lockScreen" class="screen lock-screen active">
+  <div class="lock-card">
+    <div class="lock-emoji" id="lockEmoji">🔐</div>
+    <h2 id="lockTitle">Grown-ups only</h2>
+    <p class="lock-question" id="lockQuestion"></p>
+    <input class="lock-input" id="lockInput" type="password" inputmode="text" autocomplete="off"
+           autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="••••">
+    <p class="lock-error" id="lockError"></p>
+    <div class="lock-actions">
+      <button class="big-btn primary" style="margin-top:6px" onclick="submitLock()">Unlock</button>
+      <button class="big-btn secondary" id="lockCancel" style="margin-top:6px;display:none" onclick="cancelLock()">Back</button>
+    </div>
+    <p class="lock-hint" id="lockHint"></p>
+  </div>
+</div>
+
+  <script>
+/* ═══════════════════════════════════════════
+   ⚙️  SETTINGS YOU CAN EDIT
+   ═══════════════════════════════════════════ */
+const APP_PASSWORD  = "Red";                     // ← change the password here
+const GATE_QUESTION = "What is the secret word?"; // ← change the question here
+const GATE_HINT     = "";                         // optional hint, e.g. "Dad's favourite colour"
+const LOCK_AT_START = true;   // ask for the password when the app opens
+const LOCK_DASHBOARD = true;  // ask again before opening the parent dashboard
+
+
+  /* ═══════════════════════════════════════════
+   PASSWORD GATE
+   ═══════════════════════════════════════════ */
+let lockCallback=null,lockReturn=null;
+function normalise(s){return String(s||'').trim().toLowerCase()}
+
+function askPassword(opts){
+  lockCallback=opts.onPass||null;
+  lockReturn=opts.onCancel||null;
+  $('lockEmoji').textContent=opts.emoji||'🔐';
+  $('lockTitle').textContent=opts.title||'Grown-ups only';
+  $('lockQuestion').textContent=opts.question||GATE_QUESTION;
+  $('lockHint').textContent=GATE_HINT?'Hint: '+GATE_HINT:'';
+  $('lockError').textContent='';
+  $('lockInput').value='';
+  $('lockCancel').style.display=opts.onCancel?'':'none';
+  showScreen('lockScreen');
+  setTimeout(()=>{try{$('lockInput').focus()}catch(e){}},250);
+}
+function submitLock(){
+  const input=$('lockInput');
+  if(normalise(input.value)===normalise(APP_PASSWORD)){
+    $('lockError').textContent='';
+    try{speak(' ',1,1)}catch(e){}          // unlock audio on iOS with this tap
+    const cb=lockCallback;lockCallback=null;lockReturn=null;
+    if(cb)cb();
+  }else{
+    $('lockError').textContent="That's not it. Try again.";
+    input.classList.add('wrong');input.value='';
+    setTimeout(()=>input.classList.remove('wrong'),450);
+    input.focus();
+  }
+}
+function cancelLock(){const cb=lockReturn;lockCallback=null;lockReturn=null;if(cb)cb()}
+function openDashboard(){
+  if(!LOCK_DASHBOARD){renderDash();showScreen('dashScreen');return}
+  askPassword({emoji:'📊',title:'Parent dashboard',question:GATE_QUESTION,
+    onPass:()=>{renderDash();showScreen('dashScreen')},onCancel:()=>goToMap()});
+}
+  
+(async function boot(){
+  await load();
+  if(LOCK_AT_START){
+    askPassword({emoji:'🔐',title:'Spell It!',question:GATE_QUESTION,
+      onPass:()=>{showScreen('mapScreen');renderMap()}});
+  }else{
+    showScreen('mapScreen');renderMap();
+  }
 
 </main>
 
