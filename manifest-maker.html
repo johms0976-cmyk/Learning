@@ -104,6 +104,9 @@ function expected(){
   return {
     sounds: [...sounds].sort(),
     words: [...words].sort(),
+    phrase: [...phrases].sort(),
+    praise: [...praise].sort(),
+    players: [...players].sort(),
     story: [...story].sort((a, b) => a.localeCompare(b, 'en', { numeric:true }))
   };
 }
@@ -173,7 +176,7 @@ async function run(){
 }
 
 function paint(){
-  const label = { sounds:'sounds — audio/wordland/sounds/', words:'words — audio/wordland/words/', story:'story — audio/wordland/story/' };
+  const label = { sounds:'sounds — audio/wordland/sounds/', praise:'praise — audio/wordland/praise/', phrases:'phrases — audio/wordland/phrases/', players:'players — audio/wordland/players/', words:'words — audio/wordland/words/', story:'story — audio/wordland/story/' };
   $('results').innerHTML = ['sounds','words','story'].map(kind => {
     const mine = rows.filter(r => r.kind === kind);
     const got = mine.filter(r => r.found === true).length;
