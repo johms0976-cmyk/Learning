@@ -1,5 +1,25 @@
 [
   "sounds/mmm.mp3",
+  
+"players/player1.mp3",
+"players/player2.mp3",
+"praise/hello.mp3",
+"praise/yes.mp3",
+"praise/nice-one.mp3",
+"praise/you-got-it.mp3",
+"praise/brilliant.mp3",
+"praise/well-done.mp3",
+"praise/superstar.mp3",
+"praise/wonderful.mp3",
+"praise/great-job.mp3",
+"praise/you-did-it.mp3",
+"praise/hooray.mp3",
+"praise/amazing.mp3",
+"praise/keep-going.mp3",
+"praise/off-you-go.mp3",
+  
+"phrases/welcome-to-your-learning-journey.mp3",
+"phrases/what-is-your-name.mp3",
 
   "words/a.mp3",
   "words/alien.mp3",
