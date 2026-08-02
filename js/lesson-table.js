@@ -24,6 +24,29 @@
              word (x, ng). Initial-sound games are wrong there.
    machine   false where the word list is not a rime family, so
              the engine substitutes a valid activity instead.
+
+   ── the missing graphemes ───────────────────────────────────
+   The rimes below already used CK (-ock, -uck), LL (-ill,
+   -ell), QU (queen) and ALL, and the vocabulary used AR, AI,
+   OU, OW and UR — but none of them were ever in anybody's
+   `teaches`, so graphemesUpTo() never knew about them and no
+   word containing them could ever count as decodable. Each one
+   is now attached to the lesson where the child first genuinely
+   meets it. Nothing has been moved; things have been named.
+
+     LL SS FF ZZ  L49   the doubles, at the -ill family
+     ALL          L79   "all" is in this lesson's own word list
+     CK           L60   the -ock family
+     QU           L30   the q lesson — QU is the real grapheme
+     WH           L75   where, when
+     IR UR        L115  the r-controlled group
+     OR AR AW     L118  the rest of the r-controlled group
+     OU OW OI OY  L110  flower, ground, cloud, brown
+     AI           L120  the same sound as AY, a proper pair
+     TH_V TH_U    L66 / L89   the two th sounds, separated
+     Y_E          L59   happy, muddy — final y saying /ee/
+     Y_I          L116  my, why, sky — final y saying /igh/
+     EA_E         L107  bread, head — EA's second sound
    ============================================================ */
 
 module.exports = {
@@ -61,7 +84,9 @@ module.exports = {
   27:{kind:"grapheme", teaches:["O"]},
   28:{kind:"sight"},
   29:{kind:"sight"},
-  30:{kind:"grapheme", teaches:["Q"]},
+  /* QU, not Q. "queen" is qu-ee-n; splitting it q-u-ee-n gives
+     the child a short u that is not there. */
+  30:{kind:"grapheme", teaches:["Q","QU"]},
 
   /* ── Map 4 ── */
   31:{kind:"grapheme", teaches:["G"]},
@@ -84,7 +109,11 @@ module.exports = {
   46:{kind:"family",   rime:"IG"},
   47:{kind:"sight"},
   48:{kind:"family",   rime:"IP"},
-  49:{kind:"family",   rime:"ILL"},
+  /* The floss rule. -ill is the first rime built on a double,
+     and ff, ss and zz behave the same way, so they are named
+     together here rather than never. */
+  49:{kind:"family",   rime:"ILL", teaches:["LL","SS","FF","ZZ"],
+      note:"the doubles: two letters, one sound"},
   50:{kind:"family",   rime:"ING"},
 
   /* ── Map 6 ── */
@@ -96,8 +125,9 @@ module.exports = {
   56:{kind:"sight"},
   57:{kind:"sight"},
   58:{kind:"family",   rime:"OD"},
-  59:{kind:"ending",   suffix:"Y", suffixSound:"eee"},
-  60:{kind:"family",   rime:"OCK"},
+  59:{kind:"ending",   suffix:"Y", suffixSound:"eee", teaches:["Y_E"]},
+  60:{kind:"family",   rime:"OCK", teaches:["CK"],
+      note:"ck — one sound, two letters, after a short vowel"},
 
   /* ── Map 7 ── */
   61:{kind:"sight"},
@@ -105,7 +135,9 @@ module.exports = {
   63:{kind:"family",   rime:"UG"},
   64:{kind:"family",   rime:"UCK"},
   65:{kind:"family",   rime:"UCK"},
-  66:{kind:"digraph",  teaches:["TH"], onset:"TH"},
+  /* there / that / this are all voiced th, which is why this
+     lesson teaches the sound rather than three sight words. */
+  66:{kind:"digraph",  teaches:["TH","TH_V"], onset:"TH"},
   67:{kind:"sight"},
   68:{kind:"family",   rime:"UN"},
   69:{kind:"family",   rime:"UG"},
@@ -116,11 +148,13 @@ module.exports = {
   72:{kind:"grapheme", teaches:["NG"], position:"final", rime:"ING"},
   73:{kind:"family",   rime:"ED"},
   74:{kind:"family",   rime:"ET"},
-  75:{kind:"family",   rime:"ENT"},
+  75:{kind:"family",   rime:"ENT", teaches:["WH"],
+      note:"where, when — wh, so the initial-sound games stay honest"},
   76:{kind:"family",   rime:"EG"},
   77:{kind:"family",   rime:"EN"},
   78:{kind:"sight"},
-  79:{kind:"family",   rime:"ELL"},
+  79:{kind:"family",   rime:"ELL", teaches:["ALL"],
+      note:"'all' is in this lesson's own word list"},
   80:{kind:"review"},
 
   /* ── Map 9 ── */
@@ -131,8 +165,13 @@ module.exports = {
   85:{kind:"digraph",  teaches:["SH"], onset:"SH"},
   86:{kind:"digraph",  teaches:[],     onset:"SH"},
   87:{kind:"pattern",  pattern:"magicE", rime:"ITE"},
-  88:{kind:"digraph",  teaches:["CH"], onset:"CH"},
-  89:{kind:"digraph",  teaches:[],     onset:"TH"},
+  /* tch is the same sound after a short vowel: catch, match, itch.
+     It was in the word lists and in nobody's teaches. */
+  88:{kind:"digraph",  teaches:["CH","TCH"], onset:"CH"},
+  /* thin, thanks, thud — the OTHER th. A child taught that this
+     is the same sound as "the" has been taught something false. */
+  89:{kind:"digraph",  teaches:["TH_U"], onset:"TH",
+      note:"unvoiced th, against the voiced th of Lesson 66"},
   90:{kind:"review",  onset:"CH"},
 
   /* ── Map 10 ── */
@@ -154,20 +193,26 @@ module.exports = {
   104:{kind:"pattern", pattern:"magicE", machine:false, note:"family mixes -ode, -ote and -ose"},
   105:{kind:"blend",   rime:"AM"},
   106:{kind:"blend",   rime:"ASH"},
-  107:{kind:"pattern", pattern:"vowelTeam", teaches:["EA"], rime:"EACH"},
+  107:{kind:"pattern", pattern:"vowelTeam", teaches:["EA","EA_E"], rime:"EACH",
+       note:"ea says /ee/ in each and /e/ in bread — both, together"},
   108:{kind:"pattern", pattern:"magicE", machine:false, note:"family mixes -ube, -uke, -une"},
   109:{kind:"ending",  suffix:"ER", suffixSound:"er", teaches:["ER"]},
-  110:{kind:"review"},
+  110:{kind:"review",  teaches:["OU","OW","OI","OY"],
+       note:"cloud, flower, ground, brown — the /ow/ and /oy/ spellings"},
 
   /* ── Map 12 ── */
   111:{kind:"blend",   rime:"ASH"},
   112:{kind:"blend",   rime:"EED"},
   113:{kind:"blend",   rime:"UMP"},
   114:{kind:"pattern", pattern:"vowelTeam", teaches:["OA"], rime:"OAT"},
-  115:{kind:"pattern", pattern:"vowelTeam", teaches:["IR"], machine:false, note:"family mixes -ird, -irt, -irst"},
-  116:{kind:"pattern", pattern:"vowelTeam", teaches:["IGH"], rime:"IGHT"},
+  115:{kind:"pattern", pattern:"vowelTeam", teaches:["IR","UR"], machine:false,
+       note:"family mixes -ird, -irt, -irst; ur is the same sound"},
+  116:{kind:"pattern", pattern:"vowelTeam", teaches:["IGH","Y_I"], rime:"IGHT",
+       note:"my, why and sky end with the same sound as light"},
   117:{kind:"grapheme", teaches:[], position:"final", rime:"ING"},
-  118:{kind:"pattern", pattern:"vowelTeam", teaches:["OR"], rime:"ORN"},
+  118:{kind:"pattern", pattern:"vowelTeam", teaches:["OR","AR","AW"], rime:"ORN",
+       note:"the r-controlled set finished: corn, car, saw"},
   119:{kind:"blend",   rime:"AP"},
-  120:{kind:"review",  teaches:["AY"]}
+  120:{kind:"review",  teaches:["AY","AI"],
+       note:"ay and ai — one sound, two spellings, a proper pair"}
 };
