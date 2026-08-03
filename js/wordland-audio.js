@@ -142,7 +142,7 @@ const WLAudio = (function () {
      assume it is there. */
   function soundName(letter) {
     const up = String(letter).toUpperCase();
-    if (typeof SOUND !== 'undefined' && SOUND && SOUND[up]) return SOUND[up];
+    if (typeof SOUND !== 'undefined' && SOUND && SOUND_FILE[up]) return SOUND_FILE[up];
     return up;
   }
 
