@@ -1,12 +1,12 @@
 # Reading Games
 
-Two reading games for a 4–6 year old, built on the ABC Reading Eggs scope and
-sequence (Level 1 · Starting Out).
+Is a tool to help 4-6 year olds read.
 
 * **Word Land** — an adventure through ten places, one per lesson, with ten
   activities in each and a chapter of story to win. Built for an iPad held
   **landscape**.
 * **Spell It** — the earlier free-play game, sixteen mini-games in any order.
+* **Write It** — teaches children who to write.
 
 ---
 
