@@ -137,12 +137,30 @@ const WLAudio = (function () {
     return (Number(mapNo) === 1 ? '' : 'map' + mapNo + '-') + 'chapter' + no;
   }
 
-  /* Word Land's letter→sound table lives in wordland-data.js.
-     Spell It and Write It can be opened without it, so never
-     assume it is there. */
-  function soundName(letter) {
+  /* Word Land's letter tables live in wordland-data.js. Spell It
+     and Write It can be opened without it, so never assume it is
+     there.
+
+     There are two different questions here and they need two
+     different tables. Asking SOUND for both was the bug:
+
+       soundFile('M')  ->  'mmm'     which FILE to look for
+       soundSay('M')   ->  'mmmm'    what the computer voice says
+
+     SOUND is written for the speech engine — 'mmmm' with four m's
+     so the synthesiser holds it, and for a stop consonant, where
+     there is no honest answer, the whole phrase 'the first sound
+     in ball'. Neither of those is a filename. SOUND_FILE is the
+     filename table, and it is the one RECORDING-LIST.md and
+     tools/list-audio.js have always used. */
+  function soundFile(letter) {
     const up = String(letter).toUpperCase();
-    if (typeof SOUND !== 'undefined' && SOUND && SOUND_FILE[up]) return SOUND_FILE[up];
+    if (typeof SOUND_FILE !== 'undefined' && SOUND_FILE && SOUND_FILE[up]) return SOUND_FILE[up];
+    return up;
+  }
+  function soundSay(letter) {
+    const up = String(letter).toUpperCase();
+    if (typeof SOUND !== 'undefined' && SOUND && SOUND[up]) return SOUND[up];
     return up;
   }
 
@@ -335,7 +353,7 @@ const WLAudio = (function () {
     const sentinels = [url('phrases', 'Well done!'), url('letters', 'a')];
     if (haveNodes()) {
       const first = ALL_NODES[0];
-      sentinels.push(url('sounds', soundName(first.letters[0])));
+      sentinels.push(url('sounds', soundFile(first.letters[0])));
       sentinels.push(url('words', first.vocab[0].w));
       sentinels.push(url('story', chapterName(first.map, first.no)));
     } else {
@@ -355,7 +373,7 @@ const WLAudio = (function () {
   /* ── warm up everything a place needs, before it starts ── */
   function filesFor(node, mapNo) {
     const jobs = [];
-    node.letters.forEach(l => jobs.push(url('sounds', soundName(l))));
+    node.letters.forEach(l => jobs.push(url('sounds', soundFile(l))));
     node.vocab.forEach(v => jobs.push(url('words', v.w)));
     node.words.forEach(v => jobs.push(url('words', v.w)));
     node.family.forEach(v => jobs.push(url('words', v.w)));
@@ -389,7 +407,7 @@ const WLAudio = (function () {
     'abcdefghijklmnopqrstuvwxyz'.split('').forEach(c => out.letters.add(c));
 
     if (typeof spokenLetters === 'function') {
-      spokenLetters().forEach(l => out.sounds.add(slug(soundName(l))));
+      spokenLetters().forEach(l => out.sounds.add(slug(soundFile(l))));
     }
     if (haveNodes()) {
       ALL_NODES.forEach(n => {
@@ -437,7 +455,7 @@ const WLAudio = (function () {
 
     /* the sound a letter makes — sounds/mmm.mp3 */
     sound: (letter, fallbackText) =>
-      say('sounds', soundName(letter), fallbackText == null ? soundName(letter) : fallbackText, VOICE.soundRate),
+      say('sounds', soundFile(letter), fallbackText == null ? soundSay(letter) : fallbackText, VOICE.soundRate),
 
     /* the NAME of a letter — letters/m.mp3, said "em" */
     letter: (ch) => say('letters', ch, String(ch).toUpperCase(), 0.8, 1.15),
@@ -503,6 +521,7 @@ const WLAudio = (function () {
     urlFor: url,
     slug,
     chapterName,
+    soundFile, soundSay,
     PHRASE_LINES,
     PRAISE_LINES,
     BASE
