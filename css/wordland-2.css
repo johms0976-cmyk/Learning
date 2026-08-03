@@ -1,0 +1,310 @@
+/* ============================================================
+   WORD LAND · the map picker, the writing pad, the new games
+   ------------------------------------------------------------
+   Loaded after css/wordland.css and only adds what is new.
+   Every colour falls back to a literal, so this sheet still
+   looks right if it is ever loaded on its own.
+   ============================================================ */
+
+/* ════════════════════════════════════════════════════════════
+   CHOOSING A MAP
+   ------------------------------------------------------------
+   Each card carries a strip of ten dots — one per place — so a
+   child can see at a glance how far into a map they are, and a
+   grown-up can see it across all twelve without reading a word.
+   ════════════════════════════════════════════════════════════ */
+.maps-head { text-align: center; padding: 6px 0 16px }
+.maps-head h1 { font-size: 30px; font-weight: 700; color: var(--purple, #5B4A8A); margin: 0 0 3px }
+.maps-head p  { font-size: 14.5px; color: var(--lav, #9B8BB4); font-weight: 500; margin: 0 }
+
+.maps-grid { display: grid; gap: 12px; width: 100%; max-width: 620px; margin: 0 auto 26px }
+
+.map-card {
+  display: flex; align-items: stretch; gap: 13px;
+  background: #fff; border-radius: 20px; padding: 13px;
+  box-shadow: 0 2px 0 rgba(91,74,138,.06), 0 8px 22px rgba(91,74,138,.09);
+  transition: transform .16s ease, box-shadow .16s ease;
+  position: relative; text-align: left;
+}
+.map-card.open, .map-card.done { cursor: pointer }
+.map-card.open:hover, .map-card.done:hover,
+.map-card.open:focus-visible, .map-card.done:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 0 rgba(91,74,138,.07), 0 14px 30px rgba(91,74,138,.15);
+}
+.map-card:focus-visible { outline: 3px solid var(--peri, #778BEB); outline-offset: 3px }
+.map-card.locked, .map-card.soon { opacity: .62 }
+.map-card.soon { background: #FBFAFE; box-shadow: inset 0 0 0 2px var(--ghost, #EFEAF9) }
+
+.map-art {
+  width: 68px; flex-shrink: 0; border-radius: 15px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 31px; position: relative; min-height: 68px;
+}
+.map-card.locked .map-art, .map-card.soon .map-art { background: #DDD5EC !important; filter: saturate(.25) }
+.map-no {
+  position: absolute; left: -5px; top: -5px;
+  width: 23px; height: 23px; border-radius: 50%;
+  background: #fff; color: var(--purple, #5B4A8A);
+  font-family: var(--ui, 'Fredoka', sans-serif); font-size: 12.5px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 6px rgba(91,74,138,.22);
+}
+
+.map-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px }
+.map-eyebrow {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--lav, #9B8BB4);
+}
+.map-body h3 { font-size: 19px; font-weight: 700; color: var(--purple, #5B4A8A); margin: 0; line-height: 1.15 }
+
+.map-focus { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; margin-top: 3px }
+.map-focus i {
+  font-style: normal; font-family: var(--glyph, 'Andika', sans-serif);
+  font-size: 14px; font-weight: 700; letter-spacing: .12em;
+  color: var(--purple, #5B4A8A);
+  background: var(--ghost, #EFEAF9); border-radius: 7px; padding: 2px 8px;
+}
+.map-focus em { font-style: normal; font-size: 12px; color: var(--lav, #9B8BB4); font-weight: 500 }
+
+/* one dot per place */
+.map-dots { display: flex; gap: 4px; margin-top: 7px }
+.map-dots i { width: 100%; max-width: 15px; height: 5px; border-radius: 3px; background: var(--ghost, #EFEAF9) }
+.map-dots i.on { background: #F0B429 }
+.map-dots i.ghost { background: #EDE8F6; opacity: .55 }
+
+.map-state { font-size: 12px; font-weight: 600; margin-top: 6px }
+.map-state.open   { color: var(--peri, #778BEB) }
+.map-state.done   { color: #3FA34D }
+.map-state.locked { color: var(--lav, #9B8BB4) }
+.map-state.soon   { color: #B9AFCC; font-style: italic }
+
+.map-go {
+  align-self: flex-end; font-size: 13.5px; font-weight: 700;
+  color: var(--peri, #778BEB); white-space: nowrap; padding-bottom: 2px;
+}
+
+/* the moment a new map opens */
+.map-unlocked {
+  margin-top: 14px; padding: 13px 16px; border-radius: 15px;
+  background: var(--ghost, #EFEAF9); color: var(--purple, #5B4A8A);
+  font-size: 15px; font-weight: 600; line-height: 1.45;
+}
+.map-unlocked span { font-size: 12.5px; color: var(--lav, #9B8BB4); font-weight: 500 }
+
+/* ════════════════════════════════════════════════════════════
+   THE WRITING PAD
+   ════════════════════════════════════════════════════════════ */
+.say-card.tight { margin-bottom: 4px }
+
+.pad-card { display: flex; flex-direction: column; align-items: center; gap: 9px; width: 100% }
+.pad-canvas {
+  border-radius: 14px; touch-action: none; -webkit-user-select: none; user-select: none;
+  box-shadow: 0 2px 0 rgba(91,74,138,.06), 0 6px 18px rgba(91,74,138,.11);
+  display: block;
+}
+.pad-pips { display: flex; gap: 6px }
+.pad-pips .pip {
+  width: 22px; height: 5px; border-radius: 3px; background: var(--ghost, #EFEAF9);
+  transition: background .2s ease;
+}
+.pad-pips .pip.done { background: #7C5CD6 }
+.pad-pips .pip.now  { background: #F0B429 }
+
+.pad-hint {
+  font-size: 14px; font-weight: 600; color: var(--lav, #9B8BB4);
+  text-align: center; min-height: 20px; line-height: 1.35; padding: 0 8px;
+}
+.pad-hint.good { color: #3FA34D }
+.pad-hint.oops { color: #E5564B }
+
+.pad-tools { display: flex; gap: 9px; flex-wrap: wrap; justify-content: center }
+.pad-escape { min-height: 4px }
+.pad-escape .tool-btn { font-size: 13px }
+
+/* ════════════════════════════════════════════════════════════
+   THE WORD-FAMILY MACHINE   (Lesson 42, Worksheet 2)
+   ------------------------------------------------------------
+   Drop a letter in the top, a whole word comes out the bottom.
+   ════════════════════════════════════════════════════════════ */
+.machine { display: flex; flex-direction: column; align-items: center; gap: 0 }
+.machine .hopper {
+  width: 54px; height: 44px; border-radius: 12px 12px 5px 5px;
+  background: var(--ghost, #EFEAF9); border: 3px solid #D6CBEE; border-bottom: none;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--glyph, 'Andika', sans-serif); font-size: 27px; font-weight: 700;
+  color: var(--purple, #5B4A8A);
+}
+.machine .hopper.drop  { animation: hopperDrop .42s ease }
+.machine .hopper.reject{ animation: hopperReject .45s ease; color: #E5564B }
+@keyframes hopperDrop   { 0%{transform:translateY(-14px);opacity:.3} 60%{transform:translateY(3px)} 100%{transform:none} }
+@keyframes hopperReject { 0%,100%{transform:none} 25%{transform:translateX(-7px)} 75%{transform:translateX(7px)} }
+
+.machine .body {
+  width: 150px; padding: 15px 0; border-radius: 16px;
+  background: linear-gradient(135deg, #B6A7DF, #7C5CD6);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 3px 0 rgba(91,74,138,.18), 0 9px 22px rgba(91,74,138,.2);
+}
+.machine .rime {
+  font-family: var(--glyph, 'Andika', sans-serif); font-size: 40px; font-weight: 700;
+  color: #fff; letter-spacing: .02em; text-shadow: 0 2px 0 rgba(0,0,0,.12);
+}
+.machine .spout {
+  display: flex; flex-wrap: wrap; gap: 7px; justify-content: center;
+  min-height: 34px; margin-top: 11px; max-width: 300px;
+}
+.machine .made {
+  font-family: var(--glyph, 'Andika', sans-serif); font-size: 20px; font-weight: 700;
+  color: var(--purple, #5B4A8A); background: #FFF4D6;
+  border-radius: 10px; padding: 4px 12px;
+  box-shadow: 0 2px 0 rgba(240,180,41,.32);
+  animation: madePop .34s cubic-bezier(.34,1.56,.64,1) both;
+}
+@keyframes madePop { from { transform: scale(.5) translateY(-10px); opacity: 0 } to { transform: none; opacity: 1 } }
+
+/* ════════════════════════════════════════════════════════════
+   THE ALPHABET SNAKE   (Lesson 42, Worksheet 1)
+   ════════════════════════════════════════════════════════════ */
+.snake { display: flex; gap: 5px; justify-content: center; flex-wrap: wrap; padding: 4px }
+.snake .seg {
+  width: 48px; height: 54px; border-radius: 11px;
+  background: #fff; box-shadow: inset 0 0 0 2.5px var(--ghost, #EFEAF9);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--glyph, 'Andika', sans-serif); font-size: 28px; font-weight: 700;
+  color: var(--purple, #5B4A8A);
+}
+.snake .seg.filled { background: #E7F8E9; box-shadow: inset 0 0 0 2.5px #96E6A1 }
+.snake .gap {
+  width: 48px; height: 54px; border-radius: 11px;
+  background: #FFF4D6; box-shadow: inset 0 0 0 2.5px #F0B429;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--glyph, 'Andika', sans-serif); font-size: 28px; font-weight: 700;
+  color: #D98E12; animation: gapPulse 1.5s ease-in-out infinite;
+}
+@keyframes gapPulse { 0%,100% { transform: scale(1) } 50% { transform: scale(1.07) } }
+
+/* ════════════════════════════════════════════════════════════
+   SENTENCES   (Lesson 42, Worksheet 3)
+   ════════════════════════════════════════════════════════════ */
+.line-slots { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 11px }
+.line-slots.shake, .slots.shake { animation: shakeRow .42s ease }
+@keyframes shakeRow { 0%,100%{transform:none} 25%{transform:translateX(-6px)} 75%{transform:translateX(6px)} }
+
+.wslot {
+  min-width: 52px; height: 44px; padding: 0 10px; border-radius: 11px;
+  background: #fff; box-shadow: inset 0 0 0 2.5px var(--ghost, #EFEAF9);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--glyph, 'Andika', sans-serif); font-size: 21px; font-weight: 700;
+  color: var(--purple, #5B4A8A);
+}
+.wslot.active { box-shadow: inset 0 0 0 2.5px #F0B429; background: #FFFCF3 }
+.wslot.filled { background: #E7F8E9; box-shadow: inset 0 0 0 2.5px #96E6A1 }
+
+.row.wrap { flex-wrap: wrap; justify-content: center }
+.word-btn.tile { min-width: 0; padding: 10px 15px }
+.word-btn.used { opacity: .28; pointer-events: none }
+
+.read-line {
+  display: flex; flex-wrap: wrap; gap: 5px 9px; justify-content: center;
+  font-family: var(--glyph, 'Andika', sans-serif); font-size: 23px; font-weight: 700;
+  color: var(--purple, #5B4A8A); line-height: 1.5; margin-top: 10px;
+}
+.read-line.big { font-size: 29px; margin: 6px 0 14px }
+.read-line span { cursor: pointer; border-radius: 6px; padding: 0 3px }
+.read-line.big span:active { background: #FFF4D6 }
+.read-line .gap {
+  min-width: 62px; border-bottom: 3px solid #F0B429; color: #D98E12; text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map-card, .machine .hopper, .machine .made, .snake .gap { transition: none; animation: none }
+}
+
+/* ════════════════════════════════════════════════════════════
+   LETTER AND WORD CHIPS — DARK INK
+   ------------------------------------------------------------
+   These carried white text on the eight-colour palette. Against
+   the light half of it that is roughly 1.5:1 — #FFC93C and
+   #96E6A1 both measure about there — where WCAG AA asks for
+   4.5:1, and even the darkest swatch only reached 3.1:1. So the
+   one glyph on the screen the child is being asked to tell apart
+   from another glyph was the least legible thing on it.
+
+   A single dark ink clears 4.5:1 against every swatch in the
+   palette (about 5.1:1 on the darkest, #778BEB, and 10:1 on the
+   yellow), which keeps the colours doing their job — telling one
+   button from the next — without the letter paying for it.
+
+   The old text-shadow was a dark one, sitting under white type.
+   Under dark type it turns into mud, so it becomes a light one.
+   ════════════════════════════════════════════════════════════ */
+:root { --ink: #241B3F }
+
+.letter-btn,
+.word-btn { color: var(--ink, #241B3F) }
+.letter-btn { text-shadow: 0 1px 0 rgba(255,255,255,.45) }
+.word-btn   { text-shadow: 0 1px 0 rgba(255,255,255,.35) }
+
+/* ════════════════════════════════════════════════════════════
+   HEARING A PICTURE WITHOUT CHOOSING IT
+   ------------------------------------------------------------
+   The word is no longer printed on the cards in the two rounds
+   that ask about a first sound, because printing it made the
+   answer copyable. That leaves the child needing some way to
+   find out what a picture is meant to be — so each card carries
+   a speaker, and tapping it is not an answer.
+   ════════════════════════════════════════════════════════════ */
+.pic-card { position: relative }
+.pic-say {
+  position: absolute; top: 4px; right: 4px;
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 2px solid var(--ghost, #F3EEFB); background: #fff;
+  font-size: 15px; line-height: 1; padding: 0; cursor: pointer;
+  box-shadow: 0 2px 6px rgba(91,74,138,.12);
+  display: flex; align-items: center; justify-content: center;
+}
+.pic-say:active { transform: scale(.9) }
+.pic-say:focus-visible { outline: 3px solid var(--peri, #778BEB); outline-offset: 2px }
+
+/* the spelling, held back during the question and shown once the
+   sound has been identified — which is the half worth seeing */
+.reveal {
+  font-family: var(--glyph, 'Andika', sans-serif);
+  font-size: 20px; font-weight: 700; color: var(--leaf, #3D7A4A);
+  margin: 6px 0 0; min-height: 26px;
+  opacity: 0; transform: translateY(4px); transition: opacity .3s ease, transform .3s ease;
+}
+.reveal.show { opacity: 1; transform: none }
+
+/* ════════════════════════════════════════════════════════════
+   A SENTENCE INSTEAD OF A PICTURE
+   ------------------------------------------------------------
+   For words no picture can name — at, sat, is, the — the gap in
+   a sentence does the job the emoji was failing to do.
+   ════════════════════════════════════════════════════════════ */
+.frame-card { width: 100%; max-width: 460px; text-align: center }
+.frame-card .frame {
+  font-family: var(--glyph, 'Andika', sans-serif);
+  font-size: 25px; font-weight: 700; line-height: 1.7;
+  color: var(--purple, #5B4A8A); margin: 0 0 12px;
+}
+.frame-card .gap {
+  display: inline-block; width: 84px; height: 5px; border-radius: 3px;
+  background: var(--peri, #778BEB); vertical-align: 4px; margin: 0 4px;
+}
+.sound-btn.small { font-size: 14px; padding: 9px 15px; min-height: 44px }
+
+@media (max-width: 420px) {
+  .frame-card .frame { font-size: 21px }
+  .frame-card .gap { width: 64px }
+}
+
+/* a place holding a run that was left part-way through */
+.stone .held {
+  position: absolute; top: -6px; right: -8px;
+  background: var(--gold, #F0B429); border: 3px solid #fff; color: #fff;
+  border-radius: 50%; width: 25px; height: 25px; font-size: 12px;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 6px rgba(91,74,138,.2);
+}
