@@ -343,7 +343,7 @@ function openSheet(no){
   WLAudio.preloadNode(n);
 
   let learn = '<div class="lbl">In this place you will learn</div><div class="learn-row">';
-  learn += n.letters.map(l=>`<span class="tag snd">${l.toLowerCase()} · ${SOUND[l]||''}</span>`).join('');
+  learn += n.letters.map(l=>`<span class="tag snd">${l.toLowerCase()} · ${sndLabel(l)}</span>`).join('');
   learn += '</div>';
   if(n.words.length) learn += '<div class="learn-row">' + n.words.slice(0,6).map(w=>`<span class="tag">${w.w.toLowerCase()}</span>`).join('') + '</div>';
   if(n.hfw.length)   learn += '<div class="learn-row">' + n.hfw.map(h=>`<span class="tag hf">${h.w.toLowerCase()}</span>`).join('') + '</div>';
@@ -1628,7 +1628,7 @@ write(r){
   stage(
     `<div class="say-card tight">
        <button class="say-btn letter" onclick="WLAudio.sound('${r.letter}')">${shown}</button>
-       <p class="say-hint">${r.upper?'the big':'the small'} <b>${shown}</b> · says <b>${SOUND[r.letter]||''}</b></p>
+       <p class="say-hint">${r.upper?'the big':'the small'} <b>${shown}</b> · says <b>${sndLabel(r.letter)}</b></p>
      </div>`,
     `<div class="pad-card">
        <div class="pad-pips" id="padPips"></div>
