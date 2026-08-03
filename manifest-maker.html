@@ -95,7 +95,7 @@ const slug = s => String(s).toLowerCase().trim()
 /* the same list the game builds, so nothing is missed or invented */
 function expected(){
   const sounds = new Set(), words = new Set(), story = new Set();
-  spokenLetters().forEach(l => sounds.add(slug(SOUND[l] || l)));
+  spokenLetters().forEach(l => sounds.add(slug(SOUND_FILE[l] || l)));
   NODES.forEach(n => {
     [...n.vocab, ...n.words, ...n.family].forEach(v => words.add(slug(v.w)));
     n.hfw.forEach(h => words.add(slug(h.w)));
