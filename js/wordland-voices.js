@@ -45,7 +45,7 @@ const WLVoices = (function () {
 
   /* Which voice a brand-new install starts on. '' keeps today's
      behaviour exactly as it is until somebody chooses otherwise. */
-  const DEFAULT = '';
+  const DEFAULT = 'uk-male';
 
   /* ── storage that never throws ──────────────────────────
      Same reason as profiles.js: localStorage is blocked in some
