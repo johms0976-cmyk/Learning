@@ -1,0 +1,8680 @@
+[
+ {
+  "path": "sounds/mmm.mp3",
+  "text": "mmm",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": true
+ },
+ {
+  "path": "sounds/sss.mp3",
+  "text": "sss",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/aah.mp3",
+  "text": "aah",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/ih.mp3",
+  "text": "ih",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/tuh.mp3",
+  "text": "tuh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/buh.mp3",
+  "text": "buh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/kuh.mp3",
+  "text": "kuh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/fff.mp3",
+  "text": "fff",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/nnn.mp3",
+  "text": "nnn",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/puh.mp3",
+  "text": "puh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/huh.mp3",
+  "text": "huh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/rrr.mp3",
+  "text": "rrr",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/zzz.mp3",
+  "text": "zzz",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/eh.mp3",
+  "text": "eh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/eee.mp3",
+  "text": "eee",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/vvv.mp3",
+  "text": "vvv",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/duh.mp3",
+  "text": "duh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/juh.mp3",
+  "text": "juh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/short-o.mp3",
+  "text": "short-o",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/kwuh.mp3",
+  "text": "kwuh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/guh.mp3",
+  "text": "guh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/lll.mp3",
+  "text": "lll",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/yuh.mp3",
+  "text": "yuh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/ks.mp3",
+  "text": "ks",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/wuh.mp3",
+  "text": "wuh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/uh.mp3",
+  "text": "uh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/thh.mp3",
+  "text": "thh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/ing.mp3",
+  "text": "ing",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/shh.mp3",
+  "text": "shh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/chh.mp3",
+  "text": "chh",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/ooo.mp3",
+  "text": "ooo",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/er.mp3",
+  "text": "er",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/long-o.mp3",
+  "text": "long-o",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/eye.mp3",
+  "text": "eye",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/or.mp3",
+  "text": "or",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "sounds/ay.mp3",
+  "text": "ay",
+  "rate": "-30%",
+  "pitch": "+0Hz",
+  "skip": "phonics — record this one yourself; TTS adds a schwa",
+  "exists": false
+ },
+ {
+  "path": "letters/a.mp3",
+  "text": "ay",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/b.mp3",
+  "text": "bee",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/c.mp3",
+  "text": "see",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/d.mp3",
+  "text": "dee",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/e.mp3",
+  "text": "ee",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/f.mp3",
+  "text": "eff",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/g.mp3",
+  "text": "jee",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/h.mp3",
+  "text": "aitch",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/i.mp3",
+  "text": "eye",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": true
+ },
+ {
+  "path": "letters/j.mp3",
+  "text": "jay",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/k.mp3",
+  "text": "kay",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/l.mp3",
+  "text": "el",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/m.mp3",
+  "text": "em",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/n.mp3",
+  "text": "en",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/o.mp3",
+  "text": "oh",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/p.mp3",
+  "text": "pee",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/q.mp3",
+  "text": "cue",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/r.mp3",
+  "text": "ar",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/s.mp3",
+  "text": "ess",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/t.mp3",
+  "text": "tee",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/u.mp3",
+  "text": "you",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/v.mp3",
+  "text": "vee",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/w.mp3",
+  "text": "double-u",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/x.mp3",
+  "text": "ex",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/y.mp3",
+  "text": "why",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "letters/z.mp3",
+  "text": "zed",
+  "rate": "-20%",
+  "pitch": "+10Hz",
+  "exists": false
+ },
+ {
+  "path": "words/moon.mp3",
+  "text": "moon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/monkey.mp3",
+  "text": "monkey",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/mouse.mp3",
+  "text": "mouse",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/mop.mp3",
+  "text": "mop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/meat.mp3",
+  "text": "meat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/man.mp3",
+  "text": "man",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/mum.mp3",
+  "text": "mum",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/milk.mp3",
+  "text": "milk",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/sun.mp3",
+  "text": "sun",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/snake.mp3",
+  "text": "snake",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/sock.mp3",
+  "text": "sock",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/seed.mp3",
+  "text": "seed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/six.mp3",
+  "text": "six",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/soap.mp3",
+  "text": "soap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/spoon.mp3",
+  "text": "spoon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/snail.mp3",
+  "text": "snail",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/sandwich.mp3",
+  "text": "sandwich",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/strawberry.mp3",
+  "text": "strawberry",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/apple.mp3",
+  "text": "apple",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/ant.mp3",
+  "text": "ant",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/arrow.mp3",
+  "text": "arrow",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/astronaut.mp3",
+  "text": "astronaut",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/ambulance.mp3",
+  "text": "ambulance",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/alien.mp3",
+  "text": "alien",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/ink.mp3",
+  "text": "ink",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/iguana.mp3",
+  "text": "iguana",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/jam.mp3",
+  "text": "jam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/lamp.mp3",
+  "text": "lamp",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/lamb.mp3",
+  "text": "lamb",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/clam.mp3",
+  "text": "clam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/sam.mp3",
+  "text": "sam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/am.mp3",
+  "text": "am",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/i.mp3",
+  "text": "eye",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/tent.mp3",
+  "text": "tent",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/tiger.mp3",
+  "text": "tiger",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/train.mp3",
+  "text": "train",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/tractor.mp3",
+  "text": "tractor",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/turtle.mp3",
+  "text": "turtle",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/teeth.mp3",
+  "text": "teeth",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/tomato.mp3",
+  "text": "tomato",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/toy.mp3",
+  "text": "toy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/ticket.mp3",
+  "text": "ticket",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/tv.mp3",
+  "text": "T V",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/toast.mp3",
+  "text": "toast",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cat.mp3",
+  "text": "cat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bat.mp3",
+  "text": "bat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/hat.mp3",
+  "text": "hat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/mat.mp3",
+  "text": "mat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rat.mp3",
+  "text": "rat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/at.mp3",
+  "text": "at",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/sat.mp3",
+  "text": "sat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/a.mp3",
+  "text": "uh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bee.mp3",
+  "text": "bee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/ball.mp3",
+  "text": "ball",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/book.mp3",
+  "text": "book",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bear.mp3",
+  "text": "bear",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/boat.mp3",
+  "text": "boat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bread.mp3",
+  "text": "bread",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bell.mp3",
+  "text": "bell",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bone.mp3",
+  "text": "bone",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bag.mp3",
+  "text": "bag",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/bath.mp3",
+  "text": "bath",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/baby.mp3",
+  "text": "baby",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/balloon.mp3",
+  "text": "balloon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/car.mp3",
+  "text": "car",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/cup.mp3",
+  "text": "cup",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/cow.mp3",
+  "text": "cow",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/crab.mp3",
+  "text": "crab",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/camel.mp3",
+  "text": "camel",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/carrot.mp3",
+  "text": "carrot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/corn.mp3",
+  "text": "corn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/coat.mp3",
+  "text": "coat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/camera.mp3",
+  "text": "camera",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/can.mp3",
+  "text": "can",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/cap.mp3",
+  "text": "cap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/fox.mp3",
+  "text": "fox",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/fish.mp3",
+  "text": "fish",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/frog.mp3",
+  "text": "frog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/fire.mp3",
+  "text": "fire",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/flower.mp3",
+  "text": "flower",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/feather.mp3",
+  "text": "feather",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/foot.mp3",
+  "text": "foot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/fly.mp3",
+  "text": "fly",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/fat.mp3",
+  "text": "fat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/nest.mp3",
+  "text": "nest",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nose.mp3",
+  "text": "nose",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nut.mp3",
+  "text": "nut",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/net.mp3",
+  "text": "net",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nail.mp3",
+  "text": "nail",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/needle.mp3",
+  "text": "needle",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nurse.mp3",
+  "text": "nurse",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nine.mp3",
+  "text": "nine",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pig.mp3",
+  "text": "pig",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/peach.mp3",
+  "text": "peach",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pear.mp3",
+  "text": "pear",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pen.mp3",
+  "text": "pen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pencil.mp3",
+  "text": "pencil",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pie.mp3",
+  "text": "pie",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/plate.mp3",
+  "text": "plate",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/potato.mp3",
+  "text": "potato",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pan.mp3",
+  "text": "pan",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/peanut.mp3",
+  "text": "peanut",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pea.mp3",
+  "text": "pea",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pat.mp3",
+  "text": "pat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pit.mp3",
+  "text": "pit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/map.mp3",
+  "text": "map",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tap.mp3",
+  "text": "tap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nap.mp3",
+  "text": "nap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lap.mp3",
+  "text": "lap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/gap.mp3",
+  "text": "gap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zap.mp3",
+  "text": "zap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/horse.mp3",
+  "text": "horse",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hammer.mp3",
+  "text": "hammer",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/heart.mp3",
+  "text": "heart",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/helmet.mp3",
+  "text": "helmet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hair.mp3",
+  "text": "hair",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/head.mp3",
+  "text": "head",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hive.mp3",
+  "text": "hive",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hole.mp3",
+  "text": "hole",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hamburger.mp3",
+  "text": "hamburger",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ham.mp3",
+  "text": "ham",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ring.mp3",
+  "text": "ring",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/robot.mp3",
+  "text": "robot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rose.mp3",
+  "text": "rose",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rabbit.mp3",
+  "text": "rabbit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rice.mp3",
+  "text": "rice",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rug.mp3",
+  "text": "rug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rope.mp3",
+  "text": "rope",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/raft.mp3",
+  "text": "raft",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/radio.mp3",
+  "text": "radio",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ruler.mp3",
+  "text": "ruler",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/raspberry.mp3",
+  "text": "raspberry",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ran.mp3",
+  "text": "ran",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/van.mp3",
+  "text": "van",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fan.mp3",
+  "text": "fan",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hand.mp3",
+  "text": "hand",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/band.mp3",
+  "text": "band",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tan.mp3",
+  "text": "tan",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zebra.mp3",
+  "text": "zebra",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zoo.mp3",
+  "text": "zoo",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zip.mp3",
+  "text": "zip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zero.mp3",
+  "text": "zero",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zucchini.mp3",
+  "text": "zucchini",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zigzag.mp3",
+  "text": "zigzag",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tree.mp3",
+  "text": "tree",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sheep.mp3",
+  "text": "sheep",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cheese.mp3",
+  "text": "cheese",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/queen.mp3",
+  "text": "queen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/knee.mp3",
+  "text": "knee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/teepee.mp3",
+  "text": "teepee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/three.mp3",
+  "text": "three",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/weed.mp3",
+  "text": "weed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/see.mp3",
+  "text": "see",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/the.mp3",
+  "text": "the",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/to.mp3",
+  "text": "to",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/violin.mp3",
+  "text": "violin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/vase.mp3",
+  "text": "vase",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/vest.mp3",
+  "text": "vest",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/vulture.mp3",
+  "text": "vulture",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/volcano.mp3",
+  "text": "volcano",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/vet.mp3",
+  "text": "vet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/vegetables.mp3",
+  "text": "vegetables",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/land.mp3",
+  "text": "land",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sand.mp3",
+  "text": "sand",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/and.mp3",
+  "text": "and",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dog.mp3",
+  "text": "dog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/duck.mp3",
+  "text": "duck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dragon.mp3",
+  "text": "dragon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dice.mp3",
+  "text": "dice",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/door.mp3",
+  "text": "door",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dolphin.mp3",
+  "text": "dolphin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/doll.mp3",
+  "text": "doll",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dinosaur.mp3",
+  "text": "dinosaur",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/doctor.mp3",
+  "text": "doctor",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dance.mp3",
+  "text": "dance",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dad.mp3",
+  "text": "dad",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dan.mp3",
+  "text": "dan",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bad.mp3",
+  "text": "bad",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/had.mp3",
+  "text": "had",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mad.mp3",
+  "text": "mad",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sad.mp3",
+  "text": "sad",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/igloo.mp3",
+  "text": "igloo",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/insect.mp3",
+  "text": "insect",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/in.mp3",
+  "text": "in",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jet.mp3",
+  "text": "jet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jug.mp3",
+  "text": "jug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/juice.mp3",
+  "text": "juice",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jelly.mp3",
+  "text": "jelly",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jump.mp3",
+  "text": "jump",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jeans.mp3",
+  "text": "jeans",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jar.mp3",
+  "text": "jar",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jigsaw.mp3",
+  "text": "jigsaw",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dam.mp3",
+  "text": "dam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ram.mp3",
+  "text": "ram",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pad.mp3",
+  "text": "pad",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/octopus.mp3",
+  "text": "octopus",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/orange.mp3",
+  "text": "orange",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/onion.mp3",
+  "text": "onion",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/otter.mp3",
+  "text": "otter",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/olive.mp3",
+  "text": "olive",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ostrich.mp3",
+  "text": "ostrich",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ox.mp3",
+  "text": "ox",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/oar.mp3",
+  "text": "oar",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/oil.mp3",
+  "text": "oil",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/good.mp3",
+  "text": "good",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/is.mp3",
+  "text": "is",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/has.mp3",
+  "text": "has",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/on.mp3",
+  "text": "on",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/quail.mp3",
+  "text": "quail",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/quilt.mp3",
+  "text": "quilt",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/quiet.mp3",
+  "text": "quiet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/queue.mp3",
+  "text": "queue",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/quarter.mp3",
+  "text": "quarter",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/goat.mp3",
+  "text": "goat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ghost.mp3",
+  "text": "ghost",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/glasses.mp3",
+  "text": "glasses",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/guitar.mp3",
+  "text": "guitar",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/grape.mp3",
+  "text": "grape",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/glue.mp3",
+  "text": "glue",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/glove.mp3",
+  "text": "glove",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/goldfish.mp3",
+  "text": "goldfish",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/garbage.mp3",
+  "text": "garbage",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/leaf.mp3",
+  "text": "leaf",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lemon.mp3",
+  "text": "lemon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lock.mp3",
+  "text": "lock",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ladder.mp3",
+  "text": "ladder",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lizard.mp3",
+  "text": "lizard",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lollipop.mp3",
+  "text": "lollipop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ladybug.mp3",
+  "text": "ladybug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/light.mp3",
+  "text": "light",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lad.mp3",
+  "text": "lad",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/he.mp3",
+  "text": "he",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/she.mp3",
+  "text": "she",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kite.mp3",
+  "text": "kite",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/king.mp3",
+  "text": "king",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/key.mp3",
+  "text": "key",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/koala.mp3",
+  "text": "koala",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kangaroo.mp3",
+  "text": "kangaroo",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kitten.mp3",
+  "text": "kitten",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kennel.mp3",
+  "text": "kennel",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kiss.mp3",
+  "text": "kiss",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tag.mp3",
+  "text": "tag",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rag.mp3",
+  "text": "rag",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/flag.mp3",
+  "text": "flag",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/as.mp3",
+  "text": "as",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yoyo.mp3",
+  "text": "yoyo",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yacht.mp3",
+  "text": "yacht",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yawn.mp3",
+  "text": "yawn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yogurt.mp3",
+  "text": "yogurt",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yolk.mp3",
+  "text": "yolk",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yellow.mp3",
+  "text": "yellow",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/year.mp3",
+  "text": "year",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yarn.mp3",
+  "text": "yarn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yam.mp3",
+  "text": "yam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yes.mp3",
+  "text": "yes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/you.mp3",
+  "text": "you",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/box.mp3",
+  "text": "box",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/taxi.mp3",
+  "text": "taxi",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/exit.mp3",
+  "text": "exit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wax.mp3",
+  "text": "wax",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mix.mp3",
+  "text": "mix",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/web.mp3",
+  "text": "web",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/worm.mp3",
+  "text": "worm",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wand.mp3",
+  "text": "wand",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/water.mp3",
+  "text": "water",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/woman.mp3",
+  "text": "woman",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/windmill.mp3",
+  "text": "windmill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wagon.mp3",
+  "text": "wagon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wag.mp3",
+  "text": "wag",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/umbrella.mp3",
+  "text": "umbrella",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/unicorn.mp3",
+  "text": "unicorn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/underground.mp3",
+  "text": "underground",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/unhappy.mp3",
+  "text": "unhappy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/unlock.mp3",
+  "text": "unlock",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/unwrap.mp3",
+  "text": "unwrap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/up.mp3",
+  "text": "up",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fun.mp3",
+  "text": "fun",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mud.mp3",
+  "text": "mud",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bun.mp3",
+  "text": "bun",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/run.mp3",
+  "text": "run",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/egg.mp3",
+  "text": "egg",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/it.mp3",
+  "text": "it",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/big.mp3",
+  "text": "big",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lid.mp3",
+  "text": "lid",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kid.mp3",
+  "text": "kid",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bin.mp3",
+  "text": "bin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pin.mp3",
+  "text": "pin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hid.mp3",
+  "text": "hid",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/did.mp3",
+  "text": "did",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tin.mp3",
+  "text": "tin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fin.mp3",
+  "text": "fin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/win.mp3",
+  "text": "win",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fix.mp3",
+  "text": "fix",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/him.mp3",
+  "text": "him",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sit.mp3",
+  "text": "sit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hit.mp3",
+  "text": "hit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kit.mp3",
+  "text": "kit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lit.mp3",
+  "text": "lit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fit.mp3",
+  "text": "fit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bit.mp3",
+  "text": "bit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/this.mp3",
+  "text": "this",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wig.mp3",
+  "text": "wig",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dig.mp3",
+  "text": "dig",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/castle.mp3",
+  "text": "castle",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dress.mp3",
+  "text": "dress",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rig.mp3",
+  "text": "rig",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/like.mp3",
+  "text": "like",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/said.mp3",
+  "text": "said",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hill.mp3",
+  "text": "hill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lip.mp3",
+  "text": "lip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rip.mp3",
+  "text": "rip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sip.mp3",
+  "text": "sip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ship.mp3",
+  "text": "ship",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/drip.mp3",
+  "text": "drip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/blue.mp3",
+  "text": "blue",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/black.mp3",
+  "text": "black",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dip.mp3",
+  "text": "dip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tip.mp3",
+  "text": "tip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hip.mp3",
+  "text": "hip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/little.mp3",
+  "text": "little",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mill.mp3",
+  "text": "mill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pill.mp3",
+  "text": "pill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bill.mp3",
+  "text": "bill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fill.mp3",
+  "text": "fill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jill.mp3",
+  "text": "jill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/gill.mp3",
+  "text": "gill",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/will.mp3",
+  "text": "will",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wing.mp3",
+  "text": "wing",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bird.mp3",
+  "text": "bird",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sing.mp3",
+  "text": "sing",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/two.mp3",
+  "text": "two",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cannot.mp3",
+  "text": "cannot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pier.mp3",
+  "text": "pier",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ice.mp3",
+  "text": "ice",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/go.mp3",
+  "text": "go",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/by.mp3",
+  "text": "by",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pink.mp3",
+  "text": "pink",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pot.mp3",
+  "text": "pot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dot.mp3",
+  "text": "dot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cot.mp3",
+  "text": "cot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/seagull.mp3",
+  "text": "seagull",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/whale.mp3",
+  "text": "whale",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mermaid.mp3",
+  "text": "mermaid",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hot.mp3",
+  "text": "hot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/got.mp3",
+  "text": "got",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lot.mp3",
+  "text": "lot",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/not.mp3",
+  "text": "not",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/look.mp3",
+  "text": "look",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/log.mp3",
+  "text": "log",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fog.mp3",
+  "text": "fog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rock.mp3",
+  "text": "rock",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hog.mp3",
+  "text": "hog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jog.mp3",
+  "text": "jog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cog.mp3",
+  "text": "cog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/top.mp3",
+  "text": "top",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pop.mp3",
+  "text": "pop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shop.mp3",
+  "text": "shop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stop.mp3",
+  "text": "stop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/playground.mp3",
+  "text": "playground",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hop.mp3",
+  "text": "hop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cop.mp3",
+  "text": "cop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/play.mp3",
+  "text": "play",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/popcorn.mp3",
+  "text": "popcorn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hotdog.mp3",
+  "text": "hotdog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lots.mp3",
+  "text": "lots",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pots.mp3",
+  "text": "pots",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dots.mp3",
+  "text": "dots",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hops.mp3",
+  "text": "hops",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tops.mp3",
+  "text": "tops",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cots.mp3",
+  "text": "cots",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/red.mp3",
+  "text": "red",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sail.mp3",
+  "text": "sail",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/happy.mp3",
+  "text": "happy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/are.mp3",
+  "text": "are",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/we.mp3",
+  "text": "we",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/princess.mp3",
+  "text": "princess",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/prince.mp3",
+  "text": "prince",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/knight.mp3",
+  "text": "knight",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lady.mp3",
+  "text": "lady",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/game.mp3",
+  "text": "game",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/his.mp3",
+  "text": "his",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/her.mp3",
+  "text": "her",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cod.mp3",
+  "text": "cod",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rod.mp3",
+  "text": "rod",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pod.mp3",
+  "text": "pod",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dock.mp3",
+  "text": "dock",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/clock.mp3",
+  "text": "clock",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/boxes.mp3",
+  "text": "boxes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nod.mp3",
+  "text": "nod",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/puppy.mp3",
+  "text": "puppy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/muddy.mp3",
+  "text": "muddy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/messy.mp3",
+  "text": "messy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/silly.mp3",
+  "text": "silly",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sorry.mp3",
+  "text": "sorry",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bossy.mp3",
+  "text": "bossy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/very.mp3",
+  "text": "very",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/words.mp3",
+  "text": "words",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/climb.mp3",
+  "text": "climb",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/eat.mp3",
+  "text": "eat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/draw.mp3",
+  "text": "draw",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sleep.mp3",
+  "text": "sleep",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/laugh.mp3",
+  "text": "laugh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kick.mp3",
+  "text": "kick",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/read.mp3",
+  "text": "reed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/me.mp3",
+  "text": "me",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/be.mp3",
+  "text": "be",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hut.mp3",
+  "text": "hut",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/green.mp3",
+  "text": "green",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tub.mp3",
+  "text": "tub",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cut.mp3",
+  "text": "cut",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/but.mp3",
+  "text": "but",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/put.mp3",
+  "text": "put",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pup.mp3",
+  "text": "pup",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bug.mp3",
+  "text": "bug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mug.mp3",
+  "text": "mug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dug.mp3",
+  "text": "dug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hug.mp3",
+  "text": "hug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tug.mp3",
+  "text": "tug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/luck.mp3",
+  "text": "luck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bud.mp3",
+  "text": "bud",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/puddle.mp3",
+  "text": "puddle",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/muck.mp3",
+  "text": "muck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tuck.mp3",
+  "text": "tuck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/truck.mp3",
+  "text": "truck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fluff.mp3",
+  "text": "fluff",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/puck.mp3",
+  "text": "puck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yuck.mp3",
+  "text": "yuck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stuck.mp3",
+  "text": "stuck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/that.mp3",
+  "text": "that",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mountain.mp3",
+  "text": "mountain",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/forest.mp3",
+  "text": "forest",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/branch.mp3",
+  "text": "branch",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hello.mp3",
+  "text": "hello",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/road.mp3",
+  "text": "road",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/there.mp3",
+  "text": "there",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/then.mp3",
+  "text": "then",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/them.mp3",
+  "text": "them",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/goes.mp3",
+  "text": "goes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/way.mp3",
+  "text": "way",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/eyes.mp3",
+  "text": "eyes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chin.mp3",
+  "text": "chin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ears.mp3",
+  "text": "ears",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mouth.mp3",
+  "text": "mouth",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/have.mp3",
+  "text": "have",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/one.mp3",
+  "text": "one",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/four.mp3",
+  "text": "four",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/legs.mp3",
+  "text": "legs",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/they.mp3",
+  "text": "they",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/swim.mp3",
+  "text": "swim",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/grin.mp3",
+  "text": "grin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/do.mp3",
+  "text": "do",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/just.mp3",
+  "text": "just",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bus.mp3",
+  "text": "bus",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/us.mp3",
+  "text": "us",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/plus.mp3",
+  "text": "plus",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/table.mp3",
+  "text": "table",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/people.mp3",
+  "text": "people",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/food.mp3",
+  "text": "food",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/day.mp3",
+  "text": "day",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/come.mp3",
+  "text": "come",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/my.mp3",
+  "text": "my",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/here.mp3",
+  "text": "here",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shell.mp3",
+  "text": "shell",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/spikes.mp3",
+  "text": "spikes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jumping.mp3",
+  "text": "jumping",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/banging.mp3",
+  "text": "banging",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rolling.mp3",
+  "text": "rolling",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cracking.mp3",
+  "text": "cracking",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bed.mp3",
+  "text": "bed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shed.mp3",
+  "text": "shed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thread.mp3",
+  "text": "thread",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sled.mp3",
+  "text": "sled",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fed.mp3",
+  "text": "fed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/led.mp3",
+  "text": "led",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wed.mp3",
+  "text": "wed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hen.mp3",
+  "text": "hen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/den.mp3",
+  "text": "den",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ten.mp3",
+  "text": "ten",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hook.mp3",
+  "text": "hook",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/men.mp3",
+  "text": "men",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/get.mp3",
+  "text": "get",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pet.mp3",
+  "text": "pet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wet.mp3",
+  "text": "wet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/set.mp3",
+  "text": "set",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bet.mp3",
+  "text": "bet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/met.mp3",
+  "text": "met",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/where.mp3",
+  "text": "where",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/step.mp3",
+  "text": "step",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dark.mp3",
+  "text": "dark",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/now.mp3",
+  "text": "now",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/when.mp3",
+  "text": "when",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/down.mp3",
+  "text": "down",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/went.mp3",
+  "text": "went",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bent.mp3",
+  "text": "bent",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sent.mp3",
+  "text": "sent",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/leg.mp3",
+  "text": "leg",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/peg.mp3",
+  "text": "peg",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/keg.mp3",
+  "text": "keg",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cliff.mp3",
+  "text": "cliff",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/beg.mp3",
+  "text": "beg",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/peck.mp3",
+  "text": "peck",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/butterfly.mp3",
+  "text": "butterfly",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/elephant.mp3",
+  "text": "elephant",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/who.mp3",
+  "text": "who",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/into.mp3",
+  "text": "into",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lives.mp3",
+  "text": "lives",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tail.mp3",
+  "text": "tail",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/claws.mp3",
+  "text": "claws",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/what.mp3",
+  "text": "what",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/well.mp3",
+  "text": "well",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/numbers.mp3",
+  "text": "numbers",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/coin.mp3",
+  "text": "coin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tell.mp3",
+  "text": "tell",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fell.mp3",
+  "text": "fell",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sell.mp3",
+  "text": "sell",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yell.mp3",
+  "text": "yell",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/birthday.mp3",
+  "text": "birthday",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/party.mp3",
+  "text": "party",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/seven.mp3",
+  "text": "seven",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/touch.mp3",
+  "text": "touch",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/taste.mp3",
+  "text": "taste",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hear.mp3",
+  "text": "hear",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/smell.mp3",
+  "text": "smell",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tongue.mp3",
+  "text": "tongue",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/with.mp3",
+  "text": "with",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tie.mp3",
+  "text": "tie",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/smile.mp3",
+  "text": "smile",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/crocodile.mp3",
+  "text": "crocodile",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/plum.mp3",
+  "text": "plum",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lie.mp3",
+  "text": "lie",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mile.mp3",
+  "text": "mile",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/die.mp3",
+  "text": "die",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/going.mp3",
+  "text": "going",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/want.mp3",
+  "text": "want",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mother.mp3",
+  "text": "mother",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/father.mp3",
+  "text": "father",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sister.mp3",
+  "text": "sister",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/brother.mp3",
+  "text": "brother",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/family.mp3",
+  "text": "family",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/homework.mp3",
+  "text": "homework",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shoe.mp3",
+  "text": "shoe",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/line.mp3",
+  "text": "line",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mine.mp3",
+  "text": "mine",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hike.mp3",
+  "text": "hike",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dine.mp3",
+  "text": "dine",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pine.mp3",
+  "text": "pine",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bike.mp3",
+  "text": "bike",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/track.mp3",
+  "text": "track",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ride.mp3",
+  "text": "ride",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/slide.mp3",
+  "text": "slide",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hide.mp3",
+  "text": "hide",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wide.mp3",
+  "text": "wide",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fine.mp3",
+  "text": "fine",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/off.mp3",
+  "text": "off",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shark.mp3",
+  "text": "shark",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shirt.mp3",
+  "text": "shirt",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shoes.mp3",
+  "text": "shoes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shut.mp3",
+  "text": "shut",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/laces.mp3",
+  "text": "laces",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shiny.mp3",
+  "text": "shiny",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/short.mp3",
+  "text": "short",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shopping.mp3",
+  "text": "shopping",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/boots.mp3",
+  "text": "boots",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/these.mp3",
+  "text": "these",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/new.mp3",
+  "text": "new",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/white.mp3",
+  "text": "white",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cold.mp3",
+  "text": "cold",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dry.mp3",
+  "text": "dry",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bite.mp3",
+  "text": "bite",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/time.mp3",
+  "text": "time",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/site.mp3",
+  "text": "site",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chick.mp3",
+  "text": "chick",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chips.mp3",
+  "text": "chips",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chest.mp3",
+  "text": "chest",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chimp.mp3",
+  "text": "chimp",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chat.mp3",
+  "text": "chat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chip.mp3",
+  "text": "chip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chop.mp3",
+  "text": "chop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/says.mp3",
+  "text": "says",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ask.mp3",
+  "text": "ask",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/why.mp3",
+  "text": "why",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thorn.mp3",
+  "text": "thorn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thick.mp3",
+  "text": "thick",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thin.mp3",
+  "text": "thin",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cupboard.mp3",
+  "text": "cupboard",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fridge.mp3",
+  "text": "fridge",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chocolate.mp3",
+  "text": "chocolate",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/throw.mp3",
+  "text": "throw",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/think.mp3",
+  "text": "think",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thud.mp3",
+  "text": "thud",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chicken.mp3",
+  "text": "chicken",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chilli.mp3",
+  "text": "chilli",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chomp.mp3",
+  "text": "chomp",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/too.mp3",
+  "text": "too",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/city.mp3",
+  "text": "city",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/celery.mp3",
+  "text": "celery",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/circus.mp3",
+  "text": "circus",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/circle.mp3",
+  "text": "circle",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bicycle.mp3",
+  "text": "bicycle",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cement.mp3",
+  "text": "cement",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/park.mp3",
+  "text": "park",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bark.mp3",
+  "text": "bark",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/five.mp3",
+  "text": "five",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mice.mp3",
+  "text": "mice",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/slice.mp3",
+  "text": "slice",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lighthouse.mp3",
+  "text": "lighthouse",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shoelace.mp3",
+  "text": "shoelace",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nice.mp3",
+  "text": "nice",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/giraffe.mp3",
+  "text": "giraffe",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/gem.mp3",
+  "text": "gem",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/giant.mp3",
+  "text": "giant",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stage.mp3",
+  "text": "stage",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cage.mp3",
+  "text": "cage",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/magic.mp3",
+  "text": "magic",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/gelato.mp3",
+  "text": "gelato",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/page.mp3",
+  "text": "page",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rage.mp3",
+  "text": "rage",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cake.mp3",
+  "text": "cake",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lake.mp3",
+  "text": "lake",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rake.mp3",
+  "text": "rake",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rooster.mp3",
+  "text": "rooster",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wheel.mp3",
+  "text": "wheel",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bake.mp3",
+  "text": "bake",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/take.mp3",
+  "text": "take",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wake.mp3",
+  "text": "wake",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/make.mp3",
+  "text": "make",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/plane.mp3",
+  "text": "plane",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cane.mp3",
+  "text": "cane",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mane.mp3",
+  "text": "mane",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lane.mp3",
+  "text": "lane",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ape.mp3",
+  "text": "ape",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bowl.mp3",
+  "text": "bowl",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/about.mp3",
+  "text": "about",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/space.mp3",
+  "text": "space",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/face.mp3",
+  "text": "face",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lace.mp3",
+  "text": "lace",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stars.mp3",
+  "text": "stars",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sky.mp3",
+  "text": "sky",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/clouds.mp3",
+  "text": "clouds",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/race.mp3",
+  "text": "race",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/place.mp3",
+  "text": "place",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/spacesuit.mp3",
+  "text": "spacesuit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/photo.mp3",
+  "text": "photo",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/music.mp3",
+  "text": "music",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/straw.mp3",
+  "text": "straw",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/exercise.mp3",
+  "text": "exercise",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/life.mp3",
+  "text": "life",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/note.mp3",
+  "text": "note",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cube.mp3",
+  "text": "cube",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/puppet.mp3",
+  "text": "puppet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/paper.mp3",
+  "text": "paper",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/paint.mp3",
+  "text": "paint",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/spider.mp3",
+  "text": "spider",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tape.mp3",
+  "text": "tape",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cape.mp3",
+  "text": "cape",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/of.mp3",
+  "text": "of",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/out.mp3",
+  "text": "out",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/made.mp3",
+  "text": "made",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/itchy.mp3",
+  "text": "itchy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hairy.mp3",
+  "text": "hairy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rusty.mp3",
+  "text": "rusty",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/creepy.mp3",
+  "text": "creepy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/floppy.mp3",
+  "text": "floppy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/awake.mp3",
+  "text": "awake",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/full.mp3",
+  "text": "full",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/empty.mp3",
+  "text": "empty",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/night.mp3",
+  "text": "night",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cook.mp3",
+  "text": "cook",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wool.mp3",
+  "text": "wool",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cream.mp3",
+  "text": "cream",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/took.mp3",
+  "text": "took",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pool.mp3",
+  "text": "pool",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/baboon.mp3",
+  "text": "baboon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/raccoon.mp3",
+  "text": "raccoon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cocoon.mp3",
+  "text": "cocoon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/moose.mp3",
+  "text": "moose",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cool.mp3",
+  "text": "cool",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/noon.mp3",
+  "text": "noon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/roof.mp3",
+  "text": "roof",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/soon.mp3",
+  "text": "soon",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/mole.mp3",
+  "text": "mole",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pole.mp3",
+  "text": "pole",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stone.mp3",
+  "text": "stone",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/phone.mp3",
+  "text": "phone",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wombat.mp3",
+  "text": "wombat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/joke.mp3",
+  "text": "joke",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/poke.mp3",
+  "text": "poke",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/woke.mp3",
+  "text": "woke",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stole.mp3",
+  "text": "stole",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/own.mp3",
+  "text": "own",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wrong.mp3",
+  "text": "wrong",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tadpole.mp3",
+  "text": "tadpole",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/seaweed.mp3",
+  "text": "seaweed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/foam.mp3",
+  "text": "foam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rode.mp3",
+  "text": "rode",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/vote.mp3",
+  "text": "vote",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/float.mp3",
+  "text": "float",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/code.mp3",
+  "text": "code",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/through.mp3",
+  "text": "through",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/behind.mp3",
+  "text": "behind",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/slug.mp3",
+  "text": "slug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tram.mp3",
+  "text": "tram",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/plug.mp3",
+  "text": "plug",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/swam.mp3",
+  "text": "swam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/grab.mp3",
+  "text": "grab",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/slam.mp3",
+  "text": "slam",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/gram.mp3",
+  "text": "gram",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/friends.mp3",
+  "text": "friends",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/open.mp3",
+  "text": "open",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/trunk.mp3",
+  "text": "trunk",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/crash.mp3",
+  "text": "crash",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lunch.mp3",
+  "text": "lunch",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/flash.mp3",
+  "text": "flash",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/splash.mp3",
+  "text": "splash",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/trash.mp3",
+  "text": "trash",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/seal.mp3",
+  "text": "seal",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/beach.mp3",
+  "text": "beach",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/badger.mp3",
+  "text": "badger",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dream.mp3",
+  "text": "dream",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/beast.mp3",
+  "text": "beast",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/reach.mp3",
+  "text": "reach",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/teach.mp3",
+  "text": "teach",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/flute.mp3",
+  "text": "flute",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tube.mp3",
+  "text": "tube",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hedgehog.mp3",
+  "text": "hedgehog",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tune.mp3",
+  "text": "tune",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/june.mp3",
+  "text": "june",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/duke.mp3",
+  "text": "duke",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/builder.mp3",
+  "text": "builder",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/plumber.mp3",
+  "text": "plumber",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cleaner.mp3",
+  "text": "cleaner",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/garden.mp3",
+  "text": "garden",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/helper.mp3",
+  "text": "helper",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bigger.mp3",
+  "text": "bigger",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/better.mp3",
+  "text": "better",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/letter.mp3",
+  "text": "letter",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cloud.mp3",
+  "text": "cloud",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/strong.mp3",
+  "text": "strong",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pretty.mp3",
+  "text": "pretty",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/crunchy.mp3",
+  "text": "crunchy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ground.mp3",
+  "text": "ground",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/drank.mp3",
+  "text": "drank",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/grey.mp3",
+  "text": "grey",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/together.mp3",
+  "text": "together",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pram.mp3",
+  "text": "pram",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/clap.mp3",
+  "text": "clap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/crack.mp3",
+  "text": "crack",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/slip.mp3",
+  "text": "slip",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/prop.mp3",
+  "text": "prop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/clothes.mp3",
+  "text": "clothes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/home.mp3",
+  "text": "home",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/need.mp3",
+  "text": "need",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/drink.mp3",
+  "text": "drink",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wear.mp3",
+  "text": "wear",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/feed.mp3",
+  "text": "feed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/somewhere.mp3",
+  "text": "somewhere",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/gold.mp3",
+  "text": "gold",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/gift.mp3",
+  "text": "gift",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ramp.mp3",
+  "text": "ramp",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stamp.mp3",
+  "text": "stamp",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/best.mp3",
+  "text": "best",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thump.mp3",
+  "text": "thump",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bump.mp3",
+  "text": "bump",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/blink.mp3",
+  "text": "blink",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lump.mp3",
+  "text": "lump",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/raincoat.mp3",
+  "text": "raincoat",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/coast.mp3",
+  "text": "coast",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/loaf.mp3",
+  "text": "loaf",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/moan.mp3",
+  "text": "moan",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/soak.mp3",
+  "text": "soak",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/some.mp3",
+  "text": "some",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/girl.mp3",
+  "text": "girl",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/skirt.mp3",
+  "text": "skirt",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dirt.mp3",
+  "text": "dirt",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/seedling.mp3",
+  "text": "seedling",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/soil.mp3",
+  "text": "soil",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/first.mp3",
+  "text": "first",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/third.mp3",
+  "text": "third",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stir.mp3",
+  "text": "stir",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/moonlight.mp3",
+  "text": "moonlight",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/starlight.mp3",
+  "text": "starlight",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/waterfall.mp3",
+  "text": "waterfall",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sandpaper.mp3",
+  "text": "sandpaper",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/right.mp3",
+  "text": "right",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bright.mp3",
+  "text": "bright",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/high.mp3",
+  "text": "high",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tight.mp3",
+  "text": "tight",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sight.mp3",
+  "text": "sight",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lion.mp3",
+  "text": "lion",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/swing.mp3",
+  "text": "swing",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sandpit.mp3",
+  "text": "sandpit",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/roar.mp3",
+  "text": "roar",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/loudly.mp3",
+  "text": "loudly",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/caught.mp3",
+  "text": "caught",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/chew.mp3",
+  "text": "chew",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fork.mp3",
+  "text": "fork",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/horn.mp3",
+  "text": "horn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stork.mp3",
+  "text": "stork",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shorts.mp3",
+  "text": "shorts",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jumper.mp3",
+  "text": "jumper",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sport.mp3",
+  "text": "sport",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sort.mp3",
+  "text": "sort",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/storm.mp3",
+  "text": "storm",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/warm.mp3",
+  "text": "warm",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/leap.mp3",
+  "text": "leap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/creep.mp3",
+  "text": "creep",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/roll.mp3",
+  "text": "roll",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/swoop.mp3",
+  "text": "swoop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shout.mp3",
+  "text": "shout",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stomp.mp3",
+  "text": "stomp",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cling.mp3",
+  "text": "cling",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/flap.mp3",
+  "text": "flap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/slap.mp3",
+  "text": "slap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/trap.mp3",
+  "text": "trap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/walk.mp3",
+  "text": "walk",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sunday.mp3",
+  "text": "sunday",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hay.mp3",
+  "text": "hay",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/clay.mp3",
+  "text": "clay",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tray.mp3",
+  "text": "tray",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/stay.mp3",
+  "text": "stay",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/away.mp3",
+  "text": "away",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/today.mp3",
+  "text": "today",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bay.mp3",
+  "text": "bay",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/say.mp3",
+  "text": "say",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/moss.mp3",
+  "text": "moss",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": true
+ },
+ {
+  "path": "words/mmm.mp3",
+  "text": "mmm",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/m.mp3",
+  "text": "em",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sss.mp3",
+  "text": "sss",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/s.mp3",
+  "text": "ess",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tall.mp3",
+  "text": "tall",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tuh.mp3",
+  "text": "tuh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/t.mp3",
+  "text": "tee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bridge.mp3",
+  "text": "bridge",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bees.mp3",
+  "text": "bees",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/buh.mp3",
+  "text": "buh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/b.mp3",
+  "text": "bee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cove.mp3",
+  "text": "cove",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kuh.mp3",
+  "text": "kuh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/c.mp3",
+  "text": "see",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fff.mp3",
+  "text": "fff",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/f.mp3",
+  "text": "eff",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nnn.mp3",
+  "text": "nnn",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/n.mp3",
+  "text": "en",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/puh.mp3",
+  "text": "puh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/p.mp3",
+  "text": "pee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/maps.mp3",
+  "text": "maps",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ap.mp3",
+  "text": "ap",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/huh.mp3",
+  "text": "huh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/h.mp3",
+  "text": "aitch",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rrr.mp3",
+  "text": "rrr",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/r.mp3",
+  "text": "ar",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zzz.mp3",
+  "text": "zzz",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/z.mp3",
+  "text": "zed",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/eee.mp3",
+  "text": "eee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sentence.mp3",
+  "text": "sentence",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/e.mp3",
+  "text": "ee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/vvv.mp3",
+  "text": "vvv",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/v.mp3",
+  "text": "vee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/duh.mp3",
+  "text": "duh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/d.mp3",
+  "text": "dee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ivy.mp3",
+  "text": "ivy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jetty.mp3",
+  "text": "jetty",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/juh.mp3",
+  "text": "juh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/j.mp3",
+  "text": "jay",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pads.mp3",
+  "text": "pads",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/oh.mp3",
+  "text": "oh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/o.mp3",
+  "text": "oh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/q.mp3",
+  "text": "cue",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/glass.mp3",
+  "text": "glass",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/guh.mp3",
+  "text": "guh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/g.mp3",
+  "text": "jee",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ledge.mp3",
+  "text": "ledge",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/lll.mp3",
+  "text": "lll",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/l.mp3",
+  "text": "el",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/kites.mp3",
+  "text": "kites",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/k.mp3",
+  "text": "kay",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ag.mp3",
+  "text": "ag",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yuh.mp3",
+  "text": "yuh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/y.mp3",
+  "text": "why",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ks.mp3",
+  "text": "ks",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/end.mp3",
+  "text": "end",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/bo-x.mp3",
+  "text": "bo x",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fo-x.mp3",
+  "text": "fo x",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/o-x.mp3",
+  "text": "o x",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/x.mp3",
+  "text": "ex",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wuh.mp3",
+  "text": "wuh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/w.mp3",
+  "text": "double-u",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/singing.mp3",
+  "text": "singing",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/under.mp3",
+  "text": "under",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/uh.mp3",
+  "text": "uh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/alphabet.mp3",
+  "text": "alphabet",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/crown.mp3",
+  "text": "crown",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/zipped.mp3",
+  "text": "zipped",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ing.mp3",
+  "text": "ing",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/orhop.mp3",
+  "text": "orhop",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hopped.mp3",
+  "text": "hopped",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hotdogs.mp3",
+  "text": "hotdogs",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nuts.mp3",
+  "text": "nuts",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/th.mp3",
+  "text": "th",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tents.mp3",
+  "text": "tents",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/jumped.mp3",
+  "text": "jumped",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/grinned.mp3",
+  "text": "grinned",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/u.mp3",
+  "text": "you",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/beds.mp3",
+  "text": "beds",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hens.mp3",
+  "text": "hens",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pegs.mp3",
+  "text": "pegs",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wings.mp3",
+  "text": "wings",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/pies.mp3",
+  "text": "pies",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/over.mp3",
+  "text": "over",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/shhh.mp3",
+  "text": "shhh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tried.mp3",
+  "text": "tried",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ch.mp3",
+  "text": "ch",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thanks.mp3",
+  "text": "thanks",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sh.mp3",
+  "text": "sh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/circles.mp3",
+  "text": "circles",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/baked.mp3",
+  "text": "baked",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/planes.mp3",
+  "text": "planes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/another.mp3",
+  "text": "another",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/above.mp3",
+  "text": "above",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/count.mp3",
+  "text": "count",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/spacesuits.mp3",
+  "text": "spacesuits",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/puppets.mp3",
+  "text": "puppets",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/eight.mp3",
+  "text": "eight",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/easy.mp3",
+  "text": "easy",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/deep.mp3",
+  "text": "deep",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/oo.mp3",
+  "text": "oo",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/delicious.mp3",
+  "text": "delicious",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/holes.mp3",
+  "text": "holes",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/tadpoles.mp3",
+  "text": "tadpoles",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/suddenly.mp3",
+  "text": "suddenly",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cl.mp3",
+  "text": "cl",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/cr.mp3",
+  "text": "cr",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/trees.mp3",
+  "text": "trees",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/butterflies.mp3",
+  "text": "butterflies",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/trunks.mp3",
+  "text": "trunks",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/hungry.mp3",
+  "text": "hungry",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/asleep.mp3",
+  "text": "asleep",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ea.mp3",
+  "text": "ea",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/worried.mp3",
+  "text": "worried",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/er.mp3",
+  "text": "er",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/clunk.mp3",
+  "text": "clunk",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/asked.mp3",
+  "text": "asked",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/seedlings.mp3",
+  "text": "seedlings",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/igh.mp3",
+  "text": "igh",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/eye.mp3",
+  "text": "eye",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/roared.mp3",
+  "text": "roared",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sorted.mp3",
+  "text": "sorted",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/storms.mp3",
+  "text": "storms",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ay.mp3",
+  "text": "ay",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/oa.mp3",
+  "text": "oa",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/ir.mp3",
+  "text": "ir",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/or.mp3",
+  "text": "or",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/owl.mp3",
+  "text": "owl",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/no.mp3",
+  "text": "no",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/so.mp3",
+  "text": "so",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/an.mp3",
+  "text": "an",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/all.mp3",
+  "text": "all",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/was.mp3",
+  "text": "was",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/for.mp3",
+  "text": "for",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/star.mp3",
+  "text": "star",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/wall.mp3",
+  "text": "wall",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/dish.mp3",
+  "text": "dish",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/house.mp3",
+  "text": "house",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fast.mp3",
+  "text": "fast",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/soft.mp3",
+  "text": "soft",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/if.mp3",
+  "text": "if",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/rain.mp3",
+  "text": "rain",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/yak.mp3",
+  "text": "yak",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "story/chapter1.mp3",
+  "text": "The wind blew Zib into the moss. A monkey and a mouse were hiding there. 'Mmm,' said the monkey. 'That is my sound!' Zib put M in the bag. One letter home.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": true
+ },
+ {
+  "path": "story/chapter2.mp3",
+  "text": "Zib walked out onto the sand. The sun was hot. A snail went slow. A snake hissed, 'Sss, that one is mine!' Now Zib had M and S.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": true
+ },
+ {
+  "path": "story/chapter3.mp3",
+  "text": "In Apple Hollow, Zib met a boy. 'I am Sam,' said the boy. Sam had jam on his chin! A and I jumped into the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": true
+ },
+ {
+  "path": "story/chapter4.mp3",
+  "text": "Sam and Zib walked the tall tree trail. A tiger slept beside a tent. Tuh, tuh, went the little train. T was found. Four letters now!",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": true
+ },
+ {
+  "path": "story/chapter5.mp3",
+  "text": "Deep in the cave, a cat sat on a mat. A bat and a rat sat down too. 'We all end the same,' said the cat. '-at!' Bat, cat, hat, mat, rat, sat.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/chapter6.mp3",
+  "text": "A wooden bridge buzzed with bees. A bear wanted the bread. So did the bees! 'Buh, buh, bear,' laughed Sam. B went into the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/chapter7.mp3",
+  "text": "The cove was full of soft clouds. A crab was fast asleep in a cup! A cow drove past in a car. 'Kuh!' C was safe in the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/chapter8.mp3",
+  "text": "A fox sat by a warm fire. A fish and a frog sat down too. 'Fff,' said the fire. 'That is my sound.' F was the seventh letter.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/chapter9.mp3",
+  "text": "At camp, Sam made words in the sand. I am Sam. A cat sat. Bat, mat, fat, hat — all of them! One place left. The tower is close.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/chapter10.mp3",
+  "text": "At the top of the tower lay the big book. Zib tipped out M, S, A, T, B, C, F, I. The book glowed. Words came back to Word Land! 'More letters are lost,' said Zib. 'Ready?'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter1.mp3",
+  "text": "Beyond the tower, a high ridge climbed into the sky. Nine eggs sat in one round nest. 'Nnn,' hummed the bird. 'Nest. Nose. Nut.' I can see it, said Zib. N was letter nine.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter2.mp3",
+  "text": "The path down the ridge was lined with peach trees. A pig was eating a pear off a plate! 'Puh, puh, pig,' said Sam, and gave it a pat. P was in the bag. 'I am quick,' said Zib.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter3.mp3",
+  "text": "Every stall in the market sold one thing: maps. A man in a red cap filled a cup at the tap. 'They all end the same,' said Sam. '-ap!' Cap, gap, lap, map, nap, tap, zap.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter4.mp3",
+  "text": "Hammer Hill rang all day: tap, tap, tap. A horse in a helmet was building a hive. 'Huh, huh, hat,' it puffed, and lost its hat. Sam caught it. H was theirs.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter5.mp3",
+  "text": "One long rope crossed the gap between two cliffs. A rabbit held a rose. A robot held a ruler. 'Rrr,' growled the rope as they pulled. A rat ran over first. R was letter twelve.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter6.mp3",
+  "text": "Down in the valley an old van was stuck in the mud. A man with a fan and a pan came to help. 'Can we?' said Sam. They pushed. The van ran! Can, fan, man, pan, ran, tan, van.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter7.mp3",
+  "text": "The path through the zoo went zigzag, left and right. A zebra with a zip on its coat led the way. 'Zzz,' it buzzed. 'Zap! Zero! Zoo!' Sam laughed. Z went into the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter8.mp3",
+  "text": "One huge tree stood alone, humming. Three bees flew out. Then a sheep and a queen! 'Eee,' sang the bees. 'That is two e's, together.' 'I can see it,' said Sam. 'Bee. Tree. See.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter9.mp3",
+  "text": "At the springs, the words were floating in the water. Sam caught three and put them in a row. I can see a cat. It was a whole sentence! 'Words hold hands,' said Zib. 'That is reading.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map2-chapter10.mp3",
+  "text": "The lighthouse leaned out over a dark, wide sea. Zib emptied the bag: N, P, H, R, Z and E. The lamp lit. Across the water, sentences appeared. 'The man ran,' read Sam — every word, all by himself.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter1.mp3",
+  "text": "Past the lighthouse the sea had gone, and a sunken path led down. In the first valley a vulture was playing a violin. 'Vvv,' hummed the strings. 'Van. Vase. Vest.' V went into the bag. Map three had begun.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter2.mp3",
+  "text": "Below the valley the path opened out into wide, dry sand. Someone had left hand prints — a whole band of them. 'They all end the same,' said Sam. '-and!' Band, hand, land, sand — and on they walked.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter3.mp3",
+  "text": "A red door stood in the rock with no house behind it. A small dragon opened it. A dog and a duck ran out. 'Duh, duh,' said the dragon. 'My dad built this door.' D went into the bag beside V.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter4.mp3",
+  "text": "Halfway down the path an old inn stood under thick ivy. A boy called Dan had left his hat on the step. 'It is in here!' called Sam, and read the little sign. Dan had a cat. The cat sat in a hat.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter5.mp3",
+  "text": "At the bottom a wooden jetty ran out over the dry sand. On it sat a jug, a jar of jam and a plate of jelly. 'Juh, juh,' said Zib, and had a taste. 'Jam!' Sam had some too. J went into the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter6.mp3",
+  "text": "A green lagoon lay very still, covered in lily pads. One frog looked sad. The frog beside it looked mad. 'Do not be sad,' said Sam. 'Listen — you rhyme!' Bad, dad, had, mad, pad, sad.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter7.mp3",
+  "text": "Past the lagoon the ocean came back, deep and very blue. An octopus was holding an orange in every arm. 'Oh, oh, oh,' it sang. 'Otter. Onion. Ox.' An otter rowed them across with one long oar.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter8.mp3",
+  "text": "An isle rose out of the mist, small and quiet and green. A bee sat on a red cap. An ant sat on the bee. 'The bee has a cap,' said Sam. 'The cap is red.' Two tiny words, and the whole sentence stood up.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter9.mp3",
+  "text": "Flat stones crossed the water, one word painted on each. Sam stepped: The — dog — sat — on — the — mat. Every stone he read held firm. The wrong ones sank. 'Read it and it holds,' said Zib. 'That is the way across.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map3-chapter10.mp3",
+  "text": "The sunken path ended in a quarry, cut deep and very quiet. A queen sat there alone under a patchwork quilt. Zib tipped out V, D, J, O and Q. 'The queen has a quilt,' read Sam — and a door opened onto sand.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter1.mp3",
+  "text": "The door in the quarry opened onto a desert of glass. In the first gorge a goat sat playing a guitar. 'Guh, guh,' it sang. 'Grape. Glove. Glue.' G went into the bag. Map four had begun.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter2.mp3",
+  "text": "A long ledge ran along the glass cliff, warm in the sun. A lizard lay on it with a lamp and a leaf. 'Lll,' it said slowly. 'Lock. Lemon. Lamb.' A little lad climbed up too. L was theirs.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter3.mp3",
+  "text": "Two dunes rose out of the glass, one on each side of the path. A girl waved from one. A boy waved from the other. 'She is up there,' said Sam. 'He is over here.' Two small words, and now he could say who did what.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter4.mp3",
+  "text": "Above the desert, a hundred kites hung in the hot air. A king held every string, with a key around his neck. 'Kuh,' he said. 'The same sound as cat — two ways to write it.' A koala let go of one kite, and K fell into the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter5.mp3",
+  "text": "On the ridge a trader had spread out her whole bag. A rag, a flag, and a price tag on every single one. 'They all end the same,' said Sam. '-ag!' 'As quick as that,' said Zib. 'Now she has nothing left.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter6.mp3",
+  "text": "Every wall in the yard was painted the same yellow. A boy spun a yoyo up and down and gave a great yawn. 'Yuh, yuh,' he said. 'Yam. Yolk. Yacht.' Sam had a turn with the yoyo. Y went into the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter7.mp3",
+  "text": "A stone arch stood alone in the sand, and it asked a question. 'Can you read?' it said. The whole desert went quiet. Sam looked up. 'Yes,' he said. 'Yes, you can go.' The arch let them through. Three places left.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter8.mp3",
+  "text": "The canyon walls were stacked with boxes, right to the top. A fox counted them. 'Six,' it said. Then, 'Ks, ks.' 'That sound hides at the end of a word,' said Zib. Bo-x. Fo-x. O-x. X went into the bag.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter9.mp3",
+  "text": "One windmill turned at the far edge of the glass. A spider had spun a web between two of its sails. 'Wuh, wuh,' went the wind. 'Water. Wand. Worm.' A dog ran up to wag its tail. W was the last new sound.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map4-chapter10.mp3",
+  "text": "At the end of the desert stood a tower made of clear glass. Zib tipped out G, L, K, Y, X and W, and it rang like a bell. Far below the sand, something was singing. 'Yes,' said Sam, 'you first.' And down they went.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter1.mp3",
+  "text": "The way down led under the desert into a cool, dark cave. Someone had left an umbrella open on the very first step. 'Uh, uh,' said Zib. 'Up. Cup. Mud. Sun.' 'This will be fun,' said Sam, and took the umbrella.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter2.mp3",
+  "text": "The tunnel opened into an arch lit by twenty-six little lamps. One for every letter, a to z, in a long curve overhead. Sam walked under them and said each sound as he passed. Not one lamp went out. 'You know the whole alphabet,' said Zib.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter3.mp3",
+  "text": "Behind a rock, a kid had made a hideout out of old jars. Every jar had a lid — except one, and that lid was gone. 'I hid it,' the kid said. 'Read my clue and you can have it.' Did, hid, kid, lid. Sam read them all. The lid was under the bin.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter4.mp3",
+  "text": "Six round pools sat in the cave floor, each a different colour. Zib dropped a pin in one and the whole lot began to mix. 'Do not fix it,' laughed Sam. 'Look — a fin!' A small fish went past. Bin, fin, pin, tin, win.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter5.mp3",
+  "text": "The floor dropped away into a round pit full of smooth pebbles. Sam lit the lamp and sat on the edge. 'It is deep,' he said. Each pebble had a word on it, and every word ended the same. Bit, fit, hit, lit, pit, sit. He read the lot.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter6.mp3",
+  "text": "Under a buried castle, a queen in a muddy dress was digging. Her crown was on a rock. Her wig was on the crown. 'Dig,' she said. 'There is something big down here.' Sam dug. Out came a pig, cross as anything.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter7.mp3",
+  "text": "Three tunnels. One stone, carved into a pointing hand. Under the hand, four letters: t, h, i, s. 'This one,' read Sam, and the middle tunnel lit up. A dog came out of it to wag them along.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter8.mp3",
+  "text": "The tunnel ended at a drop, with one wire running over it. Sam zipped his coat, took a sip of water and held on. 'Do not let the rope rip,' said Zib, from the very tip of it. Dip, hip, lip, rip, sip, tip, zip — and they were across.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter9.mp3",
+  "text": "The cave opened out, and inside it stood a hill with a mill on top. A girl called Jill was carrying a jug up to fill it. 'Two l's at the end,' she said, 'and they only say one sound.' Bill, fill, hill, Jill, mill, pill, will.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map5-chapter10.mp3",
+  "text": "The singing came from the last cave of all, and it never stopped. A king sat there with a ring on every finger, singing one long note. '-ing,' he sang. 'King. Ring. Sing. Wing.' A bird flew up and out, and Sam saw daylight — and, far off, the sea.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter1.mp3",
+  "text": "The cave let them out at a harbour, and the whole harbour was frozen. A long wooden pier ran out into the white, with two words nailed to it. 'Go,' read Sam. And underneath: 'By the ship.' So they went by the ship, and their boots did not slip once.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter2.mp3",
+  "text": "At the end of the pier, one pot was still bubbling hot. A turtle, a dolphin and a very rude seagull were waiting for it. 'Look,' said the seagull. 'She got here first.' Cot, dot, got, hot, lot, not, pot. Soup all round.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter3.mp3",
+  "text": "Fog came down over the docks until Sam could not see his own boots. Something sat on a log, waiting. It was a dog. 'Look,' it seemed to say, and set off at a jog. They followed. Cog, dog, fog, hog, jog, log.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter4.mp3",
+  "text": "Halfway up the slope stood one small shop with a red sign. STOP, it said. And under that, in tiny letters: or hop. So Sam hopped — all the way to the top of the slope. The shopkeeper laughed and let them play on the roof.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter5.mp3",
+  "text": "The stall sold popcorn in pots and hotdogs in rows. 'How many?' asked the seller. Sam looked. 'Lots,' he said. Zib found the trick: one pot, two pots. One dot, ten dots. 'Add an s,' said Zib, 'and one turns into many.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter6.mp3",
+  "text": "One boat in the harbour had a sail everybody talked about. 'It is red,' said the seagull. 'We are certain of it.' The fog lifted. The sail was yellow. It was not red at all. 'Said is a word you cannot sound out,' said Zib. 'You just know it.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter7.mp3",
+  "text": "The biggest ship in the harbour belonged to a King and a Queen. His dog had a bone. Her knight had a game of dice. 'We have room for two more,' said the Queen. So Sam and Zib went aboard, and nobody minded at all.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter8.mp3",
+  "text": "An old fisher sat at the end of the dock with a bent rod. She did not speak. She only gave a slow nod. Then the line went tight and up came a cod the size of a boot. Cod, nod, pod, rod. Sam wrote all four in the frost.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter9.mp3",
+  "text": "A puppy came tearing along the point, very muddy and very pleased. It knocked over a bear, a mouse and one extremely bossy seagull. 'Silly! Messy!' they shouted. The puppy looked sorry for a second. 'Listen to the end,' said Zib. 'That y is saying eee.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map6-chapter10.mp3",
+  "text": "One great clock stood over the harbour, and it had been stopped for years. Zib set O, C and K into the empty holes on its face. It struck once. The ice cracked, the ships lifted, and the frost let go. 'Now the words can travel again,' said Zib. 'And so can we.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter1.mp3",
+  "text": "The road out of the harbour hummed under their feet before they saw a thing. A milestone stood at the start of it with two small words carved in. 'Be quick,' read Sam, 'and come with me.' Then the first truck came round the bend, rumbling like thunder.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter2.mp3",
+  "text": "A green hut sat by the road, no bigger than a wardrobe. Inside were three nuts, one cup, and a pup asleep on a shelf. 'Put one back,' said a voice. Sam did. But, cut, hut, nut, put — the pup slept through all of them.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter3.mp3",
+  "text": "Under the bridge a very large bug was crying into a mug. 'Nobody will give me a hug,' it said. 'They just run.' Sam gave it one. The bug cheered up and shared its bun. Bug, dug, hug, jug, mug, rug, tug. Even the crying rhymed.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter4.mp3",
+  "text": "The road dipped, and the dip had filled right up with brown water. One duck sat in the middle of it looking extremely pleased. 'Bad luck,' said Zib, as Sam stepped straight into the muck. They walked on to the next bend, one boot squelching.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter5.mp3",
+  "text": "A red truck had gone into the mud up to its axles. 'Yuck,' said the driver, who was covered to the elbows. Sam and the bug and the duck all pushed. Out it came. 'Good luck,' called the driver, and rumbled off up the road.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter6.mp3",
+  "text": "The road split into three, and every one of them rumbled. A woman waved hello from a rock. 'Not that one,' she said. 'Not this one either. There — the middle road, past the branch.' Th is two letters making one sound, and it holds a lot of little words together.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter7.mp3",
+  "text": "A cliff hung over the middle road, and the cliff had a face. Two stone eyes, one great nose, and a mouth full of ears listening. 'I have watched this road for a thousand years,' it said. 'Then you have earned a rest,' said Sam, and the face smiled.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter8.mp3",
+  "text": "Two tents stood in a field, and a game was going on between them. 'One,' said a child. 'Two. Four. How many legs have they got?' The duck had two. The dog had four. The bug had far too many to count. 'They is the word for more than one,' said Zib, 'when you are not naming them.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter9.mp3",
+  "text": "The road stopped at a gully too wide to walk and too deep to climb. 'Do we jump?' said Sam. 'Or swim? Or fly?' Zib grinned. 'You jump. I am small enough to be carried.' He jumped. He made it. He grinned the whole way down the other side.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map7-chapter10.mp3",
+  "text": "At the end of the road one bus was waiting with its engine rumbling. Zib tipped short u into the fuel tank and the whole thing woke up. 'Room for us?' asked Sam. The driver nodded at the empty seats. It carried them to the edge of a hollow, where something was burning low and red.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter1.mp3",
+  "text": "The hollow was warm, and down the middle of it ran one very long table. Every seat was taken. A band played at the far end. 'Come,' said somebody, moving up. 'Here. Take my plate.' Sam sat down between a knight and a duck and ate for an hour.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter2.mp3",
+  "text": "Under the table sat an egg the size of a barrel, and it was moving. Rolling. Banging. Then, very slowly, cracking. 'Add -ing,' said Zib, 'and the word means it is happening right now.' Out came a baby dinosaur, blinking, already jumping.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter3.mp3",
+  "text": "Nine beds stood in a row along the wall of the hollow, every one red. The dinosaur was already asleep across four of them. Sam fed it the last of the bread and it did not even wake. Bed, fed, led, red, sled, wed. Then he slept too.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter4.mp3",
+  "text": "Ten hens lived in a pen behind the beds, and one of them could write. She held the pen in her beak and made a list of everyone she had met. 'Where do you keep the ink?' asked Sam. The hen tapped a wet net. Bet, get, jet, met, net, pet, set, vet.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter5.mp3",
+  "text": "A ladder went straight down through the floor of the hollow. 'Where does it go?' asked Sam, holding the lamp over the hole. 'When you climb down,' said Zib, 'you will know.' So they went down, one rung at a time, into the warm dark.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter6.mp3",
+  "text": "The ladder ran out. After that there were only pegs hammered into the cliff. Sam went down one leg at a time, and did not beg to stop once. A bird came to peck at the rope and Zib shooed it off. Beg, keg, leg, peg. Four words, and the bottom at last.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter7.mp3",
+  "text": "At the foot of the cliff, doors were cut into the rock. Big ones. Small ones. 'Who lives here?' Sam called through the smallest. A butterfly came out. Then a monkey. Then, from the widest door, an elephant. 'Everyone,' said the elephant, and went back into the dark.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter8.mp3",
+  "text": "Something enormous was asleep across the whole floor of the cave. 'What is it?' whispered Sam. He counted spikes along its back. Two wings. Four claws. One long tail curled round a warm red egg. 'The baby's mother,' said Zib. 'Walk quietly. Do not get between them.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter9.mp3",
+  "text": "Past the dragon stood a well with a bell hung over it. Sam dropped a shell in and, a long way down, the bell began to ring. 'Tell it a word,' said Zib, 'and it rings that word back.' Sam yelled 'WELL!' and the whole cave answered: bell, fell, sell, tell, yell.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map8-chapter10.mp3",
+  "text": "The last cave in the hollow was set out for a birthday party. Seven embers burned in a row, and six of them had names on. Zib set short e into the seventh. It caught, and the whole hollow lit up. 'Level two is done,' said Zib. 'Beyond that wood, the words get longer.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter1.mp3",
+  "text": "A gate stood at the edge of the wood with five keyholes in it. a, e, i, o, u — one short vowel for each. 'Five senses, five vowels,' said Zib. 'You have them all already.' Sam said each sound out loud, and the gate swung open on the trees.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter2.mp3",
+  "text": "The path into the wood was lined with pie shops, all of them shut but one. A crocodile stood behind the counter in a spotted tie, with an enormous smile. 'What are you going to want?' it asked. 'Peach? Plum?' 'Two pies,' said Sam. 'And please stop smiling quite so much.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter3.mp3",
+  "text": "Someone had drawn a long line down the path and stood a family along it. Mother, father, sister, brother — nine of them altogether. 'That last one is mine,' said the smallest, pointing at a pine tree. 'Say the e on the end silently,' said Zib, 'and the i says its own name.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter4.mp3",
+  "text": "A bike lay against a pine with nobody near it, so Sam had a go. The track was too narrow. He went over a root and off he came. 'Are you all right?' said Zib. 'Fine,' said Sam, and got back on. By the third try he could ride the whole wide trail without falling once.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter5.mp3",
+  "text": "Deep in the wood stood a shed with sheep asleep all around it. The door was shut. On it, two letters: s and h. 'Shhh,' said Zib. 'Together they make one sound, and it is a quiet one.' Shed, shell, ship, shop, shut. The sheep never woke.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter6.mp3",
+  "text": "Shelley kept the only shoe shop in the wood, and every pair was shiny. Sam tried on nine. One was too short. One had no laces at all. 'These,' he said at last, holding up a pair of muddy green boots. 'Good choice,' said Shelley. 'You have a long way left to walk.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter7.mp3",
+  "text": "The hike climbed out of the trees and onto a bare, windy ridge. Nine white kites were up there, and nobody holding a single string. 'Who flies them?' asked Sam. 'The hill does,' said Zib. Bite, kite, white. Add a magic e and the i says its own name.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter8.mp3",
+  "text": "A chimp sat on a locked chest, eating chips and refusing to move. 'Why?' asked Sam. 'You will ask nicely first,' the chimp says. So Sam asked nicely, and shared his cheese, and had a long chat. Ch is two letters, one sound, and it opened the chest at last.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter9.mp3",
+  "text": "The last of the wood was thick thorn, and only one path went through. It was thin. Sam had to throw the bag ahead of him with a thud. On the far side sat a cottage with a fridge, a cupboard and one sandwich. 'Thanks,' said Sam, to nobody, and ate it in four bites.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map9-chapter10.mp3",
+  "text": "At the centre of the wood stood one tree older than all the rest. Its bark was cut with three pairs: sh, ch, th. 'Two letters, one sound, always together,' said Zib, setting them in. The whispering stopped. Ahead, through the trunks, something flat and bright: water.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter1.mp3",
+  "text": "The trees ended, and across a huge still lake stood a city built in circles. Everything about it came twice: once in stone, once upside down in the water. 'Careful,' said Zib. 'Here c can turn soft and say sss.' City. Celery. Circus. Circle. Not one of them said kuh.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter2.mp3",
+  "text": "Out on the frozen edge of the lake, nine white mice were playing dice. The stakes were one slice of cake and a bowl of rice. 'Be nice,' said the smallest mouse, and lost anyway. Sam gave it half his cake. Dice, mice, nice, rice, slice.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter3.mp3",
+  "text": "In the middle of the city a stage had been built for one enormous performer. A giant stood on it holding a book, and could not read a single page. 'Some g's say juh,' Sam told him. 'Giraffe. Gem. Cage. Stage.' The giant tried it, got it right, and laughed hard enough to shake the seats.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter4.mp3",
+  "text": "On the shore of the lake somebody had baked a cake the size of a rowing boat. A snake lay round the outside of it, fast asleep and perfectly polite. 'Do not wake it,' said Zib. 'Just take a slice from this end.' Bake, cake, lake, make, rake, snake, take, wake.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter5.mp3",
+  "text": "A narrow lane ran up from the lake with paper planes stuck in every hedge. A lion with an enormous mane was throwing another one as they arrived. 'About time,' it said. 'Nobody here can fold them properly.' Sam folded one that flew the whole length of the lane.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter6.mp3",
+  "text": "At the top of the city there was a place for lying on your back. Above them the sky went on and on, with no clouds in the way. 'Count them,' said Zib. Sam got to two hundred and gave up. Face, lace, place, race, space. The last one was the biggest.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter7.mp3",
+  "text": "Behind the star place was a shed full of spacesuits on hooks. An astronaut sat inside it playing one note over and over. 'a, e, i, o, u,' she sang. 'Long ones. They say their own names.' Cake. Kite. Note. Cube. Sam sang them back and she let him try a helmet on.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter8.mp3",
+  "text": "The bench was buried in paper, paint, glue and half-finished puppets. 'Make one,' said the puppet-maker. 'These are all mine. That side is yours.' Sam made a spider with eight legs and, because he had tape left, a cape. It hung from the ceiling and turned slowly for the rest of the afternoon.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter9.mp3",
+  "text": "The city circus was old, rusty and, frankly, a bit creepy. Halfway through the show a hairy lion opened its own cage door. It did not eat anybody. It juggled, badly, and everyone clapped. 'Easy,' said the lion, and went back in for a nap.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map10-chapter10.mp3",
+  "text": "At midnight the lake went flat as glass and showed the whole city upside down. Zib dropped soft c, soft g and long a into the reflection. The surface opened like a door. Below it the water was warm and lit. 'Hold your breath,' said Zib. 'Everything down here is deep and blue.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter1.mp3",
+  "text": "The first room below the lake was a kitchen, warm and dry and impossible. A cook stood at the table with one enormous book open in front of her. 'Look,' she said. 'Every recipe in here has oo in it somewhere.' Book, cook, hook, look, took. And the chocolate cream was delicious.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter2.mp3",
+  "text": "A round pool lay in the next cavern with the moon sitting in it. Not a reflection. The actual moon, cool and bright and slightly damp. A raccoon was trying to lift it out with a spoon. 'The same two letters,' said Zib, 'but book and moon do not rhyme. Listen hard.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter3.mp3",
+  "text": "Under the pool the rock was full of holes, and every one looked the same. A mole leaned on a pole and watched them pick. 'Wrong,' it said, four times. Then, 'That one. It is my own.' It was a joke. All four had been right. Moles have a strange sense of humour.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter4.mp3",
+  "text": "The tunnel opened out and the water lifted them, gently, up through foam. A goat went past in a coat, standing on a boat, entirely calm. Tadpoles and seaweed drifted together just under the surface. 'Suddenly everything floats,' said Sam. 'Rode, rose, vote, note.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter5.mp3",
+  "text": "In the shallows a crab and a clam were arguing about who was faster. 'Cl,' said the clam. 'Cr,' said the crab. 'You can hear us both.' That is what a blend is: two letters side by side, neither one hiding. Clam, crab, slug, swam, grab, plug. The slug won the race, eventually.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter6.mp3",
+  "text": "Nothing on this reef behaved. Trees grew out of it, underwater, green and tall. Butterflies swam between the trunks as if that were perfectly normal. Sam bumped one with a crash and a shower of bubbles came down. 'I am hungry,' said Zib. So they had lunch on a branch, twenty feet under.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter7.mp3",
+  "text": "A seal lay asleep on the sand at the bottom, snoring in small bubbles. Above its head its dream hung in the water where anyone could read it. A beach. A peach. A leaf going round and round in the sun. 'Ea says eee,' whispered Zib. They tiptoed past without waking it.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter8.mp3",
+  "text": "A duke sat on an ice cube at the mouth of a long glass tube. He had a flute and could play exactly one tune, over and over. 'I am worried,' he said, 'that it is the only one I know.' Sam taught him a second. It took until roughly June, but he got it.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter9.mp3",
+  "text": "A whole town of workers lived in the bay: a plumber, a builder, a cleaner. Every job title ended the same way, and none of them could say why. 'Er,' said Zib. 'It is the sound of the person who does the doing.' Helper, cleaner, bigger, better. The badger wrote them all down.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map11-chapter10.mp3",
+  "text": "The deepest part of the blue was quiet enough to hear your own heart. A whale the size of the harbour came out of the dark and waited. Zib set oo, ea and er along its back, and it turned upward. They rose for a long time. Then air, sky, grey cloud — and one small light, blinking.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter1.mp3",
+  "text": "They came out of the water onto a rock in the middle of a storm. Every few seconds a flash lit the whole sea white, then let it go black. 'Why is it doing that?' shouted Sam over the crash of the waves. Far off, something answered with a light of its own. Steady. Turning. Waiting.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter2.mp3",
+  "text": "A woman rowed out through the storm and took them back to a warm kitchen. 'You need four things,' she said. 'Food. Water. Sleep. Dry clothes.' She was the lighthouse keeper, and the light was somewhere to the north. 'Eat first,' she said. 'You can be brave again in the morning.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter3.mp3",
+  "text": "The stair up the cliff was old wood, and every step had its own noise. Bump. Thump. Clunk. Sam counted forty of them in the dark. At the top somebody had left a gift: a gold coin and one used stamp. 'Two letters at the end this time,' said Zib. 'Say them both.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter4.mp3",
+  "text": "The road north ran along the coast with the sea on one side the whole way. A goat in a yellow raincoat was selling toast out of a boat on a trailer. 'Some for the road?' it asked. It made very good toast. Boat, coat, float, goat, road, toast. All of them saying oh.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter5.mp3",
+  "text": "Halfway up the headland somebody had dug a garden into the cliff. A girl in a muddy shirt was pressing seedlings into the dirt. 'First the soil,' she said. 'Third, the water. And then you wait.' Bird, dirt, first, shirt, skirt, third. Every one of them said er.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter6.mp3",
+  "text": "By night the headland was black except for one turning beam. Moonlight on the water. Starlight above. And that beam, going round. 'igh,' said Zib. 'Three letters, and they only say eye.' Bright, light, night, right, sight, tight. They walked on by the beam.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter7.mp3",
+  "text": "There was a playground at the foot of the lighthouse, of all the places for one. A lion sat in the sandpit with its knees round its ears, looking silly. It roared once, loudly, and a butterfly landed on its nose. Sam caught the swing for it. They were friends by the time the tide turned.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter8.mp3",
+  "text": "A stork kept the weather station at the short end of the headland. It ate corn with a fork and sorted the day's storms into piles. 'Cold today,' it said. 'Wear the warm clothes. Take the boots.' Corn, fork, horn, thorn, storm, short. It was right about the boots.",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter9.mp3",
+  "text": "The stair inside the lighthouse went up and up and did not stop. Sam did not leap or creep or shout. He just kept walking. The wind came in at every window and made him cling to the rail. 'Two hundred steps,' said Zib, from his shoulder. 'You have come further than that.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "story/map12-chapter10.mp3",
+  "text": "At the top there was one empty lamp, and a book open beside it. Zib tipped out everything left in the bag: ay, oa, ir, igh, or. The lamp lit. Every word Sam had ever found flew back out over the water. 'You did not need me for the last one,' said Zib. 'You can read. Today, and every day after.'",
+  "rate": "-18%",
+  "pitch": "+0Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/try-again.mp3",
+  "text": "Try again",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/not-that-one.mp3",
+  "text": "Not that one",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/have-another-go.mp3",
+  "text": "Have another go",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/yes.mp3",
+  "text": "Yes!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/nice-one.mp3",
+  "text": "Nice one!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/you-got-it.mp3",
+  "text": "You got it!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/brilliant.mp3",
+  "text": "Brilliant!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/well-done.mp3",
+  "text": "Well done!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/superstar.mp3",
+  "text": "Superstar!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/you-did-it-a-new-chapter-for-your-storybook.mp3",
+  "text": "You did it! A new chapter for your storybook.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/you-wrote-it.mp3",
+  "text": "You wrote it!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/next-letter.mp3",
+  "text": "Next letter",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/good.mp3",
+  "text": "Good",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/find-the-words-that-rhyme.mp3",
+  "text": "Find the words that rhyme",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/pop-the-letter.mp3",
+  "text": "Pop the letter",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/paint-every-letter.mp3",
+  "text": "Paint every letter",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/drive-through-the-letter.mp3",
+  "text": "Drive through the letter",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/you-painted-a.mp3",
+  "text": "You painted a",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/wonderful.mp3",
+  "text": "Wonderful!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/great-job.mp3",
+  "text": "Great job!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/you-did-it.mp3",
+  "text": "You did it!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/hooray.mp3",
+  "text": "Hooray!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/amazing.mp3",
+  "text": "Amazing!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/welcome-to-your-learning-journey.mp3",
+  "text": "Welcome to your learning journey!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/what-is-your-name.mp3",
+  "text": "What is your name?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/hi-im-zib.mp3",
+  "text": "Hi! I'm Zib.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/i-live-in-word-land.mp3",
+  "text": "I live in Word Land.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/will-you-be-my-friend.mp3",
+  "text": "Will you be my friend?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/now-pick-a-face-for-you.mp3",
+  "text": "Now pick a face for you.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/tap-the-one-you-like-best.mp3",
+  "text": "Tap the one you like best.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/whos-playing-today.mp3",
+  "text": "Who's playing today?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/tap-your-picture.mp3",
+  "text": "Tap your picture.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/which-game-shall-we-play.mp3",
+  "text": "Which game shall we play?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/pick-one-and-tap-it.mp3",
+  "text": "Pick one and tap it.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/off-we-go.mp3",
+  "text": "Off we go!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/bye-for-now.mp3",
+  "text": "Bye for now!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/choose-a-map.mp3",
+  "text": "Choose a map.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/tap-the-glowing-place.mp3",
+  "text": "Tap the glowing place.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/help-me-find-the-lost-letters.mp3",
+  "text": "Help me find the lost letters.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/pop-it-in-my-bag.mp3",
+  "text": "Pop it in my bag.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/one-more-letter-is-home.mp3",
+  "text": "One more letter is home!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/my-bag-is-full-thank-you.mp3",
+  "text": "My bag is full. Thank you!",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/there-is-a-new-story-page-for-you.mp3",
+  "text": "There is a new story page for you.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/start-on-the-dot.mp3",
+  "text": "Start on the dot.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/follow-the-arrow.mp3",
+  "text": "Follow the arrow.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/trace-it-with-your-finger.mp3",
+  "text": "Trace it with your finger.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/now-try-it-on-your-own.mp3",
+  "text": "Now try it on your own.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/nice-and-slow.mp3",
+  "text": "Nice and slow.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/listen-then-build-the-word.mp3",
+  "text": "Listen, then build the word.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/sound-it-out.mp3",
+  "text": "Sound it out.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/pick-the-one-that-fits.mp3",
+  "text": "Pick the one that fits.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/which-letter-comes-next.mp3",
+  "text": "Which letter comes next?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/listen.mp3",
+  "text": "Listen.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/your-turn.mp3",
+  "text": "Your turn.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/tap-me-if-you-need-help.mp3",
+  "text": "Tap me if you need help.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/shall-i-say-it-again.mp3",
+  "text": "Shall I say it again?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/take-your-time.mp3",
+  "text": "Take your time.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/ooh-nearly.mp3",
+  "text": "Ooh, nearly.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/that-one-was-tricky.mp3",
+  "text": "That one was tricky.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/are-you-still-there.mp3",
+  "text": "Are you still there?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/ill-wait.mp3",
+  "text": "I'll wait.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": true
+ },
+ {
+  "path": "phrases/i-like-playing-with-you.mp3",
+  "text": "I like playing with you.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/hello.mp3",
+  "text": "Hello,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/yes.mp3",
+  "text": "Yes,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/nice-one.mp3",
+  "text": "Nice one,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/you-got-it.mp3",
+  "text": "You got it,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/brilliant.mp3",
+  "text": "Brilliant,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/well-done.mp3",
+  "text": "Well done,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/superstar.mp3",
+  "text": "Superstar,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/wonderful.mp3",
+  "text": "Wonderful,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/great-job.mp3",
+  "text": "Great job,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/you-did-it.mp3",
+  "text": "You did it,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/hooray.mp3",
+  "text": "Hooray,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/amazing.mp3",
+  "text": "Amazing,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/keep-going.mp3",
+  "text": "Keep going,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": true
+ },
+ {
+  "path": "praise/off-you-go.mp3",
+  "text": "Off you go,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/nice-to-meet-you.mp3",
+  "text": "Nice to meet you,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/come-and-play.mp3",
+  "text": "Come and play,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/see-you-soon.mp3",
+  "text": "See you soon,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/look-at-that.mp3",
+  "text": "Look at that,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "players/player1.mp3",
+  "text": "",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "skip": "no name set — add it to tools/tts-names.json",
+  "exists": true
+ },
+ {
+  "path": "players/player2.mp3",
+  "text": "",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "skip": "no name set — add it to tools/tts-names.json",
+  "exists": false
+ },
+ {
+  "path": "players/player3.mp3",
+  "text": "",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "skip": "no name set — add it to tools/tts-names.json",
+  "exists": false
+ },
+ {
+  "path": "players/player4.mp3",
+  "text": "",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "skip": "no name set — add it to tools/tts-names.json",
+  "exists": false
+ }
+]
