@@ -1,0 +1,14 @@
+name: Run Batch File
+
+on: [push, workflow_dispatch]
+
+jobs:
+  execute-script:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Run the batch file
+        run: |
+          ./record-voice.bat
