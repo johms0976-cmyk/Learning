@@ -76,17 +76,14 @@ const Zib = (function () {
     const A = audio();
     if (!A) return Promise.resolve();
     try {
-      if (NAMED.has(text)) {
+      if (NAMED.has(text) && A.cheer) {
         /* "Nice to meet you" + "Sarah" — two recordings, one sentence.
-           WLAudio.seq is all-or-nothing: if either half is missing it
-           speaks the whole line instead, so the two voices never meet
-           in the middle. With nobody chosen we just say it plain. */
-        const slot = A.playerSlot ? A.playerSlot() : 0;
-        const who  = A.playerName ? A.playerName() : '';
-        if (slot && who && A.seq) {
-          return A.seq([['praise', text], ['players', 'player' + slot]],
-                       text + ', ' + who, 0.8, 1.18) || Promise.resolve();
-        }
+           cheer() plays the rising praise/ half followed by the child's
+           name when it has both halves in the same voice, and the
+           plain finished line from phrases/ when it doesn't. It never
+           reads the name in the computer voice, so a child either
+           hears their name said properly or doesn't hear it at all. */
+        return A.cheer(text, 0.8, 1.18) || Promise.resolve();
       }
       return A.phrase(text, 0.8, 1.18) || Promise.resolve();
     } catch (e) { return Promise.resolve() }
