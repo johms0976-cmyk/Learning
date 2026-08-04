@@ -5,7 +5,7 @@
   "rate": "-30%",
   "pitch": "+0Hz",
   "skip": "phonics — record this one yourself; TTS adds a schwa",
-  "exists": true
+  "exists": false
  },
  {
   "path": "sounds/sss.mp3",
@@ -292,63 +292,63 @@
   "text": "ay",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/b.mp3",
   "text": "bee",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/c.mp3",
   "text": "see",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/d.mp3",
   "text": "dee",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/e.mp3",
   "text": "ee",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/f.mp3",
   "text": "eff",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/g.mp3",
   "text": "jee",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/h.mp3",
   "text": "aitch",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/i.mp3",
   "text": "eye",
   "rate": "-20%",
   "pitch": "+10Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "letters/j.mp3",
@@ -474,301 +474,301 @@
   "text": "moon",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/monkey.mp3",
   "text": "monkey",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/mouse.mp3",
   "text": "mouse",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/mop.mp3",
   "text": "mop",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/meat.mp3",
   "text": "meat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/man.mp3",
   "text": "man",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/mum.mp3",
   "text": "mum",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/milk.mp3",
   "text": "milk",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/sun.mp3",
   "text": "sun",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/snake.mp3",
   "text": "snake",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/sock.mp3",
   "text": "sock",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/seed.mp3",
   "text": "seed",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/six.mp3",
   "text": "six",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/soap.mp3",
   "text": "soap",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/spoon.mp3",
   "text": "spoon",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/snail.mp3",
   "text": "snail",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/sandwich.mp3",
   "text": "sandwich",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/strawberry.mp3",
   "text": "strawberry",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/apple.mp3",
   "text": "apple",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/ant.mp3",
   "text": "ant",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/arrow.mp3",
   "text": "arrow",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/astronaut.mp3",
   "text": "astronaut",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/ambulance.mp3",
   "text": "ambulance",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/alien.mp3",
   "text": "alien",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/ink.mp3",
   "text": "ink",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/iguana.mp3",
   "text": "iguana",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/jam.mp3",
   "text": "jam",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/lamp.mp3",
   "text": "lamp",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/lamb.mp3",
   "text": "lamb",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/clam.mp3",
   "text": "clam",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/sam.mp3",
   "text": "sam",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/am.mp3",
   "text": "am",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/i.mp3",
   "text": "eye",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/tent.mp3",
   "text": "tent",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/tiger.mp3",
   "text": "tiger",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/train.mp3",
   "text": "train",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/tractor.mp3",
   "text": "tractor",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/turtle.mp3",
   "text": "turtle",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/teeth.mp3",
   "text": "teeth",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/tomato.mp3",
   "text": "tomato",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/toy.mp3",
   "text": "toy",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/ticket.mp3",
   "text": "ticket",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/tv.mp3",
   "text": "T V",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/toast.mp3",
@@ -782,21 +782,21 @@
   "text": "cat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bat.mp3",
   "text": "bat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/hat.mp3",
   "text": "hat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/mat.mp3",
@@ -810,252 +810,252 @@
   "text": "rat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/at.mp3",
   "text": "at",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/sat.mp3",
   "text": "sat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/a.mp3",
   "text": "uh",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bee.mp3",
   "text": "bee",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/ball.mp3",
   "text": "ball",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/book.mp3",
   "text": "book",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bear.mp3",
   "text": "bear",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/boat.mp3",
   "text": "boat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bread.mp3",
   "text": "bread",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bell.mp3",
   "text": "bell",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bone.mp3",
   "text": "bone",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bag.mp3",
   "text": "bag",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/bath.mp3",
   "text": "bath",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/baby.mp3",
   "text": "baby",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/balloon.mp3",
   "text": "balloon",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/car.mp3",
   "text": "car",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/cup.mp3",
   "text": "cup",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/cow.mp3",
   "text": "cow",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/crab.mp3",
   "text": "crab",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/camel.mp3",
   "text": "camel",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/carrot.mp3",
   "text": "carrot",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/corn.mp3",
   "text": "corn",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/coat.mp3",
   "text": "coat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/camera.mp3",
   "text": "camera",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/can.mp3",
   "text": "can",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/cap.mp3",
   "text": "cap",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/fox.mp3",
   "text": "fox",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/fish.mp3",
   "text": "fish",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/frog.mp3",
   "text": "frog",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/fire.mp3",
   "text": "fire",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/flower.mp3",
   "text": "flower",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/feather.mp3",
   "text": "feather",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/foot.mp3",
   "text": "foot",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/fly.mp3",
   "text": "fly",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/fat.mp3",
   "text": "fat",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/nest.mp3",
@@ -1524,7 +1524,7 @@
   "text": "three",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/weed.mp3",
@@ -6242,7 +6242,7 @@
   "text": "moss",
   "rate": "-20%",
   "pitch": "+5Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "words/mmm.mp3",
@@ -7250,28 +7250,28 @@
   "text": "The wind blew Zib into the moss. A monkey and a mouse were hiding there. 'Mmm,' said the monkey. 'That is my sound!' Zib put M in the bag. One letter home.",
   "rate": "-18%",
   "pitch": "+0Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "story/chapter2.mp3",
   "text": "Zib walked out onto the sand. The sun was hot. A snail went slow. A snake hissed, 'Sss, that one is mine!' Now Zib had M and S.",
   "rate": "-18%",
   "pitch": "+0Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "story/chapter3.mp3",
   "text": "In Apple Hollow, Zib met a boy. 'I am Sam,' said the boy. Sam had jam on his chin! A and I jumped into the bag.",
   "rate": "-18%",
   "pitch": "+0Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "story/chapter4.mp3",
   "text": "Sam and Zib walked the tall tree trail. A tiger slept beside a tent. Tuh, tuh, went the little train. T was found. Four letters now!",
   "rate": "-18%",
   "pitch": "+0Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "story/chapter5.mp3",
@@ -8251,140 +8251,182 @@
   "text": "Welcome to your learning journey!",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/what-is-your-name.mp3",
   "text": "What is your name?",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
+ },
+ {
+  "path": "phrases/hello.mp3",
+  "text": "Hello",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/keep-going.mp3",
+  "text": "Keep going",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/off-you-go.mp3",
+  "text": "Off you go",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
  },
  {
   "path": "phrases/hi-im-zib.mp3",
   "text": "Hi! I'm Zib.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/i-live-in-word-land.mp3",
   "text": "I live in Word Land.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/will-you-be-my-friend.mp3",
   "text": "Will you be my friend?",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/now-pick-a-face-for-you.mp3",
   "text": "Now pick a face for you.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/tap-the-one-you-like-best.mp3",
   "text": "Tap the one you like best.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
+ },
+ {
+  "path": "phrases/nice-to-meet-you.mp3",
+  "text": "Nice to meet you",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/come-and-play.mp3",
+  "text": "Come and play",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
  },
  {
   "path": "phrases/whos-playing-today.mp3",
   "text": "Who's playing today?",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/tap-your-picture.mp3",
   "text": "Tap your picture.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/which-game-shall-we-play.mp3",
   "text": "Which game shall we play?",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/pick-one-and-tap-it.mp3",
   "text": "Pick one and tap it.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/off-we-go.mp3",
   "text": "Off we go!",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/bye-for-now.mp3",
   "text": "Bye for now!",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
+ },
+ {
+  "path": "phrases/see-you-soon.mp3",
+  "text": "See you soon",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
  },
  {
   "path": "phrases/choose-a-map.mp3",
   "text": "Choose a map.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/tap-the-glowing-place.mp3",
   "text": "Tap the glowing place.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/help-me-find-the-lost-letters.mp3",
   "text": "Help me find the lost letters.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/pop-it-in-my-bag.mp3",
   "text": "Pop it in my bag.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/one-more-letter-is-home.mp3",
   "text": "One more letter is home!",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/my-bag-is-full-thank-you.mp3",
   "text": "My bag is full. Thank you!",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/there-is-a-new-story-page-for-you.mp3",
   "text": "There is a new story page for you.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/start-on-the-dot.mp3",
@@ -8454,63 +8496,70 @@
   "text": "Listen.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/your-turn.mp3",
   "text": "Your turn.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/tap-me-if-you-need-help.mp3",
   "text": "Tap me if you need help.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/shall-i-say-it-again.mp3",
   "text": "Shall I say it again?",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/take-your-time.mp3",
   "text": "Take your time.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/ooh-nearly.mp3",
   "text": "Ooh, nearly.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/that-one-was-tricky.mp3",
   "text": "That one was tricky.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
+ },
+ {
+  "path": "phrases/look-at-that.mp3",
+  "text": "Look at that",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
  },
  {
   "path": "phrases/are-you-still-there.mp3",
   "text": "Are you still there?",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/ill-wait.mp3",
   "text": "I'll wait.",
   "rate": "-12%",
   "pitch": "+12Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "phrases/i-like-playing-with-you.mp3",
@@ -8524,35 +8573,35 @@
   "text": "Hello,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/yes.mp3",
   "text": "Yes,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/nice-one.mp3",
   "text": "Nice one,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/you-got-it.mp3",
   "text": "You got it,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/brilliant.mp3",
   "text": "Brilliant,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/well-done.mp3",
@@ -8566,21 +8615,21 @@
   "text": "Superstar,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/wonderful.mp3",
   "text": "Wonderful,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/great-job.mp3",
   "text": "Great job,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/you-did-it.mp3",
@@ -8594,21 +8643,21 @@
   "text": "Hooray,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/amazing.mp3",
   "text": "Amazing,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/keep-going.mp3",
   "text": "Keep going,",
   "rate": "-12%",
   "pitch": "+18Hz",
-  "exists": true
+  "exists": false
  },
  {
   "path": "praise/off-you-go.mp3",
@@ -8646,12 +8695,4058 @@
   "exists": false
  },
  {
+  "path": "names/aaliyah.mp3",
+  "text": "Aaliyah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/aaron.mp3",
+  "text": "Aaron",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/abdullah.mp3",
+  "text": "Abdullah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/abel.mp3",
+  "text": "Abel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/abigail.mp3",
+  "text": "Abigail",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ada.mp3",
+  "text": "Ada",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/adam.mp3",
+  "text": "Adam",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/addison.mp3",
+  "text": "Addison",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/adeline.mp3",
+  "text": "Adeline",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/aditya.mp3",
+  "text": "Aditya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/adrian.mp3",
+  "text": "Adrian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/agnes.mp3",
+  "text": "Agnes",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ahmed.mp3",
+  "text": "Ahmed",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/aidan.mp3",
+  "text": "Aidan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/aiden.mp3",
+  "text": "Aiden",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/aisha.mp3",
+  "text": "Ay-ee-sha",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ajay.mp3",
+  "text": "Ajay",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alan.mp3",
+  "text": "Alan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alana.mp3",
+  "text": "Alana",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alba.mp3",
+  "text": "Alba",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/albert.mp3",
+  "text": "Albert",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alex.mp3",
+  "text": "Alex",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alexander.mp3",
+  "text": "Alexander",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alexandra.mp3",
+  "text": "Alexandra",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alfie.mp3",
+  "text": "Alfie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ali.mp3",
+  "text": "Ali",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alice.mp3",
+  "text": "Alice",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alina.mp3",
+  "text": "Alina",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/alistair.mp3",
+  "text": "Alistair",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/amaya.mp3",
+  "text": "Amaya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/amber.mp3",
+  "text": "Amber",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/amelia.mp3",
+  "text": "Amelia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/amina.mp3",
+  "text": "Amina",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/amir.mp3",
+  "text": "Amir",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/anastasia.mp3",
+  "text": "Anastasia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/anaya.mp3",
+  "text": "Anaya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/anders.mp3",
+  "text": "Anders",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/andrew.mp3",
+  "text": "Andrew",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/angus.mp3",
+  "text": "Angus",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/anna.mp3",
+  "text": "Anna",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/annabelle.mp3",
+  "text": "Annabelle",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/anthony.mp3",
+  "text": "Anthony",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/antonia.mp3",
+  "text": "Antonia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/antonio.mp3",
+  "text": "Antonio",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/anya.mp3",
+  "text": "Anya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/archer.mp3",
+  "text": "Archer",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/archie.mp3",
+  "text": "Archie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/aria.mp3",
+  "text": "Aria",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ariana.mp3",
+  "text": "Ariana",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/arlo.mp3",
+  "text": "Arlo",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/armaan.mp3",
+  "text": "Armaan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/arthur.mp3",
+  "text": "Arthur",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/arya.mp3",
+  "text": "Arya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/asher.mp3",
+  "text": "Asher",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ashley.mp3",
+  "text": "Ashley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ashton.mp3",
+  "text": "Ashton",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/astrid.mp3",
+  "text": "Astrid",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/atticus.mp3",
+  "text": "Atticus",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/aurora.mp3",
+  "text": "Aurora",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/austin.mp3",
+  "text": "Austin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/autumn.mp3",
+  "text": "Autumn",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ava.mp3",
+  "text": "Ava",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ayaan.mp3",
+  "text": "Ayaan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ayla.mp3",
+  "text": "Ayla",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bailey.mp3",
+  "text": "Bailey",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/beatrice.mp3",
+  "text": "Beatrice",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/beau.mp3",
+  "text": "Beau",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bella.mp3",
+  "text": "Bella",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ben.mp3",
+  "text": "Ben",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/benjamin.mp3",
+  "text": "Benjamin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bernard.mp3",
+  "text": "Bernard",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bethany.mp3",
+  "text": "Bethany",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bianca.mp3",
+  "text": "Bianca",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/blake.mp3",
+  "text": "Blake",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bobby.mp3",
+  "text": "Bobby",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bodhi.mp3",
+  "text": "Bodhi",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bonnie.mp3",
+  "text": "Bonnie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bradley.mp3",
+  "text": "Bradley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/brandon.mp3",
+  "text": "Brandon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/brayden.mp3",
+  "text": "Brayden",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/brody.mp3",
+  "text": "Brody",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/brooke.mp3",
+  "text": "Brooke",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bruno.mp3",
+  "text": "Bruno",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/bryan.mp3",
+  "text": "Bryan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/caitlin.mp3",
+  "text": "Caitlin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/caleb.mp3",
+  "text": "Caleb",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/callum.mp3",
+  "text": "Callum",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cameron.mp3",
+  "text": "Cameron",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/camila.mp3",
+  "text": "Camila",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cara.mp3",
+  "text": "Cara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/carmen.mp3",
+  "text": "Carmen",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/caroline.mp3",
+  "text": "Caroline",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/carter.mp3",
+  "text": "Carter",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/casey.mp3",
+  "text": "Casey",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cassie.mp3",
+  "text": "Cassie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cassius.mp3",
+  "text": "Cassius",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/catherine.mp3",
+  "text": "Catherine",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cecilia.mp3",
+  "text": "Cecilia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/chana.mp3",
+  "text": "Chana",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/charles.mp3",
+  "text": "Charles",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/charlie.mp3",
+  "text": "Charlie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/charlotte.mp3",
+  "text": "Charlotte",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/chase.mp3",
+  "text": "Chase",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/chloe.mp3",
+  "text": "Klo-ee",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/christian.mp3",
+  "text": "Christian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/christopher.mp3",
+  "text": "Christopher",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/clara.mp3",
+  "text": "Clara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/clark.mp3",
+  "text": "Clark",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/claudia.mp3",
+  "text": "Claudia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cody.mp3",
+  "text": "Cody",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cole.mp3",
+  "text": "Cole",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/colin.mp3",
+  "text": "Colin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/connor.mp3",
+  "text": "Connor",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/constance.mp3",
+  "text": "Constance",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cooper.mp3",
+  "text": "Cooper",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cora.mp3",
+  "text": "Cora",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/corey.mp3",
+  "text": "Corey",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/craig.mp3",
+  "text": "Craig",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/curtis.mp3",
+  "text": "Curtis",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/cyrus.mp3",
+  "text": "Cyrus",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/daisy.mp3",
+  "text": "Daisy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dakota.mp3",
+  "text": "Dakota",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/daniel.mp3",
+  "text": "Daniel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/daniela.mp3",
+  "text": "Daniela",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/danny.mp3",
+  "text": "Danny",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/daphne.mp3",
+  "text": "Daphne",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/darcy.mp3",
+  "text": "Darcy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/darius.mp3",
+  "text": "Darius",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/david.mp3",
+  "text": "David",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dawson.mp3",
+  "text": "Dawson",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/deacon.mp3",
+  "text": "Deacon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dean.mp3",
+  "text": "Dean",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/declan.mp3",
+  "text": "Declan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/delilah.mp3",
+  "text": "Delilah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dennis.mp3",
+  "text": "Dennis",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/derek.mp3",
+  "text": "Derek",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/desmond.mp3",
+  "text": "Desmond",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dexter.mp3",
+  "text": "Dexter",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/diana.mp3",
+  "text": "Diana",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/diego.mp3",
+  "text": "Diego",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dominic.mp3",
+  "text": "Dominic",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dorothy.mp3",
+  "text": "Dorothy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/douglas.mp3",
+  "text": "Douglas",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/dylan.mp3",
+  "text": "Dylan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eddie.mp3",
+  "text": "Eddie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eden.mp3",
+  "text": "Eden",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/edith.mp3",
+  "text": "Edith",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/edward.mp3",
+  "text": "Edward",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/edwin.mp3",
+  "text": "Edwin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eleanor.mp3",
+  "text": "Eleanor",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/elena.mp3",
+  "text": "Elena",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eli.mp3",
+  "text": "Eli",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eliana.mp3",
+  "text": "Eliana",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/elias.mp3",
+  "text": "Elias",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/elif.mp3",
+  "text": "Elif",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/elijah.mp3",
+  "text": "Elijah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/elizabeth.mp3",
+  "text": "Elizabeth",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ella.mp3",
+  "text": "Ella",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ellie.mp3",
+  "text": "Ellie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/elliot.mp3",
+  "text": "Elliot",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eloise.mp3",
+  "text": "Eloise",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/elsie.mp3",
+  "text": "Elsie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/emeka.mp3",
+  "text": "Emeka",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/emilia.mp3",
+  "text": "Emilia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/emily.mp3",
+  "text": "Emily",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/emma.mp3",
+  "text": "Emma",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/emmett.mp3",
+  "text": "Emmett",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/enzo.mp3",
+  "text": "Enzo",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eric.mp3",
+  "text": "Eric",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/erin.mp3",
+  "text": "Erin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/esme.mp3",
+  "text": "Ez-may",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/esther.mp3",
+  "text": "Esther",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ethan.mp3",
+  "text": "Ethan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/eva.mp3",
+  "text": "Eva",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/evelyn.mp3",
+  "text": "Evelyn",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/evie.mp3",
+  "text": "Evie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ezra.mp3",
+  "text": "Ezra",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/fabian.mp3",
+  "text": "Fabian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/faith.mp3",
+  "text": "Faith",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/farah.mp3",
+  "text": "Farah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/fatima.mp3",
+  "text": "Fatima",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/felix.mp3",
+  "text": "Felix",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/fergus.mp3",
+  "text": "Fergus",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/fern.mp3",
+  "text": "Fern",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/finlay.mp3",
+  "text": "Finlay",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/finn.mp3",
+  "text": "Finn",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/fiona.mp3",
+  "text": "Fiona",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/fletcher.mp3",
+  "text": "Fletcher",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/flora.mp3",
+  "text": "Flora",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/florence.mp3",
+  "text": "Florence",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/florian.mp3",
+  "text": "Florian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/frances.mp3",
+  "text": "Frances",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/francis.mp3",
+  "text": "Francis",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/frankie.mp3",
+  "text": "Frankie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/fraser.mp3",
+  "text": "Fraser",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/freddie.mp3",
+  "text": "Freddie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/frederick.mp3",
+  "text": "Frederick",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/freya.mp3",
+  "text": "Freya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gabriel.mp3",
+  "text": "Gabriel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gabriella.mp3",
+  "text": "Gabriella",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gareth.mp3",
+  "text": "Gareth",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gary.mp3",
+  "text": "Gary",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/george.mp3",
+  "text": "George",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/georgia.mp3",
+  "text": "Georgia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gia.mp3",
+  "text": "Gia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gianna.mp3",
+  "text": "Gianna",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gideon.mp3",
+  "text": "Gideon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gilbert.mp3",
+  "text": "Gilbert",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/grace.mp3",
+  "text": "Grace",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gracie.mp3",
+  "text": "Gracie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/grady.mp3",
+  "text": "Grady",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/graham.mp3",
+  "text": "Graham",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/grayson.mp3",
+  "text": "Grayson",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gregory.mp3",
+  "text": "Gregory",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/gus.mp3",
+  "text": "Gus",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hafsa.mp3",
+  "text": "Hafsa",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hallie.mp3",
+  "text": "Hallie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hamza.mp3",
+  "text": "Hamza",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hannah.mp3",
+  "text": "Hannah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/harley.mp3",
+  "text": "Harley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/harper.mp3",
+  "text": "Harper",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/harriet.mp3",
+  "text": "Harriet",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/harrison.mp3",
+  "text": "Harrison",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/harry.mp3",
+  "text": "Harry",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/harvey.mp3",
+  "text": "Harvey",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hassan.mp3",
+  "text": "Hassan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hayden.mp3",
+  "text": "Hayden",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hazel.mp3",
+  "text": "Hazel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/heidi.mp3",
+  "text": "Heidi",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/helena.mp3",
+  "text": "Helena",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/henry.mp3",
+  "text": "Henry",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/holly.mp3",
+  "text": "Holly",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hope.mp3",
+  "text": "Hope",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hudson.mp3",
+  "text": "Hudson",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hugh.mp3",
+  "text": "Hugh",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hugo.mp3",
+  "text": "Hew-go",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/hunter.mp3",
+  "text": "Hunter",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ibrahim.mp3",
+  "text": "Ibrahim",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/idris.mp3",
+  "text": "Idris",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ilias.mp3",
+  "text": "Ilias",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/imogen.mp3",
+  "text": "Im-oh-jen",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/india.mp3",
+  "text": "India",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/indie.mp3",
+  "text": "Indie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ines.mp3",
+  "text": "Ee-ness",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/iris.mp3",
+  "text": "Iris",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/isaac.mp3",
+  "text": "Isaac",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/isabella.mp3",
+  "text": "Isabella",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/isabelle.mp3",
+  "text": "Isabelle",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/isaiah.mp3",
+  "text": "Isaiah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/isla.mp3",
+  "text": "Isla",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ismail.mp3",
+  "text": "Ismail",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ivan.mp3",
+  "text": "Ivan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ivy.mp3",
+  "text": "Ivy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jack.mp3",
+  "text": "Jack",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jackson.mp3",
+  "text": "Jackson",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jacob.mp3",
+  "text": "Jacob",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jade.mp3",
+  "text": "Jade",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jake.mp3",
+  "text": "Jake",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/james.mp3",
+  "text": "James",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jamie.mp3",
+  "text": "Jamie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jared.mp3",
+  "text": "Jared",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jasmine.mp3",
+  "text": "Jasmine",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jasper.mp3",
+  "text": "Jasper",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/javier.mp3",
+  "text": "Javier",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jaxon.mp3",
+  "text": "Jaxon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jayden.mp3",
+  "text": "Jayden",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jennifer.mp3",
+  "text": "Jennifer",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jeremy.mp3",
+  "text": "Jeremy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jesse.mp3",
+  "text": "Jesse",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jessica.mp3",
+  "text": "Jessica",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/joanna.mp3",
+  "text": "Joanna",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jocelyn.mp3",
+  "text": "Jocelyn",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/joel.mp3",
+  "text": "Jo-el",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/john.mp3",
+  "text": "John",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jonah.mp3",
+  "text": "Jonah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jonathan.mp3",
+  "text": "Jonathan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jordan.mp3",
+  "text": "Jordan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jorja.mp3",
+  "text": "Jorja",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/joseph.mp3",
+  "text": "Joseph",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/josephine.mp3",
+  "text": "Josephine",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/joshua.mp3",
+  "text": "Joshua",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/josiah.mp3",
+  "text": "Josiah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/jude.mp3",
+  "text": "Jude",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/julia.mp3",
+  "text": "Julia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/julian.mp3",
+  "text": "Julian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/juliet.mp3",
+  "text": "Juliet",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/justin.mp3",
+  "text": "Justin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kai.mp3",
+  "text": "Kai",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kaia.mp3",
+  "text": "Kaia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kaleb.mp3",
+  "text": "Kaleb",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/karl.mp3",
+  "text": "Karl",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kate.mp3",
+  "text": "Kate",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/katherine.mp3",
+  "text": "Katherine",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kayla.mp3",
+  "text": "Kayla",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/keira.mp3",
+  "text": "Keira",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kenji.mp3",
+  "text": "Kenji",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kevin.mp3",
+  "text": "Kevin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/khadija.mp3",
+  "text": "Khadija",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/khalid.mp3",
+  "text": "Khalid",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kian.mp3",
+  "text": "Kian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kiara.mp3",
+  "text": "Kiara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kieran.mp3",
+  "text": "Kieran",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kingsley.mp3",
+  "text": "Kingsley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/kyle.mp3",
+  "text": "Kyle",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lacey.mp3",
+  "text": "Lacey",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lachlan.mp3",
+  "text": "Lachlan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/laila.mp3",
+  "text": "Laila",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lara.mp3",
+  "text": "Lara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/laura.mp3",
+  "text": "Laura",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lauren.mp3",
+  "text": "Lauren",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lawrence.mp3",
+  "text": "Lawrence",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/layla.mp3",
+  "text": "Layla",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/leah.mp3",
+  "text": "Leah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/leila.mp3",
+  "text": "Leila",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lena.mp3",
+  "text": "Lena",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/leo.mp3",
+  "text": "Leo",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/leon.mp3",
+  "text": "Leon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/leonard.mp3",
+  "text": "Leonard",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/leonie.mp3",
+  "text": "Leonie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/levi.mp3",
+  "text": "Levi",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lewis.mp3",
+  "text": "Lewis",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lexi.mp3",
+  "text": "Lexi",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/liam.mp3",
+  "text": "Liam",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lila.mp3",
+  "text": "Lila",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lilian.mp3",
+  "text": "Lilian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lily.mp3",
+  "text": "Lily",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lincoln.mp3",
+  "text": "Lincoln",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/logan.mp3",
+  "text": "Logan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lois.mp3",
+  "text": "Lois",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lola.mp3",
+  "text": "Lola",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/louis.mp3",
+  "text": "Louis",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/louisa.mp3",
+  "text": "Louisa",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/luca.mp3",
+  "text": "Luca",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lucas.mp3",
+  "text": "Lucas",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lucia.mp3",
+  "text": "Lucia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lucy.mp3",
+  "text": "Lucy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/luke.mp3",
+  "text": "Luke",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/luna.mp3",
+  "text": "Luna",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lyla.mp3",
+  "text": "Lyla",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/lyra.mp3",
+  "text": "Lyra",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mabel.mp3",
+  "text": "Mabel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/macy.mp3",
+  "text": "Macy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/maddison.mp3",
+  "text": "Maddison",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/madeleine.mp3",
+  "text": "Madeleine",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/maeve.mp3",
+  "text": "Maeve",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/maggie.mp3",
+  "text": "Maggie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mahi.mp3",
+  "text": "Mahi",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/maisie.mp3",
+  "text": "Maisie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/malachi.mp3",
+  "text": "Malachi",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/malik.mp3",
+  "text": "Malik",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/manon.mp3",
+  "text": "Manon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/marcus.mp3",
+  "text": "Marcus",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/margaret.mp3",
+  "text": "Margaret",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/margot.mp3",
+  "text": "Margot",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/maria.mp3",
+  "text": "Maria",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mariam.mp3",
+  "text": "Mariam",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mario.mp3",
+  "text": "Mario",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mark.mp3",
+  "text": "Mark",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/marnie.mp3",
+  "text": "Marnie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/marshall.mp3",
+  "text": "Marshall",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/martha.mp3",
+  "text": "Martha",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/martin.mp3",
+  "text": "Martin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mary.mp3",
+  "text": "Mary",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mason.mp3",
+  "text": "Mason",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mateo.mp3",
+  "text": "Mateo",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/matilda.mp3",
+  "text": "Matilda",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/matthew.mp3",
+  "text": "Matthew",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/max.mp3",
+  "text": "Max",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/maxwell.mp3",
+  "text": "Maxwell",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/maya.mp3",
+  "text": "Maya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/megan.mp3",
+  "text": "Megan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/melody.mp3",
+  "text": "Melody",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/meredith.mp3",
+  "text": "Meredith",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mia.mp3",
+  "text": "Mia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/micah.mp3",
+  "text": "Micah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/michael.mp3",
+  "text": "Michael",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mila.mp3",
+  "text": "Mila",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/miles.mp3",
+  "text": "Miles",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/millie.mp3",
+  "text": "Millie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/milo.mp3",
+  "text": "Milo",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mina.mp3",
+  "text": "Mina",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/miriam.mp3",
+  "text": "Miriam",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mohammed.mp3",
+  "text": "Mohammed",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/molly.mp3",
+  "text": "Molly",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/monty.mp3",
+  "text": "Monty",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/morgan.mp3",
+  "text": "Morgan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/moses.mp3",
+  "text": "Moses",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/muhammad.mp3",
+  "text": "Muhammad",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/musa.mp3",
+  "text": "Musa",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/mya.mp3",
+  "text": "Mya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/myla.mp3",
+  "text": "Myla",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nadia.mp3",
+  "text": "Nadia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/naomi.mp3",
+  "text": "Naomi",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/natalia.mp3",
+  "text": "Natalia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/natasha.mp3",
+  "text": "Natasha",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nathan.mp3",
+  "text": "Nathan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nathaniel.mp3",
+  "text": "Nathaniel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/neil.mp3",
+  "text": "Neil",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nell.mp3",
+  "text": "Nell",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/niamh.mp3",
+  "text": "Neev",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nicholas.mp3",
+  "text": "Nicholas",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nikhil.mp3",
+  "text": "Nikhil",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nina.mp3",
+  "text": "Nina",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/noah.mp3",
+  "text": "Noah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/noel.mp3",
+  "text": "Noel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nolan.mp3",
+  "text": "Nolan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/noor.mp3",
+  "text": "Noor",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nora.mp3",
+  "text": "Nora",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/norman.mp3",
+  "text": "Norman",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/nova.mp3",
+  "text": "Nova",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/olive.mp3",
+  "text": "Olive",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/oliver.mp3",
+  "text": "Oliver",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/olivia.mp3",
+  "text": "Olivia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/omar.mp3",
+  "text": "Omar",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ophelia.mp3",
+  "text": "Ophelia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/orion.mp3",
+  "text": "Orion",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/orla.mp3",
+  "text": "Orla",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/orson.mp3",
+  "text": "Orson",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/oscar.mp3",
+  "text": "Oscar",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/otis.mp3",
+  "text": "Otis",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/otto.mp3",
+  "text": "Otto",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/owen.mp3",
+  "text": "Owen",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/pablo.mp3",
+  "text": "Pablo",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/paige.mp3",
+  "text": "Paige",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/paisley.mp3",
+  "text": "Paisley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/paloma.mp3",
+  "text": "Paloma",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/patrick.mp3",
+  "text": "Patrick",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/paul.mp3",
+  "text": "Paul",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/pearl.mp3",
+  "text": "Pearl",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/penelope.mp3",
+  "text": "Penelope",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/percy.mp3",
+  "text": "Percy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/peter.mp3",
+  "text": "Peter",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/peyton.mp3",
+  "text": "Peyton",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/philip.mp3",
+  "text": "Philip",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/philippa.mp3",
+  "text": "Philippa",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/phoebe.mp3",
+  "text": "Phoebe",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/phoenix.mp3",
+  "text": "Phoenix",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/piper.mp3",
+  "text": "Piper",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/polly.mp3",
+  "text": "Polly",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/poppy.mp3",
+  "text": "Poppy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/priya.mp3",
+  "text": "Priya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/quentin.mp3",
+  "text": "Quentin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/quinn.mp3",
+  "text": "Quinn",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rachel.mp3",
+  "text": "Rachel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rafael.mp3",
+  "text": "Rafael",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/raheem.mp3",
+  "text": "Raheem",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rajesh.mp3",
+  "text": "Rajesh",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ralph.mp3",
+  "text": "Ralph",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rania.mp3",
+  "text": "Rania",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/raphael.mp3",
+  "text": "Raphael",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/raya.mp3",
+  "text": "Raya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rayan.mp3",
+  "text": "Rayan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rebecca.mp3",
+  "text": "Rebecca",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/reece.mp3",
+  "text": "Reece",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/reese.mp3",
+  "text": "Reese",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/reuben.mp3",
+  "text": "Reuben",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rhea.mp3",
+  "text": "Ree-uh",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rhys.mp3",
+  "text": "Rhys",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/richard.mp3",
+  "text": "Richard",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ridley.mp3",
+  "text": "Ridley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/riley.mp3",
+  "text": "Riley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/river.mp3",
+  "text": "River",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/robert.mp3",
+  "text": "Robert",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rocco.mp3",
+  "text": "Rocco",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/roman.mp3",
+  "text": "Roman",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ronan.mp3",
+  "text": "Ronan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rory.mp3",
+  "text": "Rory",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rose.mp3",
+  "text": "Rose",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rosie.mp3",
+  "text": "Rosie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ross.mp3",
+  "text": "Ross",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rowan.mp3",
+  "text": "Rowan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/roy.mp3",
+  "text": "Roy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ruby.mp3",
+  "text": "Ruby",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rudy.mp3",
+  "text": "Rudy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/rupert.mp3",
+  "text": "Rupert",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/russell.mp3",
+  "text": "Russell",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ruth.mp3",
+  "text": "Ruth",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ryan.mp3",
+  "text": "Ryan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ryder.mp3",
+  "text": "Ryder",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sadie.mp3",
+  "text": "Sadie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/saffron.mp3",
+  "text": "Saffron",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sahara.mp3",
+  "text": "Sahara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sakura.mp3",
+  "text": "Sakura",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sally.mp3",
+  "text": "Sally",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sam.mp3",
+  "text": "Sam",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/samira.mp3",
+  "text": "Samira",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/samuel.mp3",
+  "text": "Samuel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/santiago.mp3",
+  "text": "Santiago",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sara.mp3",
+  "text": "Sara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sarah.mp3",
+  "text": "Sarah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sasha.mp3",
+  "text": "Sasha",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/saul.mp3",
+  "text": "Saul",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/savannah.mp3",
+  "text": "Savannah",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sawyer.mp3",
+  "text": "Sawyer",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/scarlett.mp3",
+  "text": "Scarlett",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sebastian.mp3",
+  "text": "Sebastian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/selina.mp3",
+  "text": "Selina",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/serena.mp3",
+  "text": "Serena",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/seth.mp3",
+  "text": "Seth",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/shane.mp3",
+  "text": "Shane",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/shaun.mp3",
+  "text": "Shaun",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/shreya.mp3",
+  "text": "Shreya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sidney.mp3",
+  "text": "Sidney",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sienna.mp3",
+  "text": "Sienna",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/silas.mp3",
+  "text": "Silas",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/simon.mp3",
+  "text": "Simon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/simone.mp3",
+  "text": "Simone",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/skye.mp3",
+  "text": "Skye",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sofia.mp3",
+  "text": "Sofia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/solomon.mp3",
+  "text": "Solomon",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sophia.mp3",
+  "text": "Sophia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sophie.mp3",
+  "text": "Sophie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/spencer.mp3",
+  "text": "Spencer",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/stanley.mp3",
+  "text": "Stanley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/stefan.mp3",
+  "text": "Stefan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/stella.mp3",
+  "text": "Stella",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/stephen.mp3",
+  "text": "Stephen",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/stuart.mp3",
+  "text": "Stuart",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sullivan.mp3",
+  "text": "Sullivan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/summer.mp3",
+  "text": "Summer",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/susanna.mp3",
+  "text": "Susanna",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/sydney.mp3",
+  "text": "Sydney",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tabitha.mp3",
+  "text": "Tabitha",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/talia.mp3",
+  "text": "Talia",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tanner.mp3",
+  "text": "Tanner",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tara.mp3",
+  "text": "Tara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/ted.mp3",
+  "text": "Ted",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/teddy.mp3",
+  "text": "Teddy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tessa.mp3",
+  "text": "Tessa",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/thea.mp3",
+  "text": "Tay-uh",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/theo.mp3",
+  "text": "Theo",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/theodore.mp3",
+  "text": "Theodore",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/thomas.mp3",
+  "text": "Thomas",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tilly.mp3",
+  "text": "Tilly",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/timothy.mp3",
+  "text": "Timothy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tobias.mp3",
+  "text": "Tobias",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/toby.mp3",
+  "text": "Toby",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tom.mp3",
+  "text": "Tom",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tommy.mp3",
+  "text": "Tommy",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/travis.mp3",
+  "text": "Travis",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tristan.mp3",
+  "text": "Tristan",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/tyler.mp3",
+  "text": "Tyler",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/umar.mp3",
+  "text": "Umar",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/uriel.mp3",
+  "text": "Uriel",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/valentina.mp3",
+  "text": "Valentina",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/valentino.mp3",
+  "text": "Valentino",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/vera.mp3",
+  "text": "Vera",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/veronica.mp3",
+  "text": "Veronica",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/victor.mp3",
+  "text": "Victor",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/victoria.mp3",
+  "text": "Victoria",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/vincent.mp3",
+  "text": "Vincent",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/violet.mp3",
+  "text": "Violet",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/vivian.mp3",
+  "text": "Vivian",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/walter.mp3",
+  "text": "Walter",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/warren.mp3",
+  "text": "Warren",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/wesley.mp3",
+  "text": "Wesley",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/william.mp3",
+  "text": "William",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/willow.mp3",
+  "text": "Willow",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/winnie.mp3",
+  "text": "Winnie",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/wren.mp3",
+  "text": "Wren",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/wyatt.mp3",
+  "text": "Wyatt",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/xanthe.mp3",
+  "text": "Zan-thee",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/xavier.mp3",
+  "text": "Xavier",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/yahya.mp3",
+  "text": "Yahya",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/yara.mp3",
+  "text": "Yara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/yasmin.mp3",
+  "text": "Yasmin",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/yusuf.mp3",
+  "text": "Yusuf",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zac.mp3",
+  "text": "Zac",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zachary.mp3",
+  "text": "Zachary",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zahra.mp3",
+  "text": "Zahra",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zaid.mp3",
+  "text": "Zaid",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zainab.mp3",
+  "text": "Zainab",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zane.mp3",
+  "text": "Zane",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zara.mp3",
+  "text": "Zara",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zayn.mp3",
+  "text": "Zayn",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zion.mp3",
+  "text": "Zion",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zoe.mp3",
+  "text": "Zo-ee",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "names/zuri.mp3",
+  "text": "Zuri",
+  "rate": "-15%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
   "path": "players/player1.mp3",
   "text": "",
   "rate": "-15%",
   "pitch": "+12Hz",
   "skip": "no name set — add it to tools/tts-names.json",
-  "exists": true
+  "exists": false
  },
  {
   "path": "players/player2.mp3",
