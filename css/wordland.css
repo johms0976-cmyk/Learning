@@ -1,0 +1,452 @@
+/* ============================================================
+   WORD LAND · STYLES
+   Built landscape-first for an 11" iPad (1180 × 820 CSS px),
+   with a portrait layout underneath for phones.
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+
+:root {
+  --coral:#FF6B6B; --yellow:#FFE66D; --teal:#4ECDC4; --sky:#45B7D1;
+  --mint:#96E6A1;  --pink:#FF9FF3;   --rose:#F8A5C2; --peri:#778BEB;
+  --purple:#5B4A8A; --lav:#9B8BB4;   --lilac:#E8DFF5; --ghost:#F3EEFB;
+  --leaf:#3D7A4A;  --gold:#F0B429;
+
+  --ui: 'Fredoka', system-ui, sans-serif;
+  /* Andika is a literacy typeface: single-storey a, unambiguous b/d/p.
+     It is what the child traces, reads and matches. */
+  --glyph: 'Andika', 'Comic Sans MS', sans-serif;
+}
+
+html, body { height: 100% }
+body {
+  font-family: var(--ui);
+  color: var(--purple);
+  background: linear-gradient(175deg,#EAF6FF 0%,#F3F0FF 22%,#FFF6E8 52%,#EAFBEF 78%,#E4F3FF 100%);
+  background-attachment: fixed;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+}
+button { font-family: var(--ui); cursor: pointer; border: none }
+button:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--peri); outline-offset: 3px }
+.glyph { font-family: var(--glyph); font-weight: 700 }
+
+/* ── motion ─────────────────────────────────────────────── */
+@keyframes confettiFall { from { transform: translateY(0) rotate(0); opacity:1 } to { transform: translateY(110vh) rotate(720deg); opacity:0 } }
+@keyframes bounce  { from { transform: translateY(0) } to { transform: translateY(-12px) } }
+@keyframes float   { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-7px) } }
+@keyframes hoverer { 0%,100% { transform: translateY(-2px) rotate(-4deg) } 50% { transform: translateY(-11px) rotate(4deg) } }
+@keyframes shake   { 0%,100% { transform: translateX(0) } 20% { transform: translateX(-10px) } 40% { transform: translateX(10px) } 60% { transform: translateX(-6px) } 80% { transform: translateX(6px) } }
+@keyframes popIn   { 0% { transform: scale(0); opacity:0 } 70% { transform: scale(1.12) } 100% { transform: scale(1); opacity:1 } }
+@keyframes slideUp { from { transform: translateY(22px); opacity:0 } to { transform: translateY(0); opacity:1 } }
+@keyframes sheetUp { from { transform: translateY(100%) } to { transform: translateY(0) } }
+@keyframes ring    { 0%,100% { box-shadow: 0 0 0 0 rgba(240,180,41,.55) } 50% { box-shadow: 0 0 0 14px rgba(240,180,41,0) } }
+@keyframes reveal  { 0% { transform: scale(.4) rotateY(90deg); opacity:0 } 70% { transform: scale(1.13) rotateY(-8deg) } 100% { transform: scale(1) rotateY(0); opacity:1 } }
+@keyframes shimmer { 0%,100% { filter: brightness(1) } 50% { filter: brightness(1.2) } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important } }
+
+/* ── screens ────────────────────────────────────────────── */
+.screen { display: none; flex-direction: column; align-items: center; width: 100%; max-width: 460px;
+          margin: 0 auto; padding: 14px 16px 36px }
+.screen.active { display: flex }
+
+.bar { display: flex; align-items: center; gap: 10px; width: 100%; margin-bottom: 8px }
+.bar h1 { font-size: 20px; font-weight: 700; flex: 1; text-align: center; letter-spacing: -.3px }
+.icon-btn { background:#fff; border: 2.5px solid var(--lilac); border-radius: 50%; width: 42px; height: 42px;
+            font-size: 17px; display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 2px 9px rgba(91,74,138,.09); flex-shrink: 0; color: var(--purple) }
+.icon-btn:active { transform: scale(.9) }
+
+.big-btn { border-radius: 50px; padding: 14px 30px; font-size: 18px; font-weight: 700; color: #fff;
+           display: block; width: 100%; text-shadow: 0 1px 0 rgba(0,0,0,.12) }
+.big-btn:active { transform: translateY(3px) }
+.big-btn.primary { background: linear-gradient(135deg,var(--peri),var(--rose)); box-shadow: 0 5px 0 rgba(119,139,235,.32) }
+.big-btn.go      { background: linear-gradient(135deg,var(--mint),var(--teal)); box-shadow: 0 5px 0 rgba(78,205,196,.35) }
+.big-btn.quiet   { background: var(--ghost); color: var(--lav); box-shadow: 0 4px 0 var(--lilac);
+                   text-shadow: none; font-size: 16px; padding: 12px }
+
+/* ── map ────────────────────────────────────────────────── */
+.map-aside { width: 100% }
+.map-intro { text-align: center; margin: 2px 0 14px }
+.map-intro .title { font-size: 29px; font-weight: 700; line-height: 1.08; letter-spacing: -.6px }
+.map-intro .sub { font-size: 13.5px; color: var(--lav); font-weight: 500; margin-top: 4px; line-height: 1.35 }
+
+.book-strip { display: flex; align-items: center; gap: 10px; background: #fff; border: 3px solid var(--ghost);
+              border-radius: 18px; padding: 10px 13px; width: 100%; box-shadow: 0 4px 16px rgba(91,74,138,.07);
+              margin-bottom: 18px }
+.book-strip .bk { font-size: 25px }
+.book-strip .txt { flex: 1; font-size: 13px; font-weight: 500; color: var(--lav); line-height: 1.3 }
+.book-strip .txt b { color: var(--purple); font-weight: 600; display: block; font-size: 14.5px }
+.book-strip .go { background: linear-gradient(135deg,var(--peri),var(--rose)); color: #fff; font-weight: 600;
+                  font-size: 13px; border-radius: 30px; padding: 9px 16px; box-shadow: 0 3px 0 rgba(119,139,235,.3) }
+.book-strip .go:active { transform: translateY(2px); box-shadow: none }
+
+.trail-wrap { width: 100%; display: flex; justify-content: center }
+.trail { display: flex; flex-direction: column; align-items: center; position: relative }
+.dots { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 5px 0 }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--lilac); flex-shrink: 0 }
+.dot.done { background: var(--mint) }
+
+.tnode { display: flex; flex-direction: column; align-items: center; gap: 5px; position: relative; flex-shrink: 0;
+         transform: translateX(calc(var(--off,0) * 1px)) }
+.tnode.locked { opacity: .45 }
+.tnode:active:not(.locked) .stone { transform: scale(.93) }
+.stone { width: 74px; height: 74px; border-radius: 27px; display: flex; align-items: center; justify-content: center;
+         font-size: 33px; color: #fff; border: 4px solid #fff; position: relative; transition: transform .15s;
+         box-shadow: 0 5px 0 rgba(0,0,0,.13), 0 8px 22px rgba(91,74,138,.14) }
+.stone.locked { background: linear-gradient(135deg,#CFC8DC,#B4AAC6); font-size: 25px }
+.stone.current { animation: ring 1.9s ease infinite }
+.stone .tick { position: absolute; bottom: -6px; right: -6px; background: var(--mint); border: 3px solid #fff;
+               border-radius: 50%; width: 27px; height: 27px; font-size: 14px; display: flex;
+               align-items: center; justify-content: center }
+.stone .num { position: absolute; top: -9px; left: -9px; background: #fff; border: 2.5px solid var(--lilac);
+              color: var(--lav); border-radius: 50%; width: 25px; height: 25px; font-size: 12px; font-weight: 700;
+              display: flex; align-items: center; justify-content: center }
+.sprite { position: absolute; top: -36px; font-size: 27px; animation: hoverer 2.4s ease-in-out infinite; pointer-events: none }
+.pill { background: #fff; border: 2.5px solid var(--ghost); border-radius: 30px; padding: 4px 13px; font-size: 13.5px;
+        font-weight: 600; box-shadow: 0 3px 10px rgba(91,74,138,.07); white-space: nowrap }
+.pill .fx { color: var(--lav); font-weight: 500 }
+.stars { font-size: 13px; letter-spacing: 2.5px; height: 17px }
+
+/* ── node sheet ─────────────────────────────────────────── */
+.sheet-bg { position: fixed; inset: 0; background: rgba(60,45,95,.42); display: none; z-index: 60;
+            align-items: flex-end; justify-content: center }
+.sheet-bg.open { display: flex }
+.sheet { background: #fff; width: 100%; max-width: 480px; border-radius: 28px 28px 0 0; padding: 18px 22px 26px;
+         animation: sheetUp .3s ease both; max-height: 92vh; overflow-y: auto }
+.sheet .grab { width: 44px; height: 5px; border-radius: 5px; background: var(--lilac); margin: 0 auto 14px }
+.sheet-top { display: flex; align-items: center; gap: 13px; margin-bottom: 12px }
+.sheet-top .badge { width: 62px; height: 62px; border-radius: 22px; display: flex; align-items: center;
+                    justify-content: center; font-size: 30px; flex-shrink: 0 }
+.eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 1.4px; text-transform: uppercase; color: var(--lav) }
+.sheet-top h2 { font-size: 22px; font-weight: 700; line-height: 1.15 }
+.learn-box { background: var(--ghost); border-radius: 16px; padding: 13px 15px; margin-bottom: 12px }
+.learn-box .lbl { font-size: 11px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase;
+                  color: var(--lav); margin-bottom: 7px }
+.learn-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 9px }
+.learn-row:last-child { margin-bottom: 0 }
+.tag { background: #fff; border-radius: 10px; padding: 5px 12px; font-size: 16px; font-weight: 600;
+       box-shadow: 0 2px 7px rgba(91,74,138,.07); font-family: var(--glyph) }
+.tag.snd { background: linear-gradient(135deg,var(--yellow),#FFD166); color: #7A5B00 }
+.tag.hf  { background: linear-gradient(135deg,#E4E9FF,#EFE4FF) }
+.note { font-size: 13.5px; color: var(--lav); font-weight: 500; line-height: 1.45; margin-bottom: 14px }
+
+/* ── play screen ────────────────────────────────────────── */
+.pips { display: flex; gap: 5px; justify-content: center; margin: 6px 0 4px; flex-shrink: 0 }
+.pip { width: 9px; height: 9px; border-radius: 50%; background: var(--lilac) }
+.pip.done { background: var(--mint) }
+.pip.now  { background: var(--gold); box-shadow: 0 0 0 3px rgba(240,180,41,.25) }
+.prog-txt { font-size: 11.5px; color: var(--lav); font-weight: 500; letter-spacing: .4px; margin-bottom: 10px }
+
+.instr { font-size: 17px; font-weight: 600; text-align: center; margin-bottom: 14px; line-height: 1.3; min-height: 22px }
+.instr b { color: var(--coral); font-family: var(--glyph) }
+
+.stage { display: flex; flex-direction: column; align-items: center; width: 100%; gap: 4px }
+.stimulus { display: flex; flex-direction: column; align-items: center; width: 100% }
+.answers  { display: flex; flex-direction: column; align-items: center; width: 100% }
+
+.row  { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; max-width: 380px }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; width: 100%; max-width: 340px }
+.grid3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; width: 100%; max-width: 360px }
+
+.say-card { background: #fff; border-radius: 24px; padding: 18px 22px 14px; text-align: center;
+            border: 4px solid var(--ghost); box-shadow: 0 6px 26px rgba(91,74,138,.1); margin-bottom: 16px;
+            width: 100%; max-width: 280px }
+.say-btn { width: 86px; height: 86px; border-radius: 50%; background: linear-gradient(135deg,var(--sky),var(--teal));
+           font-size: 37px; color: #fff; animation: float 3s ease-in-out infinite;
+           box-shadow: 0 5px 0 rgba(69,183,209,.35), 0 8px 20px rgba(69,183,209,.2) }
+.say-btn:active { transform: scale(.93) translateY(3px) }
+.say-btn.letter { font-family: var(--glyph); font-weight: 700; font-size: 44px }
+.say-hint { font-size: 14.5px; color: var(--lav); font-weight: 500; margin-top: 11px }
+.say-hint b { color: var(--purple); font-weight: 600 }
+.big-pic { font-size: 66px; line-height: 1.1; cursor: pointer; user-select: none }
+
+/* ── the picture box ────────────────────────────────────────
+   A word either shows a drawing (.pic-img) or an emoji
+   (.pic-emoji), and which one it shows changes as the drawings
+   are filled in. The two must occupy exactly the same box or
+   cards will jump about mid-set.
+
+   Size the box, not the picture: 1em means every place a
+   picture appears — .big-pic at 66px, .pic-card .e at 46px,
+   .match-item.pic at 38px — already sets the size, and keeps
+   setting it in the landscape block below. Nothing here needs
+   a second set of numbers.                                    */
+.pic-img,
+.pic-emoji {
+  display: block;
+  width: 1em;
+  height: 1em;
+  margin-inline: auto;      /* the emoji used to be centred as inline
+                               text; a block of width 1em would not be */
+  line-height: 1;
+  object-fit: contain;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* the one place a picture sits in a line of text rather than in
+   a box of its own — the "like bread 🍞" hint under a sound */
+.pic-img.inline,
+.pic-emoji.inline { display: inline-block; vertical-align: -.15em; margin-inline: 0 }
+
+.pic-card { background: #fff; border-radius: 20px; border: 4px solid var(--ghost); padding: 12px 8px 9px;
+            text-align: center; box-shadow: 0 4px 18px rgba(91,74,138,.09);
+            animation: popIn .32s cubic-bezier(.34,1.56,.64,1) both }
+.pic-card:active { transform: scale(.94) }
+.pic-card .e { font-size: 46px; line-height: 1.15 }
+.pic-card .w { font-size: 15px; font-weight: 700; font-family: var(--glyph); margin-top: 3px }
+.pic-card.blank .w { display: none }
+.pic-card.wrong { animation: shake .4s ease; border-color: var(--coral) }
+.pic-card.right { border-color: var(--mint); background: linear-gradient(135deg,#EBFFF0,#F6FFF8) }
+.pic-card.nudge { border-color: var(--gold); animation: shimmer 1s ease infinite }
+.pic-card.picked { border-color: var(--peri); background: #F6F4FF }
+
+.letter-btn { min-width: 66px; height: 70px; border-radius: 17px; font-size: 34px; font-weight: 700; color: #fff;
+              padding: 0 16px; font-family: var(--glyph);
+              box-shadow: 0 5px 0 rgba(0,0,0,.15), 0 7px 18px rgba(0,0,0,.07);
+              text-shadow: 0 2px 0 rgba(0,0,0,.14); animation: popIn .32s cubic-bezier(.34,1.56,.64,1) both }
+.letter-btn:active { transform: scale(.92) translateY(3px); box-shadow: 0 2px 0 rgba(0,0,0,.15) }
+.letter-btn.used { opacity: .28; pointer-events: none }
+.letter-btn.wrong { animation: shake .4s ease }
+.letter-btn.nudge { box-shadow: 0 0 0 4px var(--gold), 0 5px 0 rgba(0,0,0,.15); animation: shimmer 1s ease infinite }
+.letter-btn.picked { box-shadow: 0 0 0 4px var(--peri), 0 5px 0 rgba(0,0,0,.15) }
+
+.word-btn { min-width: 100px; height: 64px; border-radius: 16px; font-size: 27px; font-weight: 700; color: #fff;
+            padding: 0 20px; font-family: var(--glyph);
+            box-shadow: 0 5px 0 rgba(0,0,0,.13), 0 7px 16px rgba(0,0,0,.06);
+            animation: popIn .32s cubic-bezier(.34,1.56,.64,1) both }
+.word-btn:active { transform: scale(.93) translateY(3px) }
+.word-btn.wrong { animation: shake .4s ease }
+.word-btn.nudge { box-shadow: 0 0 0 4px var(--gold), 0 5px 0 rgba(0,0,0,.13); animation: shimmer 1s ease infinite }
+
+.slots { display: flex; gap: 9px; justify-content: center; margin-bottom: 18px; flex-wrap: wrap }
+.slots.shake { animation: shake .4s ease }
+.slot { width: 60px; height: 68px; border-radius: 15px; background: #fff; border: 3.5px dashed #D4C8EF;
+        display: flex; align-items: center; justify-content: center; font-size: 34px; font-weight: 700;
+        color: var(--leaf); font-family: var(--glyph); transition: all .25s cubic-bezier(.34,1.56,.64,1) }
+.slot.filled { border: 3.5px solid var(--mint); background: linear-gradient(135deg,#EBFFF0,#F6FFF8);
+               animation: popIn .3s cubic-bezier(.34,1.56,.64,1) both }
+.slot.fixed  { border: 3.5px solid var(--lilac); background: var(--ghost); color: var(--lav) }
+.slot.active { border: 3.5px solid var(--peri); background: #F6F4FF; color: var(--peri); animation: ring 1.6s ease infinite }
+.slot.wide   { width: auto; padding: 0 16px; letter-spacing: 1px }
+
+.blend-row { display: flex; gap: 9px; justify-content: center; margin-bottom: 16px }
+.blend-l { width: 64px; height: 72px; border-radius: 16px; background: #fff; border: 3.5px solid var(--lilac);
+           display: flex; align-items: center; justify-content: center; font-size: 36px; font-weight: 700;
+           font-family: var(--glyph); opacity: .28; transition: all .35s ease }
+.blend-l.on  { opacity: 1; border-color: var(--gold); background: linear-gradient(135deg,#FFFCE9,#fff);
+               animation: reveal .45s ease both }
+.blend-l.all { border-color: var(--mint); background: linear-gradient(135deg,#EBFFF0,#F6FFF8); color: var(--leaf) }
+
+.sound-btn { background: linear-gradient(135deg,var(--gold),#FFD166); border-radius: 40px; padding: 12px 24px;
+             font-size: 16px; font-weight: 600; color: #6B4E00; box-shadow: 0 4px 0 rgba(240,180,41,.4);
+             margin-bottom: 14px }
+.sound-btn:active { transform: translateY(3px); box-shadow: none }
+.sound-btn:disabled { opacity: .5 }
+
+.flash { background: #fff; border-radius: 22px; border: 4px solid var(--ghost); padding: 22px 32px; margin-bottom: 10px;
+         box-shadow: 0 6px 26px rgba(91,74,138,.1); text-align: center; min-width: 200px }
+.flash .w { font-size: 48px; font-weight: 700; font-family: var(--glyph); cursor: pointer }
+.flash .s { font-size: 14px; color: var(--lav); font-weight: 500; margin-top: 6px }
+
+/* ── find the letter (hunt) ─────────────────────────────── */
+.hunt-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 9px; width: 100%; max-width: 380px }
+.hunt-cell { aspect-ratio: 1; border-radius: 16px; background: #fff; border: 3.5px solid var(--ghost);
+             display: flex; align-items: center; justify-content: center; font-size: 34px; font-weight: 700;
+             box-shadow: 0 3px 12px rgba(91,74,138,.07) }
+.hunt-cell:active { transform: scale(.93) }
+.hunt-cell.got { border-color: var(--mint); background: linear-gradient(135deg,#EBFFF0,#F6FFF8); color: var(--leaf) }
+.hunt-cell.wrong { animation: shake .4s ease; border-color: var(--coral) }
+.hunt-cell.nudge { border-color: var(--gold); animation: shimmer 1s ease infinite }
+.font-a { font-family: var(--glyph) }
+.font-b { font-family: var(--ui) }
+.font-c { font-family: Georgia, 'Times New Roman', serif }
+
+/* ── match letters to pictures ──────────────────────────── */
+.match-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; max-width: 400px; align-items: center }
+.match-col { display: flex; flex-direction: column; gap: 10px }
+.match-item { background: #fff; border: 3.5px solid var(--ghost); border-radius: 16px; padding: 8px;
+              display: flex; align-items: center; justify-content: center; min-height: 66px;
+              box-shadow: 0 3px 12px rgba(91,74,138,.07); font-size: 34px; font-weight: 700; font-family: var(--glyph) }
+.match-item.pic { font-family: var(--ui); font-size: 38px }
+.match-item:active { transform: scale(.96) }
+.match-item.picked { border-color: var(--peri); background: #F6F4FF }
+.match-item.done { border-color: var(--mint); background: linear-gradient(135deg,#EBFFF0,#F6FFF8); opacity: .75 }
+.match-item.wrong { animation: shake .4s ease; border-color: var(--coral) }
+
+/* ── trace ──────────────────────────────────────────────── */
+.trace-card { background: #fff; border-radius: 26px; border: 4px solid var(--ghost); padding: 12px;
+              box-shadow: 0 6px 26px rgba(91,74,138,.1); touch-action: none }
+.trace-canvas { display: block; border-radius: 18px; background:
+  repeating-linear-gradient(0deg, #FBF9FF 0 22px, #F5F1FD 22px 23px); touch-action: none; cursor: crosshair }
+.trace-tools { display: flex; gap: 9px; justify-content: center; margin-top: 12px; flex-wrap: wrap }
+.tool-btn { background: #fff; border: 3px solid var(--lilac); border-radius: 40px; padding: 10px 20px;
+            font-size: 15px; font-weight: 600; color: var(--lav) }
+.tool-btn:active { transform: scale(.95) }
+.tool-btn.done { background: linear-gradient(135deg,var(--mint),var(--teal)); color: #fff; border-color: transparent;
+                 box-shadow: 0 4px 0 rgba(78,205,196,.35) }
+.trace-score { font-size: 13.5px; font-weight: 500; color: var(--lav); text-align: center; margin-top: 8px; min-height: 20px }
+
+/* ── cheer ──────────────────────────────────────────────── */
+.cheer { position: fixed; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center;
+         z-index: 80; background: rgba(255,255,255,.84); backdrop-filter: blur(3px); pointer-events: none }
+.cheer.on { display: flex }
+.cheer .e { font-size: 80px; animation: bounce .5s ease infinite alternate }
+.cheer .t { font-size: 29px; font-weight: 700; margin-top: 8px; animation: popIn .4s cubic-bezier(.34,1.56,.64,1) both }
+.cheer .w { font-size: 21px; font-weight: 600; color: var(--lav); margin-top: 2px; font-family: var(--glyph) }
+
+/* Zib, when the praise is a real one. He is hidden for the quick
+   ticks — popping up eight times a minute would make him wallpaper
+   rather than an event. */
+.cheer-zib { display: none }
+.cheer-zib.on { display: block; animation: popIn .42s cubic-bezier(.34,1.56,.64,1) both }
+.cheer-zib .zib { --zib-size: 128px }
+.cheer.on .e.small { font-size: 46px }
+@media (max-height: 460px) { .cheer-zib .zib { --zib-size: 96px } }
+@media (prefers-reduced-motion: reduce) { .cheer-zib.on { animation: none } }
+
+/* ── place complete ─────────────────────────────────────── */
+.done-screen { justify-content: center; text-align: center; animation: slideUp .45s ease both }
+.done-screen .art { font-size: 72px; animation: bounce .6s ease infinite alternate }
+.done-screen h1 { font-size: 29px; font-weight: 700; margin: 10px 0 2px }
+.done-screen .sub { font-size: 15px; color: var(--lav); font-weight: 500; line-height: 1.4 }
+.big-stars { font-size: 42px; letter-spacing: 8px; margin: 8px 0 4px }
+.reward { background: #fff; border: 4px dashed var(--gold); border-radius: 22px; padding: 16px; margin: 14px 0 18px;
+          width: 100%; max-width: 420px; animation: popIn .5s cubic-bezier(.34,1.56,.64,1) .3s both }
+.reward .k { font-size: 11px; font-weight: 600; letter-spacing: 1.4px; text-transform: uppercase; color: var(--gold) }
+.reward .n { font-size: 20px; font-weight: 700; margin-top: 3px }
+.done-actions { display: flex; flex-direction: column; gap: 9px; width: 100%; max-width: 420px }
+
+/* ── story ──────────────────────────────────────────────── */
+.story-card { background: #fff; border-radius: 26px; border: 4px solid var(--ghost); padding: 24px 24px 20px;
+              width: 100%; box-shadow: 0 8px 32px rgba(91,74,138,.12); animation: slideUp .45s ease both }
+.story-card .page { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase;
+                    color: var(--lav); text-align: center }
+.story-card .art { font-size: 62px; text-align: center; line-height: 1.2; margin: 6px 0 2px; animation: float 4s ease-in-out infinite }
+.story-card h2 { font-size: 24px; font-weight: 700; text-align: center; margin-bottom: 14px; line-height: 1.2 }
+.story-card p { font-size: 21px; font-weight: 500; line-height: 1.6; margin-bottom: 10px; font-family: var(--glyph) }
+.hl { color: var(--coral); font-weight: 700; border-bottom: 3px solid var(--yellow); padding-bottom: 1px; cursor: pointer }
+.read-btn { background: linear-gradient(135deg,var(--sky),var(--teal)); border-radius: 40px; padding: 12px 24px;
+            font-size: 15.5px; font-weight: 600; color: #fff; box-shadow: 0 4px 0 rgba(69,183,209,.32);
+            margin: 10px auto 0; display: block }
+.read-btn:active { transform: translateY(3px); box-shadow: none }
+.tap-note { font-size: 12px; color: #BCB0D0; text-align: center; margin-top: 12px }
+
+/* ── storybook shelf ────────────────────────────────────── */
+.shelf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100% }
+.shelf-card { background: #fff; border-radius: 18px; border: 3px solid var(--ghost); padding: 14px 11px;
+              text-align: center; box-shadow: 0 4px 16px rgba(91,74,138,.07) }
+.shelf-card:active { transform: scale(.95) }
+.shelf-card.locked { background: var(--ghost); border-style: dashed; border-color: var(--lilac); box-shadow: none; opacity: .75 }
+.shelf-card .e { font-size: 34px; line-height: 1.2 }
+.shelf-card .t { font-size: 13.5px; font-weight: 600; margin-top: 4px; line-height: 1.25 }
+.shelf-card .p { font-size: 10.5px; color: var(--lav); font-weight: 500; letter-spacing: .8px;
+                 text-transform: uppercase; margin-top: 2px }
+
+/* ── grown-ups ──────────────────────────────────────────── */
+.gate-bg { position: fixed; inset: 0; background: rgba(60,45,95,.5); display: none; align-items: center;
+           justify-content: center; z-index: 90; padding: 20px }
+.gate-bg.open { display: flex }
+.gate { background: #fff; border-radius: 24px; padding: 24px 22px; max-width: 340px; width: 100%;
+        text-align: center; animation: popIn .3s ease both }
+.gate h3 { font-size: 19px; font-weight: 700; margin-bottom: 4px }
+.gate p { font-size: 13.5px; color: var(--lav); font-weight: 500; margin-bottom: 14px }
+.gate input { width: 100%; height: 54px; border-radius: 14px; border: 3px solid var(--lilac); background: var(--ghost);
+              text-align: center; font-family: var(--ui); font-size: 23px; font-weight: 600; color: var(--purple); outline: none }
+.gate input:focus { border-color: var(--peri); background: #fff }
+.gate .btns { display: flex; gap: 8px; margin-top: 12px }
+.gate .btns button { flex: 1; border-radius: 40px; padding: 12px; font-size: 15px; font-weight: 600 }
+.gate .btns .ok { background: linear-gradient(135deg,var(--coral),var(--rose)); color: #fff }
+.gate .btns .no { background: var(--ghost); color: var(--lav) }
+
+.panel { background: #fff; border: 3px solid var(--ghost); border-radius: 18px; padding: 14px 16px; width: 100%;
+         box-shadow: 0 4px 16px rgba(91,74,138,.07); margin-bottom: 12px }
+.panel h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px }
+.panel .meter { height: 10px; border-radius: 10px; background: var(--lilac); overflow: hidden; margin: 8px 0 6px }
+.panel .meter i { display: block; height: 100%; background: linear-gradient(90deg,var(--mint),var(--teal)) }
+.panel .small { font-size: 12.5px; color: var(--lav); font-weight: 500; line-height: 1.5 }
+.file-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; max-height: 190px; overflow-y: auto }
+.file-chip { font-size: 11.5px; font-weight: 500; border-radius: 8px; padding: 4px 8px; background: var(--ghost); color: var(--lav) }
+.file-chip.found { background: #EBFFF0; color: var(--leaf) }
+.switch-row { display: flex; align-items: center; gap: 12px; width: 100% }
+.switch-row .mid { flex: 1 }
+.switch { width: 56px; height: 32px; border-radius: 30px; background: var(--lilac); position: relative; flex-shrink: 0 }
+.switch.on { background: var(--mint) }
+.switch i { position: absolute; top: 3px; left: 3px; width: 26px; height: 26px; border-radius: 50%; background: #fff;
+            transition: left .18s ease; box-shadow: 0 2px 6px rgba(0,0,0,.15) }
+.switch.on i { left: 27px }
+
+.confetti-c { position: fixed; inset: 0; pointer-events: none; z-index: 99 }
+.confetti-p { position: absolute; top: -20px }
+.foot { font-size: 11.5px; color: #C4BAD6; text-align: center; margin-top: 20px; line-height: 1.5 }
+
+/* ============================================================
+   LANDSCAPE — the iPad layout this is really built for
+   ============================================================ */
+@media (min-width: 760px) and (orientation: landscape) {
+
+  body { overflow: hidden }
+  .screen { max-width: none; height: 100vh; height: 100dvh; padding: 16px 26px;
+            display: none; }
+  .screen.active { display: flex }
+
+  /* map: fixed panel on the left, trail running away to the right */
+  #mapScreen { flex-direction: row; align-items: stretch; gap: 24px; padding-right: 0 }
+  .map-aside { width: 268px; flex-shrink: 0; display: flex; flex-direction: column; justify-content: center }
+  .map-intro { text-align: left; margin: 0 0 18px }
+  .map-intro .title { font-size: 34px }
+  .map-intro .sub { font-size: 14px }
+  .map-aside .bar { justify-content: flex-start; margin-bottom: 20px }
+  .map-aside .bar h1 { text-align: left; font-size: 17px }
+  .trail-wrap { flex: 1; overflow-x: auto; overflow-y: hidden; align-items: center;
+                justify-content: flex-start; -webkit-overflow-scrolling: touch;
+                scroll-snap-type: x proximity; padding-right: 40px }
+  .trail { flex-direction: row; align-items: center; padding: 40px 8px }
+  .tnode { transform: translateY(calc(var(--off,0) * 1px)); scroll-snap-align: center }
+  .dots { flex-direction: row; gap: 9px; padding: 0 5px }
+  .dot { transform: none !important }
+  .foot { display: none }
+
+  /* play: stimulus on the left, answers on the right */
+  #playScreen { padding-bottom: 10px }
+  .stage { flex: 1; display: grid; grid-template-columns: minmax(260px, 360px) 1fr; gap: 34px;
+           align-items: center; justify-items: center; width: 100%; max-width: 1080px; margin: 0 auto;
+           min-height: 0 }
+  .stimulus { justify-content: center }
+  .answers  { justify-content: center }
+  .stage.single { grid-template-columns: 1fr }        /* games that want the full width */
+  .stage.single .stimulus:empty { display: none }
+  .say-card { margin-bottom: 0 }
+  .row   { max-width: 560px; gap: 12px }
+  .grid2 { max-width: 420px; gap: 14px }
+  .grid3 { max-width: 520px }
+  .pic-card .e { font-size: 54px }
+  .hunt-grid { max-width: 520px; grid-template-columns: repeat(6,1fr) }
+  .hunt-cell { font-size: 38px }
+  .match-wrap { max-width: 620px; gap: 26px }
+  .match-item { min-height: 76px; font-size: 38px }
+  .match-item.pic { font-size: 44px }
+  .big-pic { font-size: 84px }
+  .instr { font-size: 21px; margin-bottom: 10px }
+  .letter-btn { min-width: 76px; height: 82px; font-size: 40px }
+  .word-btn { height: 72px; font-size: 30px }
+  .slot { width: 68px; height: 78px; font-size: 40px }
+  .blend-l { width: 74px; height: 84px; font-size: 42px }
+
+  /* the rest of the screens simply centre a column */
+  #doneScreen, #storyScreen, #shelfScreen, #dashScreen { align-items: center; overflow-y: auto }
+  #doneScreen > *, #storyScreen > *, #shelfScreen > *, #dashScreen > * { max-width: 620px; width: 100% }
+  .done-screen { justify-content: center }
+  .shelf-grid { grid-template-columns: repeat(5,1fr) }
+  .story-card p { font-size: 24px }
+  .sheet { max-width: 620px; border-radius: 28px; margin-bottom: 0 }
+}
+
+/* very wide (external display) — keep things from stretching */
+@media (min-width: 1400px) and (orientation: landscape) {
+  .stage { max-width: 1180px }
+}
