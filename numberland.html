@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#FFF8E7">
+<title>Number Land</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Andika:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/hub.css">
+<link rel="stylesheet" href="css/numberland.css">
+</head>
+
+<body class="nl">
+
+<!-- ══════════════════════════════════════════════════════════
+     THE TRAIL — every place, locked until the one before it
+     ══════════════════════════════════════════════════════════ -->
+<div class="nl-page" id="nlMap">
+  <h1>Number Land</h1>
+  <p class="sub">Ten places on each map. Ten questions in each place.</p>
+
+  <div class="nl-maps" id="nlMaps"></div>
+  <div class="nl-trail" id="nlTrail"></div>
+
+  <div style="text-align:center;margin-top:20px;display:flex;gap:10px;
+              justify-content:center;flex-wrap:wrap">
+    <button class="nl-go" id="nlMixed" hidden>Anything goes</button>
+    <a class="nl-map-btn" href="index.html" style="text-decoration:none;display:inline-block">
+      ← All the games
+    </a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     A ROUND
+     ------------------------------------------------------------
+     The three bands never move: what is being asked stays in
+     the same place all game, and so does everything that is
+     touched to answer it.
+     ══════════════════════════════════════════════════════════ -->
+<div class="nl-screen" id="nlPlay" hidden>
+  <div class="nl-bar">
+    <button class="nl-icon" id="nlBack" aria-label="Back to the map">←</button>
+    <h1 id="nlTitle">Number Land</h1>
+    <div class="nl-pips" id="nlPips"></div>
+    <button class="nl-icon" id="nlGear" aria-label="Grown-ups">⚙️</button>
+  </div>
+
+  <div class="nl-ask" id="nlAsk" role="button" tabindex="0">
+    <span class="spk">🔊</span><span>Ready?</span>
+  </div>
+
+  <div class="nl-stage" id="nlStage"></div>
+
+  <div class="nl-tell" id="nlTell"></div>
+  <div class="nl-turn">🔄 Turn the iPad sideways for more room</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     THE END OF A PLACE
+     ══════════════════════════════════════════════════════════ -->
+<div class="nl-page" id="nlWon" hidden><div id="nlWin"></div></div>
+
+<!-- ══════════════════════════════════════════════════════════
+     GROWN-UPS
+     ══════════════════════════════════════════════════════════ -->
+<div class="nl-page" id="nlSet" hidden><div id="nlSetBody"></div></div>
+
+<div class="nl-flash" id="nlFlash" aria-hidden="true"></div>
+
+<!-- The reading games' own layers. Number Land uses them when
+     they are there — the same recorded voice, the same child's
+     profile — and works without them, so this page can also be
+     opened on its own. -->
+<script src="js/profiles.js" onerror="void 0"></script>
+<script src="js/wordland-voices.js" onerror="void 0"></script>
+<script src="js/wordland-audio.js" onerror="void 0"></script>
+
+<script src="js/numberland-data.js"></script>
+<script src="js/numberland.js"></script>
+
+</body>
+</html>
