@@ -1,0 +1,265 @@
+diff --git a/js/numberland-data.js b/js/numberland-data.js
+index 66db403..457f18d 100644
+--- a/js/numberland-data.js
++++ b/js/numberland-data.js
+@@ -40,8 +40,11 @@
+ const NLData = (() => {
+ 
+ /* ── how each number is said ────────────────────────────────
+-   Also the audio filename: 7 is heard from
+-   audio/numberland/numbers/seven.mp3 */
++   Also the audio filename. Number Land speaks through Word
++   Land's audio layer rather than having one of its own, so 7 is
++   heard from audio/wordland/words/seven.mp3 — the same file the
++   reading games use — and from the matching folder inside
++   whichever voice pack is chosen. */
+ const WORD = ['zero','one','two','three','four','five','six','seven','eight',
+               'nine','ten','eleven','twelve','thirteen','fourteen','fifteen',
+               'sixteen','seventeen','eighteen','nineteen','twenty'];
+@@ -355,7 +358,10 @@ const NAMES = {
+ /* ── what Zib says ─────────────────────────────────────────
+    Praise is deliberately about the effort and the method, not
+    about the child: "you counted them all" rather than "clever
+-   girl". Recorded as audio/numberland/praise/<slug>.mp3 */
++   girl". Recorded twice, as every praise line is: rising in
++   audio/wordland/praise/<slug>.mp3 so it can run into the
++   child's name, and finished in phrases/<slug>.mp3 for when no
++   name is recorded. */
+ const PRAISE = ['Yes!','You got it','That\'s it','Well counted','Good looking',
+                 'Right every time','You saw it','Nice work'];
+ 
+diff --git a/record-voice.command b/record-voice.command
+index 946656c..355cf1a 100644
+--- a/record-voice.command
++++ b/record-voice.command
+@@ -6,6 +6,10 @@
+ #  American woman, American man — then rebuilds the manifest so
+ #  the games can find them.
+ #
++#  Covers all four games. Number Land speaks through the same
++#  audio layer as the reading games, so its number words land in
++#  words/ alongside everything else and need nothing separate.
++#
+ #  Each pack is a folder under audio/wordland/voices/ holding the
+ #  same tree as the plain folders. A grown-up picks one in
+ #  Grown-ups settings; anything a pack is missing falls back to
+@@ -20,8 +24,8 @@
+ cd "$(dirname "$0")" || exit 1
+ 
+ echo ""
+-echo "  Word Land — voice generator"
+-echo "  ==========================="
++echo "  Voice generator — Word Land, Spell It, Write It, Number Land"
++echo "  ==========================================================="
+ echo ""
+ 
+ fail() { echo ""; echo "  ✗ $1"; echo ""; read -r -p "  Press Return to close."; exit 1; }
+@@ -46,6 +50,7 @@ echo "  node $(node --version)   $($PY --version)"
+ [ -f tools/tts-spec.js ] || fail "tools/tts-spec.js is missing. Check it is in the tools folder."
+ [ -f tools/tts-generate.py ] || fail "tools/tts-generate.py is missing. Check it is in the tools folder."
+ [ -f tools/names-list.js ] || fail "tools/names-list.js is missing. Check it is in the tools folder."
++[ -f js/numberland-data.js ] || fail "js/numberland-data.js is missing — the number words come from it."
+ 
+ # ── 4. edge-tts ─────────────────────────────────────────────
+ if ! $PY -c "import edge_tts" >/dev/null 2>&1; then
+@@ -108,17 +113,19 @@ if [ -n "$PACK" ]; then
+   echo ""
+   echo "  1) 10 files first, so you can listen     [recommended]"
+   echo "  2) Just the names"
+-  echo "  3) Everything"
+-  echo "  4) List it without making anything"
++  echo "  3) Just the number words        (Number Land, quick)"
++  echo "  4) Everything"
++  echo "  5) List it without making anything"
+   echo "  ------------------------------------------------------"
+-  read -r -p "  Choose 1-4: " how
++  read -r -p "  Choose 1-5: " how
+   echo ""
+ 
+   case "$how" in
+     1) $PY tools/tts-generate.py --pack "$PACK" --only phrases --limit 10 ;;
+     2) $PY tools/tts-generate.py --pack "$PACK" --only names ;;
+-    3) $PY tools/tts-generate.py --pack "$PACK" ;;
+-    4) $PY tools/tts-generate.py --pack "$PACK" --dry-run; bye ;;
++    3) $PY tools/tts-generate.py --pack "$PACK" --only words --only phrases --only praise ;;
++    4) $PY tools/tts-generate.py --pack "$PACK" ;;
++    5) $PY tools/tts-generate.py --pack "$PACK" --dry-run; bye ;;
+     *) echo "  Nothing done."; bye ;;
+   esac
+ fi
+diff --git a/record-voice.sh b/record-voice.sh
+index 946656c..355cf1a 100644
+--- a/record-voice.sh
++++ b/record-voice.sh
+@@ -6,6 +6,10 @@
+ #  American woman, American man — then rebuilds the manifest so
+ #  the games can find them.
+ #
++#  Covers all four games. Number Land speaks through the same
++#  audio layer as the reading games, so its number words land in
++#  words/ alongside everything else and need nothing separate.
++#
+ #  Each pack is a folder under audio/wordland/voices/ holding the
+ #  same tree as the plain folders. A grown-up picks one in
+ #  Grown-ups settings; anything a pack is missing falls back to
+@@ -20,8 +24,8 @@
+ cd "$(dirname "$0")" || exit 1
+ 
+ echo ""
+-echo "  Word Land — voice generator"
+-echo "  ==========================="
++echo "  Voice generator — Word Land, Spell It, Write It, Number Land"
++echo "  ==========================================================="
+ echo ""
+ 
+ fail() { echo ""; echo "  ✗ $1"; echo ""; read -r -p "  Press Return to close."; exit 1; }
+@@ -46,6 +50,7 @@ echo "  node $(node --version)   $($PY --version)"
+ [ -f tools/tts-spec.js ] || fail "tools/tts-spec.js is missing. Check it is in the tools folder."
+ [ -f tools/tts-generate.py ] || fail "tools/tts-generate.py is missing. Check it is in the tools folder."
+ [ -f tools/names-list.js ] || fail "tools/names-list.js is missing. Check it is in the tools folder."
++[ -f js/numberland-data.js ] || fail "js/numberland-data.js is missing — the number words come from it."
+ 
+ # ── 4. edge-tts ─────────────────────────────────────────────
+ if ! $PY -c "import edge_tts" >/dev/null 2>&1; then
+@@ -108,17 +113,19 @@ if [ -n "$PACK" ]; then
+   echo ""
+   echo "  1) 10 files first, so you can listen     [recommended]"
+   echo "  2) Just the names"
+-  echo "  3) Everything"
+-  echo "  4) List it without making anything"
++  echo "  3) Just the number words        (Number Land, quick)"
++  echo "  4) Everything"
++  echo "  5) List it without making anything"
+   echo "  ------------------------------------------------------"
+-  read -r -p "  Choose 1-4: " how
++  read -r -p "  Choose 1-5: " how
+   echo ""
+ 
+   case "$how" in
+     1) $PY tools/tts-generate.py --pack "$PACK" --only phrases --limit 10 ;;
+     2) $PY tools/tts-generate.py --pack "$PACK" --only names ;;
+-    3) $PY tools/tts-generate.py --pack "$PACK" ;;
+-    4) $PY tools/tts-generate.py --pack "$PACK" --dry-run; bye ;;
++    3) $PY tools/tts-generate.py --pack "$PACK" --only words --only phrases --only praise ;;
++    4) $PY tools/tts-generate.py --pack "$PACK" ;;
++    5) $PY tools/tts-generate.py --pack "$PACK" --dry-run; bye ;;
+     *) echo "  Nothing done."; bye ;;
+   esac
+ fi
+diff --git a/tools/full-audio-list.js b/tools/full-audio-list.js
+index 2f9b95c..a0da1a5 100644
+--- a/tools/full-audio-list.js
++++ b/tools/full-audio-list.js
+@@ -1,9 +1,15 @@
+-/* Builds the complete list of every audio file the three games can ask for.
++/* Builds the complete list of every audio file the four games can ask for.
+    Reads the same tables the games read, so it can't drift. */
+ const fs = require('fs'), path = require('path');
+ const R = path.join(__dirname, '..');
+ const D = require(path.join(R, 'js/wordland-data.js'));
+ 
++/* Number Land borrows Word Land's audio layer rather than having one
++   of its own, so its recordings live in the same folders — a number
++   word is words/seven.mp3, the same file the reading games use. That
++   is why this file loads both tables. */
++const NL = require(path.join(R, 'js/numberland-data.js'));
++
+ /* the games' own slug(), copied from js/wordland-audio.js */
+ const slug = s => String(s).toLowerCase().trim()
+   .replace(/['’.,!?]/g, '').replace(/\s+/g, '-')
+@@ -166,6 +172,77 @@ NAMES.forEach(n => add('names', nameSlug(n), {
+   say: n, from: 'name library', note: 'said on its own, finished — it lands after a rising line'
+ }));
+ 
++/* ── 9. NUMBER LAND ───────────────────────────────────────────
++   Nothing here is a new folder. Number Land speaks through
++   WLAudio, so a number word is words/seven.mp3 and a bit of
++   praise is praise/well-counted.mp3, exactly as in the reading
++   games. Everything below therefore lands in the four voice
++   packs on the next run with no other change. */
++
++/* The number words, zero to twenty. Most of the small ones are
++   already here from the reading maps — eleven upwards are not,
++   and those are the ones a counting game leans on hardest. */
++NL.WORD.forEach((w, n) => word(w, 'Number Land \u00b7 the number ' + n));
++
++/* Zib's nudges, when a count comes out wrong. */
++NL.NUDGE.forEach(l => add('phrases', slug(l), {
++  say: l, from: 'Number Land \u00b7 nudge', note: null
++}));
++
++/* Number Land praise. Same two-halves rule as everywhere else:
++   rising in praise/ so it can run into the child's name, and
++   finished in phrases/ for when no name is recorded. */
++NL.PRAISE.forEach(l => {
++  add('praise', slug(l), {
++    say: l, from: 'Number Land \u00b7 praise',
++    note: 'record RISING — runs into the child\u2019s name'
++  });
++  add('phrases', slug(l), {
++    say: l, from: 'Number Land \u00b7 praise, said on its own',
++    note: 'the finished version — heard when the name is not recorded'
++  });
++});
++
++/* The fixed lines inside js/numberland.js — "Count the empty
++   ones" and friends. Read out of the source so the list cannot
++   fall behind the game.
++
++   Anything built by joining strings together is skipped: "Five
++   and three is eight" is a different sentence every time it is
++   said, so there is no file it could ever be. Those keep coming
++   from the tablet's own voice, which is the right answer for
++   them. */
++const nlSrc = fs.readFileSync(path.join(R, 'js/numberland.js'), 'utf8');
++const STRING = /'(?:[^'\\\n]|\\.)*'|"(?:[^"\\\n]|\\.)*"/g;
++const nlFixed = [], nlComposed = [];
++const callRe = /Say\.(phrase|cheer)\(/g;
++let cm;
++while ((cm = callRe.exec(nlSrc))) {
++  /* walk to the matching close paren, ignoring parens in strings */
++  let i = callRe.lastIndex, depth = 1, inStr = null;
++  while (i < nlSrc.length && depth > 0) {
++    const c = nlSrc[i];
++    if (inStr) { if (c === '\\') i++; else if (c === inStr) inStr = null; }
++    else if (c === "'" || c === '"') inStr = c;
++    else if (c === '(') depth++;
++    else if (c === ')') depth--;
++    i++;
++  }
++  const arg = nlSrc.slice(callRe.lastIndex, i - 1);
++  if (/\+/.test(arg)) { nlComposed.push(arg.replace(/\s+/g, ' ')); continue; }
++  (arg.match(STRING) || []).forEach(s => nlFixed.push({ text: eval(s), kind: cm[1] }));
++}
++nlFixed.forEach(({ text, kind }) => {
++  add(kind === 'cheer' ? 'praise' : 'phrases', slug(text), {
++    say: text, from: 'Number Land \u00b7 spoken line',
++    note: kind === 'cheer' ? 'record RISING — runs into the child\u2019s name' : null
++  });
++  if (kind === 'cheer') add('phrases', slug(text), {
++    say: text, from: 'Number Land \u00b7 spoken line, said on its own',
++    note: 'the finished version — heard when the name is not recorded'
++  });
++});
++
+ /* ── what already exists ─────────────────────────────────────
+    Pass a pack id ('uk-male') to ask about a voice folder instead
+    of the plain one. '' is the originals. */
+@@ -190,7 +267,8 @@ function packs() {
+   return [...new Set(['uk-female','uk-male','us-female','us-male', ...found])].sort();
+ }
+ 
+-module.exports = { out, have, haveIn, packs, slug, nameSlug, D, zibCount, MAX, KINDS, NAMES };
++module.exports = { out, have, haveIn, packs, slug, nameSlug, D, NL,
++                   zibCount, MAX, KINDS, NAMES, nlFixed, nlComposed };
+ 
+ if (require.main === module) {
+   const pack = process.argv[2] === '--pack' ? (process.argv[3] || '') : '';
+@@ -206,4 +284,7 @@ if (require.main === module) {
+   console.log('-'.repeat(34));
+   console.log('TOTAL'.padEnd(9) + String(total).padStart(4) + '   recorded: ' + done + '   to do: ' + (total - done));
+   console.log('Zib lines parsed: ' + zibCount + ' · profile seats: ' + MAX + ' · names: ' + NAMES.length);
++  console.log('Number Land: ' + NL.WORD.length + ' number words · '
++    + nlFixed.length + ' fixed lines · '
++    + nlComposed.length + ' built on the spot (tablet voice, never files)');
+ }
