@@ -7246,6 +7246,76 @@
   "exists": false
  },
  {
+  "path": "words/eleven.mp3",
+  "text": "eleven",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/twelve.mp3",
+  "text": "twelve",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/thirteen.mp3",
+  "text": "thirteen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fourteen.mp3",
+  "text": "fourteen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/fifteen.mp3",
+  "text": "fifteen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/sixteen.mp3",
+  "text": "sixteen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/seventeen.mp3",
+  "text": "seventeen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/eighteen.mp3",
+  "text": "eighteen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/nineteen.mp3",
+  "text": "nineteen",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
+  "path": "words/twenty.mp3",
+  "text": "twenty",
+  "rate": "-20%",
+  "pitch": "+5Hz",
+  "exists": false
+ },
+ {
   "path": "story/chapter1.mp3",
   "text": "The wind blew Zib into the moss. A monkey and a mouse were hiding there. 'Mmm,' said the monkey. 'That is my sound!' Zib put M in the bag. One letter home.",
   "rate": "-18%",
@@ -8569,6 +8639,104 @@
   "exists": false
  },
  {
+  "path": "phrases/nearly-one-more-try.mp3",
+  "text": "Nearly — one more try",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/look-again.mp3",
+  "text": "Look again",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/thats-it.mp3",
+  "text": "That's it",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/well-counted.mp3",
+  "text": "Well counted",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/good-looking.mp3",
+  "text": "Good looking",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/right-every-time.mp3",
+  "text": "Right every time",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/you-saw-it.mp3",
+  "text": "You saw it",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/nice-work.mp3",
+  "text": "Nice work",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/one-of-these-two-which-one.mp3",
+  "text": "One of these two. Which one?",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/start-again-put-them-in-one-at-a-time-and-count.mp3",
+  "text": "Start again. Put them in one at a time and count.",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/count-the-empty-ones.mp3",
+  "text": "Count the empty ones",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/these-are-the-ones-still-here.mp3",
+  "text": "These are the ones still here",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/look-at-the-ones-with-nobody-underneath.mp3",
+  "text": "Look at the ones with nobody underneath",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
+  "path": "phrases/every-one-first-time.mp3",
+  "text": "Every one first time",
+  "rate": "-12%",
+  "pitch": "+12Hz",
+  "exists": false
+ },
+ {
   "path": "praise/hello.mp3",
   "text": "Hello,",
   "rate": "-12%",
@@ -8690,6 +8858,55 @@
  {
   "path": "praise/look-at-that.mp3",
   "text": "Look at that,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/thats-it.mp3",
+  "text": "That's it,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/well-counted.mp3",
+  "text": "Well counted,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/good-looking.mp3",
+  "text": "Good looking,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/right-every-time.mp3",
+  "text": "Right every time,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/you-saw-it.mp3",
+  "text": "You saw it,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/nice-work.mp3",
+  "text": "Nice work,",
+  "rate": "-12%",
+  "pitch": "+18Hz",
+  "exists": false
+ },
+ {
+  "path": "praise/every-one-first-time.mp3",
+  "text": "Every one first time,",
   "rate": "-12%",
   "pitch": "+18Hz",
   "exists": false
