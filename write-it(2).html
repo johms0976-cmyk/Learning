@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#F3F0FF">
+<title>Write It — Letter Writing Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Andika:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --purple:#5B4A8A;--lav:#9B8BB4;--lilac:#E8DFF5;--ghost:#F3EEFB;
+  --teal:#3FA6A0;--coral:#FF6B6B;--gold:#F0B429;--mint:#96E6A1;--ink:#2E2A55;
+}
+html,body{height:100%}
+body{
+  font-family:'Fredoka',system-ui,sans-serif;
+  background:linear-gradient(170deg,#FFF8E7 0%,#F6ECFB 40%,#EAF2FF 75%,#E8F8F1 100%);
+  color:var(--purple);min-height:100%;display:flex;flex-direction:column;align-items:center;
+  -webkit-tap-highlight-color:transparent;overflow-x:hidden;
+  padding:max(10px,env(safe-area-inset-top)) 14px max(18px,env(safe-area-inset-bottom));
+}
+
+/* ── screens ── */
+.screen{display:none;flex-direction:column;align-items:center;width:100%;max-width:520px;flex:1}
+.screen.active{display:flex}
+
+/* ── bars ── */
+.bar{display:flex;align-items:center;gap:10px;width:100%;margin-bottom:12px}
+.bar h1{flex:1;text-align:center;font-size:21px;font-weight:700;letter-spacing:.2px}
+.icon-btn{background:#fff;border:2px solid var(--lilac);border-radius:50%;width:40px;height:40px;
+  font-size:17px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  box-shadow:0 2px 8px rgba(91,74,138,.08);color:var(--purple);font-family:inherit}
+.icon-btn:active{transform:scale(.93)}
+.icon-btn.wide{width:auto;border-radius:22px;padding:0 14px;gap:6px;font-size:14px;font-weight:600}
+
+/* ── home ── */
+.hero{text-align:center;margin:6px 0 18px}
+.hero .glyph{font-family:'Andika',sans-serif;font-size:56px;font-weight:700;color:var(--purple);line-height:1}
+.hero .glyph i{color:var(--gold);font-style:normal}
+.hero h2{font-size:27px;font-weight:700;margin-top:2px}
+.hero p{font-size:14px;color:var(--lav);font-weight:500;margin-top:3px}
+
+.menu{display:flex;flex-direction:column;gap:12px;width:100%}
+.game-card{display:flex;align-items:center;gap:14px;background:#fff;border:3px solid var(--ghost);
+  border-radius:22px;padding:14px;cursor:pointer;text-align:left;width:100%;font-family:inherit;
+  box-shadow:0 6px 20px rgba(91,74,138,.08);transition:transform .12s}
+.game-card:active{transform:scale(.975)}
+.game-card .art{width:56px;height:56px;border-radius:17px;display:flex;align-items:center;justify-content:center;
+  font-size:28px;flex-shrink:0;color:#fff}
+.game-card h3{font-size:17px;font-weight:700;color:var(--purple)}
+.game-card p{font-size:13px;color:var(--lav);font-weight:500;line-height:1.35;margin-top:2px}
+.game-card .go{margin-left:auto;font-size:19px;color:var(--lav);flex-shrink:0}
+
+.foot-note{font-size:12px;color:var(--lav);text-align:center;margin-top:18px;line-height:1.5}
+
+/* ── letter picker ── */
+.pick-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:9px;width:100%}
+.pick{background:#fff;border:3px solid var(--ghost);border-radius:16px;padding:8px 2px 6px;cursor:pointer;
+  font-family:'Andika',sans-serif;font-size:24px;font-weight:700;color:var(--purple);position:relative;
+  box-shadow:0 3px 12px rgba(91,74,138,.07);transition:transform .12s}
+.pick:active{transform:scale(.94)}
+.pick.done{border-color:var(--mint);background:linear-gradient(135deg,#EFFFF3,#fff)}
+.pick .tick{position:absolute;top:-6px;right:-4px;font-size:14px;display:none}
+.pick.done .tick{display:block}
+/* four choices now (a b c / A B C / Aa / 1 2 3), so it has to
+   survive a narrow phone — it shrinks before it wraps */
+.seg{display:flex;gap:6px;background:var(--ghost);border-radius:20px;padding:4px;
+  margin:0 auto 14px;width:fit-content;max-width:100%;flex-wrap:wrap;justify-content:center}
+.seg button{border:0;background:transparent;font-family:inherit;font-size:13px;font-weight:600;color:var(--lav);
+  padding:7px 15px;border-radius:16px;cursor:pointer;white-space:nowrap}
+@media (max-width:400px){ .seg button{padding:7px 10px;font-size:12.5px} }
+.seg button.on{background:#fff;color:var(--purple);box-shadow:0 2px 8px rgba(91,74,138,.1)}
+
+/* ── the writing card ── */
+.word-strip{display:flex;gap:5px;justify-content:center;flex-wrap:wrap;margin-bottom:8px;min-height:34px}
+.word-strip span{font-family:'Andika',sans-serif;font-size:26px;font-weight:700;color:var(--lilac);
+  min-width:20px;text-align:center;line-height:1.2}
+.word-strip span.now{color:var(--gold);border-bottom:3px solid var(--gold)}
+.word-strip span.ok{color:var(--teal)}
+
+.pips{display:flex;gap:7px;justify-content:center;margin-bottom:9px;min-height:12px}
+.pip{width:11px;height:11px;border-radius:50%;background:var(--lilac)}
+.pip.now{background:var(--gold);transform:scale(1.25)}
+.pip.ok{background:var(--teal)}
+
+.pad-card{background:#fff;border-radius:26px;padding:9px;box-shadow:0 10px 30px rgba(91,74,138,.12);
+  border:3px solid #fff;touch-action:none}
+#pad{display:block;border-radius:19px;touch-action:none}
+
+.hint{font-size:14px;font-weight:600;color:var(--lav);text-align:center;margin:11px 0 3px;
+  min-height:20px;line-height:1.35;padding:0 6px}
+.hint.good{color:var(--teal)}
+.hint.oops{color:var(--coral)}
+
+.tools{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-top:9px}
+.tool{background:#fff;border:2px solid var(--lilac);border-radius:20px;padding:10px 16px;font-family:inherit;
+  font-size:14px;font-weight:600;color:var(--purple);cursor:pointer;box-shadow:0 3px 12px rgba(91,74,138,.07)}
+.tool:active{transform:scale(.95)}
+.tool.go{background:var(--teal);border-color:var(--teal);color:#fff}
+.tool.gold{background:var(--gold);border-color:var(--gold);color:#fff}
+
+/* ── word chips ── */
+.chips{display:flex;flex-wrap:wrap;gap:9px;width:100%;justify-content:center}
+.chip{background:#fff;border:3px solid var(--ghost);border-radius:18px;padding:11px 17px;cursor:pointer;
+  font-family:'Andika',sans-serif;font-size:20px;font-weight:700;color:var(--purple);
+  box-shadow:0 3px 12px rgba(91,74,138,.07)}
+.chip:active{transform:scale(.95)}
+.chip.done{border-color:var(--mint)}
+.chip.mine{border-color:#CFE3FF}
+
+/* ── grown-ups ── */
+.panel{background:#fff;border-radius:22px;padding:16px;width:100%;margin-bottom:13px;
+  box-shadow:0 6px 20px rgba(91,74,138,.08)}
+.panel h3{font-size:15px;font-weight:700;margin-bottom:4px}
+.panel p{font-size:13px;color:var(--lav);font-weight:500;line-height:1.5}
+.row{display:flex;gap:8px;margin-top:11px}
+input.txt{flex:1;font-family:inherit;font-size:16px;padding:11px 13px;border:2px solid var(--lilac);
+  border-radius:14px;color:var(--purple);background:var(--ghost);min-width:0}
+input.txt:focus{outline:none;border-color:var(--teal);background:#fff}
+.mine-list{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+.mine-list .m{background:var(--ghost);border-radius:14px;padding:7px 10px;font-size:14px;font-weight:600;
+  display:flex;align-items:center;gap:7px}
+.mine-list .m button{border:0;background:transparent;color:var(--coral);font-size:15px;cursor:pointer;font-family:inherit}
+.big-btn{width:100%;border:0;border-radius:19px;padding:14px;font-family:inherit;font-size:16px;font-weight:700;
+  cursor:pointer;background:var(--teal);color:#fff;margin-top:6px}
+.big-btn.quiet{background:var(--ghost);color:var(--lav)}
+
+/* ── overlays ── */
+.gate-bg{position:fixed;inset:0;background:rgba(60,48,90,.5);display:none;align-items:center;justify-content:center;
+  padding:20px;z-index:60;backdrop-filter:blur(3px)}
+.gate-bg.open{display:flex}
+.gate{background:#fff;border-radius:24px;padding:22px;width:100%;max-width:320px;text-align:center}
+.gate h3{font-size:18px;margin-bottom:6px}
+.gate p{font-size:15px;color:var(--lav);font-weight:600;margin-bottom:12px}
+.gate input{width:100%;font-family:inherit;font-size:20px;text-align:center;padding:12px;border:2px solid var(--lilac);
+  border-radius:14px;color:var(--purple);background:var(--ghost);margin-bottom:12px}
+.gate .btns{display:flex;gap:9px}
+.gate .btns button{flex:1;border:0;border-radius:15px;padding:12px;font-family:inherit;font-size:15px;font-weight:700;cursor:pointer}
+.gate .no{background:var(--ghost);color:var(--lav)}
+.gate .ok{background:var(--teal);color:#fff}
+
+.cheer{position:fixed;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;
+  background:rgba(255,255,255,.86);z-index:70;pointer-events:none}
+.cheer.on{display:flex;animation:pop .3s ease}
+.cheer .e{font-size:76px}
+.cheer .t{font-size:25px;font-weight:700;color:var(--teal);margin-top:6px}
+.cheer .w{font-family:'Andika',sans-serif;font-size:40px;font-weight:700;color:var(--purple);margin-top:4px}
+@keyframes pop{from{transform:scale(.8);opacity:0}to{transform:scale(1);opacity:1}}
+
+@media (min-width:760px) and (orientation:landscape){
+  .screen{max-width:660px}
+  .hero{margin:2px 0 12px}
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════════ HOME ══════════════ -->
+<div id="homeScreen" class="screen active">
+  <div class="bar">
+    <button class="icon-btn" onclick="location.href='index.html'" aria-label="All games">🏠</button>
+    <h1>Write It</h1>
+    <button class="icon-btn" onclick="askGrownUp(openDash)" aria-label="Grown-ups">⚙️</button>
+  </div>
+
+  <div class="hero">
+    <div class="glyph">A<i>a</i> B<i>b</i> C<i>c</i></div>
+    <h2>Let's write letters</h2>
+    <p id="homeProg">Follow the numbers and the arrows</p>
+  </div>
+
+  <div class="menu">
+    <button class="game-card" onclick="openPicker()">
+      <div class="art" style="background:linear-gradient(135deg,#8C6FD1,#523A88)">✏️</div>
+      <div><h3>Trace the letters</h3>
+        <p>Pick any letter. Follow the numbered strokes with your finger.</p></div>
+      <div class="go">→</div>
+    </button>
+
+    <button class="game-card" onclick="startListen()">
+      <div class="art" style="background:linear-gradient(135deg,#58C5BE,#2C837E)">👂</div>
+      <div><h3>Listen and write</h3>
+        <p>Hear a sound, then write that letter on your own.</p></div>
+      <div class="go">→</div>
+    </button>
+
+    <button class="game-card" onclick="openWords()">
+      <div class="art" style="background:linear-gradient(135deg,#FFC44D,#D98E12)">📝</div>
+      <div><h3>Write a word</h3>
+        <p>Write a whole word, one letter at a time.</p></div>
+      <div class="go">→</div>
+    </button>
+  </div>
+
+  <p class="foot-note">Start on the yellow dot ①, follow the arrow to the end.<br>
+    A grown-up can add their own words in ⚙️.</p>
+</div>
+
+<!-- ══════════════ LETTER PICKER ══════════════ -->
+<div id="pickScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="toHome()" aria-label="Back">←</button>
+    <h1>Pick a letter</h1>
+    <div style="width:40px"></div>
+  </div>
+  <div class="seg" id="caseSeg">
+    <button onclick="setCase('lower')">a b c</button>
+    <button onclick="setCase('upper')">A B C</button>
+    <button onclick="setCase('both')">Aa</button>
+    <button onclick="setCase('digits')">1 2 3</button>
+  </div>
+  <div class="pick-grid" id="pickGrid"></div>
+  <p class="foot-note">A green tick means you have written it before.</p>
+</div>
+
+<!-- ══════════════ WORD PICKER ══════════════ -->
+<div id="wordScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="toHome()" aria-label="Back">←</button>
+    <h1>Pick a word</h1>
+    <button class="icon-btn" onclick="askGrownUp(openDash)" aria-label="Grown-ups">⚙️</button>
+  </div>
+  <div class="chips" id="wordChips"></div>
+  <p class="foot-note">Blue words are the ones a grown-up added.</p>
+</div>
+
+<!-- ══════════════ WRITING ══════════════ -->
+<div id="padScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="quitPad()" aria-label="Back">←</button>
+    <h1 id="padTitle">A</h1>
+    <button class="icon-btn" onclick="hearIt()" aria-label="Hear it">🔊</button>
+  </div>
+  <div class="word-strip" id="wordStrip"></div>
+  <div class="pips" id="pips"></div>
+  <div class="pad-card"><canvas id="pad"></canvas></div>
+  <p class="hint" id="hint"></p>
+  <div class="tools" id="tools"></div>
+</div>
+
+<!-- ══════════════ GROWN-UPS ══════════════ -->
+<div id="dashScreen" class="screen">
+  <div class="bar">
+    <button class="icon-btn" onclick="toHome()" aria-label="Back">←</button>
+    <h1>Grown-ups</h1>
+    <div style="width:40px"></div>
+  </div>
+  <div id="dashBody" style="width:100%"></div>
+</div>
+
+<!-- ══════════════ OVERLAYS ══════════════ -->
+<div class="gate-bg" id="gateBg">
+  <div class="gate">
+    <h3>Grown-ups only</h3>
+    <p id="gateQ">What is 8 + 5?</p>
+    <input id="gateIn" inputmode="numeric" autocomplete="off">
+    <div class="btns">
+      <button class="no" onclick="closeGate()">Cancel</button>
+      <button class="ok" onclick="submitGate()">Enter</button>
+    </div>
+    <p style="font-size:12px;margin-top:9px" id="gateMsg"></p>
+  </div>
+</div>
+
+<div class="cheer" id="cheer">
+  <div class="e" id="cheerE">🎉</div>
+  <div class="t" id="cheerT">Well done!</div>
+  <div class="w" id="cheerW"></div>
+</div>
+
+<svg id="mathSvg" width="0" height="0" aria-hidden="true"
+     style="position:absolute;left:-9999px;top:0"><path id="mathPath"></path></svg>
+
+<script src="js/profiles.js"></script>
+<script src="js/wordland-data.js"></script>
+<script src="js/wordland-voices.js"></script>
+<script src="js/wordland-audio.js"></script>
+
+<!-- The letter shapes. Tried in js/ first, then beside this file, so it
+     works whichever way the folder is arranged. -->
+<script src="js/writeit-letters.js"></script>
+<script>
+if(typeof LETTERFORMS === 'undefined'){
+  document.write('<script src="writeit-letters.js"><\/script>');
+}
+</script>
+<script>
+/* ============================================================
+   WRITE IT
+   ------------------------------------------------------------
+   Three ways to practise forming letters:
+     1  trace a letter, stroke by stroke, following the arrows
+     2  hear a sound and write that letter unaided
+     3  write a whole word, one letter at a time
+
+   The letter shapes live in js/writeit-letters.js — edit that
+   file if your school teaches a stroke a different way.
+   ============================================================ */
+
+const $ = id => document.getElementById(id);
+const M = (typeof WI_METRICS !== 'undefined') ? WI_METRICS : { W:100, TOP:10, MID:60, BASE:110, DESC:140 };
+const BOX_H = 150;                      // design height of one letter cell
+const TOL = 14;                         // how far off the line is still fine (design units)
+const AHEAD = 0.34;                     // how far ahead of yourself you may jump
+const FINISH = 0.86;                    // get this far along and the stroke counts as written
+const NEAR = 0.72;                      // ...or this far, if they lift off having given it a real go
+const EASE = 4;                         // extra slack granted after each unsuccessful try
+const EASE_MAX = 3;                     // ...up to three times, then the demo plays
+const LEAD_IN = 0.15;                   // may start this far along the line instead of exactly on the dot
+
+/* ── saving ─────────────────────────────────────────────── */
+/* Each child keeps their own progress. The hub puts their player
+   number on the end of the save key, so nothing here changes except
+   where it is written. Opened on its own, with nobody chosen, the key
+   stays bare and behaves exactly as it did before profiles existed. */
+const PROF = (typeof Profiles !== 'undefined') ? Profiles : null;
+const SAVE_KEY = PROF ? PROF.key('writeIt1') : 'writeIt1';
+let DB = load();
+
+function fresh(){ return { v:1, letters:{}, words:{}, mine:[], case:'lower' } }
+function load(){
+  try {
+    const raw = localStorage.getItem(SAVE_KEY);
+    if(raw){ const d = JSON.parse(raw); return Object.assign(fresh(), d) }
+  } catch(e) {}
+  return fresh();
+}
+function save(){ try { localStorage.setItem(SAVE_KEY, JSON.stringify(DB)) } catch(e) {} }
+
+/* ── audio: the recordings if they exist, the computer voice if not ── */
+const HAS_WL = typeof WLAudio !== 'undefined';
+/* A digit is named, never sounded out. "5" says "five" — there
+   is no such thing as the sound a 5 makes, and asking the letter
+   layer for one gets you the letter S. The names live in the
+   same words/ folder the reading games use, so a recorded
+   "five" is heard here and in Number Land both. */
+const NUMWORD = {'0':'zero','1':'one','2':'two','3':'three','4':'four',
+                 '5':'five','6':'six','7':'seven','8':'eight','9':'nine'};
+
+const Say = {
+  sound(ch){
+    if(NUMWORD[ch]) return this.word(NUMWORD[ch]);
+    const up = ch.toUpperCase();
+    if(HAS_WL) return WLAudio.sound(up);
+    this.plain(typeof SOUND !== 'undefined' && SOUND[up] ? SOUND[up] : up, 0.55);
+  },
+  word(w){
+    if(HAS_WL) return WLAudio.word(w);
+    this.plain(String(w).toLowerCase(), 0.62);
+  },
+  line(t, rate){
+    if(HAS_WL) return WLAudio.line(t, rate || 0.8, 1.15);
+    this.plain(t, rate || 0.8);
+  },
+  /* praise — carries the child's name now and then */
+  praise(t, rate){
+    if(HAS_WL) return WLAudio.praise(t, rate || 0.85, 1.15);
+    this.plain(t, rate || 0.85);
+  },
+  plain(text, rate){
+    if(!window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
+    try {
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(String(text));
+      u.rate = rate || 0.8; u.pitch = 1.12;
+      speechSynthesis.speak(u);
+    } catch(e) {}
+  },
+  stop(){ if(HAS_WL) WLAudio.stop(); else if(window.speechSynthesis){ try{ speechSynthesis.cancel() }catch(e){} } }
+};
+
+/* ── words to write ─────────────────────────────────────── */
+const BUILT_IN = ['at','am','it','in','I','sat','mat','cat','bat','hat','rat','fat',
+                  'Sam','man','mum','sun','tin','tap','map','cap'];
+function allWords(){ return BUILT_IN.concat(DB.mine.filter(w => !BUILT_IN.includes(w))) }
+
+/* ── screens ────────────────────────────────────────────── */
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+function toHome(){
+  teardown(); Say.stop();
+  const n = Object.keys(DB.letters).length;
+  $('homeProg').textContent = n
+    ? n + (n === 1 ? ' letter written so far' : ' letters written so far')
+    : 'Follow the numbers and the arrows';
+  showScreen('homeScreen');
+}
+
+/* ════════════════════════════════════════════════════════════
+   GEOMETRY — turn a path into a list of points we can follow
+   ════════════════════════════════════════════════════════════ */
+const mathPath = $('mathPath');
+function samplePath(d){
+  mathPath.setAttribute('d', d);
+  let len = 0;
+  try { len = mathPath.getTotalLength() } catch(e) { len = 0 }
+  const pts = [];
+  if(!len){ return pts }
+  const step = 2.2, n = Math.max(2, Math.ceil(len / step));
+  for(let i = 0; i <= n; i++){
+    const p = mathPath.getPointAtLength(len * i / n);
+    pts.push({ x:p.x, y:p.y });
+  }
+  return pts;
+}
+function tangent(pts, i, back){
+  const a = pts[Math.max(0, i - (back ? 0 : 1))], b = pts[Math.min(pts.length - 1, i + (back ? 1 : 0))];
+  const dx = b.x - a.x, dy = b.y - a.y, m = Math.hypot(dx, dy) || 1;
+  return { x: dx/m, y: dy/m };
+}
+
+/* ════════════════════════════════════════════════════════════
+   THE WRITING PAD
+   ════════════════════════════════════════════════════════════ */
+let P = null;         // the live pad, or null
+let padToken = 0;
+
+/* mode:  'trace'  guided, checks every stroke
+          'free'   no guide at all, the child writes it themselves  */
+function buildPad(ch, mode){
+  const mine = ++padToken;
+
+  /* If the letter shapes never loaded, say so out loud. Without this the
+     pad is just a blank white box and there is nothing to go on. */
+  if(typeof LETTERFORMS === 'undefined' || !LETTERFORMS){
+    tip('The letter shapes did not load. Check that writeit-letters.js '
+      + 'sits in the js folder next to this page.', 'oops');
+    return;
+  }
+
+  const glyph = LETTERFORMS[ch] || LETTERFORMS[ch.toLowerCase()] || LETTERFORMS[ch.toUpperCase()];
+  if(!glyph){ tip('That letter is not in the book yet.', 'oops'); return }
+
+  const canvas = $('pad');
+  const size = padSize();
+  const dpr = Math.min(window.devicePixelRatio || 1, 3);
+  canvas.style.width = size.w + 'px';
+  canvas.style.height = size.h + 'px';
+  canvas.width = Math.round(size.w * dpr);
+  canvas.height = Math.round(size.h * dpr);
+  const ctx = canvas.getContext('2d');
+  if(!ctx){ $('hint').textContent = 'This screen cannot draw. Try another browser.'; return }
+
+  const scale = size.w / M.W;                     // design units → css px
+  ctx.setTransform(dpr * scale, 0, 0, dpr * scale, 0, 0);
+
+  const strokes = glyph.map(st => st.dot
+    ? { dot:{ x:st.dot[0], y:st.dot[1] }, pts:[{ x:st.dot[0], y:st.dot[1] }], done:false, ink:[] }
+    : { d:st.d, pts:samplePath(st.d), done:false, ink:[] });
+
+  P = { ch, mode, ctx, canvas, scale, size, strokes, badges:badgeSpots(strokes),
+        cur:0, reach:0, tries:0, last:null, drawing:false, ink:[], showModel:false, demoT:null, mine, finished:false };
+
+  if(mode === 'free'){ P.cur = -1 }               // nothing to follow
+  bind();
+  paint();
+  paintPips();
+  return P;
+}
+
+function padSize(){
+  const scr = document.querySelector('.screen.active');
+  const avail = Math.min((scr ? scr.clientWidth : window.innerWidth) - 26, 430);
+  const chrome = window.innerWidth > window.innerHeight ? 250 : 312;   // bars, hint, tools
+  const byHeight = Math.floor((window.innerHeight - chrome) * (M.W / BOX_H));
+  const w = Math.max(200, Math.min(avail, byHeight));
+  return { w, h: Math.round(w * BOX_H / M.W) };
+}
+
+/* ── drawing ────────────────────────────────────────────── */
+const C = { line:'#E3DAF3', mid:'#EFE9F9', base:'#C9BCE6',
+            ghost:'#E2D8F4', dots:'#C6B2EC', done:'#7C5CD6',
+            ink:'#2E2A55', badge:'#F0B429', badgeOff:'#D6CBEE' };
+
+function paint(){
+  if(!P) return;
+  const { ctx } = P;
+  ctx.clearRect(0, 0, M.W, BOX_H);
+
+  /* paper */
+  ctx.fillStyle = '#FDFCFF';
+  roundRect(ctx, 1, 1, M.W - 2, BOX_H - 2, 7); ctx.fill();
+
+  /* the handwriting lines */
+  ctx.lineWidth = 0.8; ctx.strokeStyle = C.line;
+  hline(ctx, M.TOP);
+  ctx.lineWidth = 1.6; ctx.strokeStyle = C.base;
+  hline(ctx, M.BASE);
+  ctx.lineWidth = 0.9; ctx.strokeStyle = C.mid;
+  ctx.setLineDash([3, 3.5]); hline(ctx, M.MID); ctx.setLineDash([]);
+  ctx.lineWidth = 0.7; ctx.strokeStyle = C.mid;
+  ctx.setLineDash([2, 4]); hline(ctx, M.DESC); ctx.setLineDash([]);
+
+  const guide = (P.mode === 'trace') || P.showModel;
+
+  /* the letter to follow */
+  if(guide){
+    P.strokes.forEach((s, i) => {
+      if(s.dot){
+        ctx.beginPath(); ctx.arc(s.dot.x, s.dot.y, 4.5, 0, 7);
+        ctx.fillStyle = s.done ? C.done : C.ghost; ctx.fill();
+        return;
+      }
+      const path = new Path2D(s.d);
+      ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+      if(s.done){
+        ctx.lineWidth = 8; ctx.strokeStyle = C.done; ctx.setLineDash([]);
+        ctx.stroke(path);
+      } else {
+        ctx.lineWidth = 8.5; ctx.strokeStyle = C.ghost; ctx.setLineDash([]);
+        ctx.stroke(path);
+        ctx.lineWidth = 1.6; ctx.strokeStyle = C.dots; ctx.setLineDash([2.6, 3.4]);
+        ctx.stroke(path); ctx.setLineDash([]);
+      }
+    });
+  }
+
+  /* the child's own ink */
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.lineWidth = 6.5; ctx.strokeStyle = C.ink; ctx.setLineDash([]);
+  P.ink.forEach(poly => {
+    if(poly.length < 2) {
+      if(poly.length === 1){ ctx.beginPath(); ctx.arc(poly[0].x, poly[0].y, 3.2, 0, 7); ctx.fillStyle = C.ink; ctx.fill() }
+      return;
+    }
+    ctx.beginPath(); ctx.moveTo(poly[0].x, poly[0].y);
+    for(let i = 1; i < poly.length; i++) ctx.lineTo(poly[i].x, poly[i].y);
+    ctx.stroke();
+  });
+
+  /* numbers, arrows, and where to start */
+  if(P.mode === 'trace'){
+    P.strokes.forEach((s, i) => { if(!s.done) badge(ctx, s, P.badges[i], i + 1, i === P.cur) });
+    const s = P.strokes[P.cur];
+    if(s && !s.done) arrows(ctx, s);
+  }
+
+  /* the moving dot when we demonstrate */
+  if(P.demoAt){
+    ctx.beginPath(); ctx.arc(P.demoAt.x, P.demoAt.y, 5, 0, 7);
+    ctx.fillStyle = C.badge; ctx.fill();
+    ctx.lineWidth = 1.6; ctx.strokeStyle = '#fff'; ctx.stroke();
+  }
+}
+function hline(ctx, y){ ctx.beginPath(); ctx.moveTo(5, y); ctx.lineTo(M.W - 5, y); ctx.stroke() }
+function roundRect(ctx, x, y, w, h, r){
+  ctx.beginPath();
+  ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
+}
+
+/* Where do the numbers go? Try each side of the stroke and the space just
+   before it, keep whichever sits in the most white space, then push apart
+   any that still landed on each other (B, E, P and friends start two
+   strokes from the same corner). */
+function badgeSpots(strokes){
+  const all = [];
+  strokes.forEach(s => s.pts.forEach(p => all.push(p)));
+  const clamp = v => ({ x:Math.max(8, Math.min(M.W - 8, v.x)), y:Math.max(8, Math.min(BOX_H - 8, v.y)) });
+  const nearest = (q, list) => {
+    let n = 1e9;
+    for(const a of list){ const d = Math.hypot(a.x - q.x, a.y - q.y); if(d < n) n = d }
+    return n;
+  };
+  const placed = [];
+  return strokes.map(s => {
+    if(s.dot){ const q = clamp({ x:s.dot.x, y:s.dot.y - 11 }); placed.push(q); return q }
+    const n = s.pts.length, cands = [];
+    [0.04, 0.12, 0.26].forEach(f => {
+      const k = Math.min(n - 1, Math.max(1, Math.round(n * f)));
+      const p = s.pts[k], t = tangent(s.pts, k, false);
+      [11, 15].forEach(r => {
+        cands.push({ x:p.x - t.y * r, y:p.y + t.x * r });
+        cands.push({ x:p.x + t.y * r, y:p.y - t.x * r });
+      });
+    });
+    const t0 = tangent(s.pts, Math.min(1, n - 1), false);
+    cands.push({ x:s.pts[0].x - t0.x * 12, y:s.pts[0].y - t0.y * 12 });
+
+    let best = null, bestScore = -1e9;
+    cands.forEach(c => {
+      const q = clamp(c);
+      const pulled = Math.abs(q.x - c.x) + Math.abs(q.y - c.y);
+      const score = Math.min(nearest(q, all), 16)                       // clear of the letter
+                  + (placed.length ? Math.min(nearest(q, placed), 16) * 1.3 : 6)   // clear of other numbers
+                  - pulled * 0.6;                                       // not squashed against the edge
+      if(score > bestScore){ bestScore = score; best = q }
+    });
+    placed.push(best);
+    return best;
+  });
+}
+
+function badge(ctx, s, at, n, active){
+  ctx.beginPath(); ctx.arc(at.x, at.y, 6.4, 0, 7);
+  ctx.fillStyle = active ? C.badge : C.badgeOff; ctx.fill();
+  ctx.fillStyle = '#fff'; ctx.font = '700 8px Fredoka, sans-serif';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText(String(n), at.x, at.y + 0.4);
+  if(active){
+    const p0 = s.pts[0];
+    ctx.beginPath(); ctx.arc(p0.x, p0.y, 4.4, 0, 7);
+    ctx.fillStyle = C.badge; ctx.fill();
+    ctx.lineWidth = 1.4; ctx.strokeStyle = '#fff'; ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(at.x, at.y); ctx.lineTo(p0.x, p0.y);
+    ctx.lineWidth = 0.9; ctx.strokeStyle = C.badge; ctx.setLineDash([1.6, 2]);
+    ctx.stroke(); ctx.setLineDash([]);
+  }
+}
+
+/* arrowheads along the stroke, so the direction is obvious */
+function arrows(ctx, s){
+  if(s.dot || s.pts.length < 4) return;
+  const at = [s.pts.length - 1];
+  if(s.pts.length > 22) at.unshift(Math.round(s.pts.length * 0.55));
+  at.forEach(i => {
+    const p = s.pts[i], t = tangent(s.pts, i, false);
+    const a = Math.atan2(t.y, t.x), L = 6.2, spread = 0.42;
+    ctx.beginPath();
+    ctx.moveTo(p.x, p.y);
+    ctx.lineTo(p.x - L * Math.cos(a - spread), p.y - L * Math.sin(a - spread));
+    ctx.lineTo(p.x - L * 0.55 * Math.cos(a), p.y - L * 0.55 * Math.sin(a));
+    ctx.lineTo(p.x - L * Math.cos(a + spread), p.y - L * Math.sin(a + spread));
+    ctx.closePath();
+    ctx.fillStyle = C.badge; ctx.fill();
+  });
+}
+
+function paintPips(){
+  if(!P){ $('pips').innerHTML = ''; return }
+  if(P.mode === 'free'){ $('pips').innerHTML = ''; return }
+  $('pips').innerHTML = P.strokes.map((s, i) =>
+    `<div class="pip${s.done ? ' ok' : i === P.cur ? ' now' : ''}"></div>`).join('');
+}
+
+/* ── following the child's finger ──────────────────────────
+   PALM REJECTION.
+
+   A child writing on an iPad with a finger nearly always parks
+   a knuckle, or the heel of the hand, on the glass a moment
+   after the index finger has set off. The tablet reports that
+   as a second, equal pointer, and without the guards below it
+   wrecks the letter three separate ways:
+
+     · its moves get appended to the SAME polyline, so the ink
+       leaps back and forth between finger and knuckle
+     · its press restarts the stroke, and in trace mode trips
+       the "start on the dot" check, so the child is told off
+       for something their hand did
+     · its lift ends the stroke the finger is still drawing,
+       which is why the letter can never be finished
+
+   The rule is simple: ONE pointer owns the pad at a time. The
+   first contact claims it; everything after is ignored until
+   that contact lifts.
+
+   With one exception, or a child who rests their hand BEFORE
+   they start would find the pad already taken and could never
+   draw at all. So a contact that has not actually gone
+   anywhere is not writing, and a later contact may take the
+   pad from it — but only if the newcomer is a good deal
+   smaller (a fingertip against a knuckle), or the incumbent
+   has sat perfectly still for the best part of a second.
+   Hands rest. Fingers move.
+   ---------------------------------------------------------- */
+
+const PALM_PX   = 46;   // a contact fatter than this, in css px, is a hand and not a fingertip
+const REST_SLOP = 2.5;  // travel (in the 100-wide letter box) under which a contact counts as resting
+const REST_MS   = 900;  // how long a motionless contact may hold the pad before it can be taken
+
+function bind(){
+  const c = P.canvas;
+
+  P.padId   = null;   // the one pointer allowed to draw right now
+  P.padMove = 0;      // how far it has travelled — a resting hand stays near zero
+  P.padW    = 0;      // how fat it was when it landed
+  P.padT    = 0;      // when it landed
+
+  /* how wide the contact patch is. Pointer events call it
+     width/height, the old touch events call it radiusX/radiusY,
+     and some browsers report neither — hence the zero, which
+     every size test below reads as "don't know, don't guess". */
+  const sizeOf = s => {
+    if(s.pointerType && s.pointerType !== 'touch') return 0;
+    const w = s.width  != null ? s.width  : (s.radiusX != null ? s.radiusX * 2 : 0);
+    const h = s.height != null ? s.height : (s.radiusY != null ? s.radiusY * 2 : 0);
+    return Math.max(w || 0, h || 0);
+  };
+
+  /* which pointer an event is about */
+  const idOf = e => e.pointerId !== undefined ? e.pointerId
+    : (e.changedTouches && e.changedTouches.length ? e.changedTouches[0].identifier : 'mouse');
+
+  /* is the pad's own pointer among the ones this event carries? */
+  const hasId = (e, id) => {
+    if(e.pointerId !== undefined) return e.pointerId === id;
+    const l = e.changedTouches;
+    if(!l) return id === 'mouse';
+    for(let i = 0; i < l.length; i++) if(l[i].identifier === id) return true;
+    return false;
+  };
+
+  /* the source for OUR pointer specifically — never touches[0],
+     which quietly becomes the palm the moment the finger lifts */
+  const srcOf = (e, id) => {
+    if(e.pointerId !== undefined) return e;
+    const l = (e.changedTouches && e.changedTouches.length) ? e.changedTouches : e.touches;
+    if(!l || !l.length) return e;
+    for(let i = 0; i < l.length; i++) if(l[i].identifier === id) return l[i];
+    return l[0];
+  };
+
+  const at = (e, id) => {
+    const r = c.getBoundingClientRect(), p = srcOf(e, id);
+    return { x:(p.clientX - r.left) / r.width * M.W, y:(p.clientY - r.top) / r.height * BOX_H };
+  };
+
+  P.onDown = e => {
+    e.preventDefault();
+    if(P.finished) return;
+
+    const id = idOf(e), w = sizeOf(srcOf(e, id));
+
+    if(w > PALM_PX) return;                       // the flat of the hand — never a pen stroke
+
+    if(P.padId !== null){
+      const resting = P.padMove <= REST_SLOP;
+      const smaller = P.padW > 0 && w > 0 && w < P.padW * 0.75;
+      const stale   = (performance.now() - P.padT) > REST_MS;
+      if(!(resting && (smaller || stale))) return;   // a knuckle mid-letter: ignore it entirely
+      if(P.drawing && P.poly) P.ink.pop();           // it was a resting hand — bin its dab of ink
+    }
+
+    P.padId = id; P.padMove = 0; P.padW = w; P.padT = performance.now();
+    if(e.pointerId !== undefined && c.setPointerCapture){
+      try{ c.setPointerCapture(e.pointerId) }catch(_){}
+    }
+
+    stopDemo();
+    const p = at(e, id);
+    P.drawing = true;
+    P.poly = [p]; P.ink.push(P.poly);
+    if(P.mode === 'trace') startCheck(p);
+    paint();
+  };
+
+  P.onMove = e => {
+    if(!P.drawing || P.padId === null || !hasId(e, P.padId)) return;
+    e.preventDefault();
+    const p = at(e, P.padId), q = P.poly[P.poly.length - 1];
+    P.padMove += Math.abs(p.x - q.x) + Math.abs(p.y - q.y);
+    P.poly.push(p);
+    if(P.mode === 'trace') follow(p);
+    paint();
+  };
+
+  /* quiet:true for a cancelled stroke — the child did nothing
+     wrong, so they should not be nagged about it */
+  const release = quiet => {
+    P.padId = null; P.padMove = 0; P.padW = 0;
+    if(!P.drawing) return;
+    P.drawing = false; P.poly = null; P.last = null;
+    if(!quiet && P.mode === 'trace') judgeLift();
+  };
+
+  P.onUp = e => {
+    if(e && P.padId !== null && !hasId(e, P.padId)) return;  // a knuckle lifting must not end the stroke
+    release(false);
+  };
+
+  /* iOS fires these when a system gesture steals the touch, and
+     when a captured pointer is taken away. Keep the ink, drop
+     the lock — a stuck lock would freeze the pad. */
+  P.onCancel = e => {
+    if(e && P.padId !== null && !hasId(e, P.padId)) return;
+    release(true);
+  };
+
+  if(window.PointerEvent){
+    c.addEventListener('pointerdown', P.onDown, { passive:false });
+    c.addEventListener('pointermove', P.onMove, { passive:false });
+    c.addEventListener('pointercancel', P.onCancel);
+    c.addEventListener('lostpointercapture', P.onCancel);
+    window.addEventListener('pointerup', P.onUp);
+    P.bound = 'pointer';
+  } else {
+    c.addEventListener('touchstart', P.onDown, { passive:false });
+    c.addEventListener('touchmove', P.onMove, { passive:false });
+    c.addEventListener('touchcancel', P.onCancel);
+    window.addEventListener('touchend', P.onUp);
+    P.bound = 'touch';
+  }
+}
+function teardown(){
+  padToken++;
+  stopDemo();
+  if(P && P.canvas){
+    const c = P.canvas;
+    if(P.bound === 'pointer'){
+      c.removeEventListener('pointerdown', P.onDown);
+      c.removeEventListener('pointermove', P.onMove);
+      c.removeEventListener('pointercancel', P.onCancel);
+      c.removeEventListener('lostpointercapture', P.onCancel);
+      window.removeEventListener('pointerup', P.onUp);
+    } else if(P.bound === 'touch'){
+      c.removeEventListener('touchstart', P.onDown);
+      c.removeEventListener('touchmove', P.onMove);
+      c.removeEventListener('touchcancel', P.onCancel);
+      window.removeEventListener('touchend', P.onUp);
+    }
+  }
+  P = null;
+}
+
+/* How much slack the child gets right now. Every failed attempt
+   at the SAME stroke widens the corridor a little. A child who
+   is finding one shape hard gets quietly more room until they
+   land it, and the moment they do, the slack resets. Nobody is
+   told this is happening. */
+function tolNow(){ return TOL + Math.min(P.tries || 0, EASE_MAX) * EASE }
+
+function startCheck(p){
+  const s = P.strokes[P.cur];
+  if(!s || s.done) return;
+  const tol = tolNow();
+  if(s.dot){
+    if(dist(p, s.dot) < tol * 1.8) strokeDone();
+    else { P.tries = (P.tries || 0) + 1; tip('Tap the little dot above the letter.') }
+    return;
+  }
+  P.last = p;
+  if(dist(p, s.pts[0]) <= tol * 1.6){ P.reach = 0; tip(''); return }
+
+  /* landing a little way along the line is not really a mistake —
+     the hand was heading for the dot and overshot. Take it, and
+     start them from wherever they actually touched down. */
+  const lead = Math.max(1, Math.round((s.pts.length - 1) * LEAD_IN));
+  for(let i = 1; i <= lead; i++){
+    if(dist(p, s.pts[i]) <= tol){ P.reach = i; tip(''); return }
+  }
+  P.reach = -1;
+  tip('Start on the yellow dot ' + circled(P.cur + 1) + '.');
+}
+
+function follow(p){
+  const s = P.strokes[P.cur];
+  if(!s || s.done || s.dot) return;
+  const tol = tolNow();
+  if(P.reach < 0){                                  // began in the wrong place — let them re-start
+    if(dist(p, s.pts[0]) <= tol * 1.6){ P.reach = 0; tip('') }
+    P.last = p;
+    return;
+  }
+  const n = s.pts.length;
+  const q = P.last || p;                            // where the finger was an instant ago
+  const window_ = Math.max(4, Math.round(n * AHEAD));
+
+  /* Test the SEGMENT the finger just travelled, not the single
+     point it happens to be sitting on. A child who writes quickly
+     produces move events a long way apart — far enough that the
+     old point-by-point test skipped straight over the middle of
+     the line and stopped crediting them at all. Fast, confident
+     strokes were being marked hardest of the lot. */
+  for(let i = P.reach; i <= Math.min(n - 1, P.reach + window_); i++){
+    if(segDist(s.pts[i], q, p) <= tol) P.reach = Math.max(P.reach, i);
+  }
+  P.last = p;
+  if(P.reach >= Math.floor((n - 1) * FINISH)) strokeDone();
+}
+function dist(a, b){ return Math.hypot(a.x - b.x, a.y - b.y) }
+/* shortest distance from a model point to the line the finger drew */
+function segDist(p, a, b){
+  const dx = b.x - a.x, dy = b.y - a.y, L = dx*dx + dy*dy;
+  if(!L) return dist(p, a);
+  let t = ((p.x - a.x) * dx + (p.y - a.y) * dy) / L;
+  t = t < 0 ? 0 : t > 1 ? 1 : t;
+  return Math.hypot(p.x - (a.x + t*dx), p.y - (a.y + t*dy));
+}
+
+/* Called when the finger lifts part-way through a stroke. If they
+   got most of the way, that IS the letter — a five-year-old who
+   has drawn nine tenths of an s has learned the s, and refusing
+   it teaches nothing except that the game is unfair. Otherwise,
+   say what to do differently rather than that it went wrong. */
+function judgeLift(){
+  const s = P.strokes[P.cur];
+  if(!s || s.done || s.dot) return;
+  const n = s.pts.length;
+  const got = P.reach < 0 ? 0 : P.reach / Math.max(1, n - 1);
+  if(got >= NEAR){ strokeDone(); return }
+
+  P.tries = (P.tries || 0) + 1;
+  if(got < 0.15)      tip('Start on the yellow dot ' + circled(P.cur + 1) + ' and follow the arrow.');
+  else if(got < 0.55) tip('Good start! See how far you can get this time.');
+  else                tip('So close — keep going right to the end.');
+
+  /* third miss on the same stroke: stop asking, just show them */
+  if(P.tries >= EASE_MAX){ tip('Watch — this is the way it goes.'); demo() }
+}
+function circled(n){ return ['','①','②','③','④','⑤'][n] || ('#' + n) }
+
+function strokeDone(){
+  const s = P.strokes[P.cur];
+  s.done = true;
+  P.ink = [];                                       // the neat stroke replaces the wobbly one
+  P.reach = 0;
+  P.tries = 0;                                      // landed it — back to the normal corridor
+  P.last = null;
+  const left = P.strokes.filter(x => !x.done).length;
+  if(left){
+    P.cur = P.strokes.findIndex(x => !x.done);
+    tip(['Good. Now stroke ' + circled(P.cur + 1) + '.', 'Nice! Next one.', 'That\'s it — keep going.'][P.cur % 3], 'good');
+    Say.line('Good', 1);
+    paint(); paintPips();
+  } else {
+    P.finished = true;
+    paint(); paintPips();
+    letterDone();
+  }
+}
+
+function tip(t, kind){
+  const h = $('hint');
+  h.textContent = t || '';
+  h.className = 'hint' + (kind ? ' ' + kind : '');
+}
+
+/* ── demonstrate the stroke ─────────────────────────────── */
+function stopDemo(){ if(P && P.demoT){ cancelAnimationFrame(P.demoT); P.demoT = null; P.demoAt = null } }
+function demo(){
+  if(!P) return;
+  stopDemo();
+  const s = P.strokes[P.cur] || P.strokes[0];
+  if(!s) return;
+  if(s.dot){ P.demoAt = s.dot; paint(); setTimeout(() => { P.demoAt = null; paint() }, 700); return }
+  const t0 = performance.now(), ms = 260 + s.pts.length * 22;
+  const step = now => {
+    if(!P) return;
+    const u = Math.min(1, (now - t0) / ms);
+    P.demoAt = s.pts[Math.round(u * (s.pts.length - 1))];
+    paint();
+    if(u < 1) P.demoT = requestAnimationFrame(step);
+    else { P.demoT = null; setTimeout(() => { if(P){ P.demoAt = null; paint() } }, 380) }
+  };
+  P.demoT = requestAnimationFrame(step);
+  tip('Watch the dot, then you try.');
+}
+
+/* ════════════════════════════════════════════════════════════
+   GAME 1 · TRACE THE LETTERS
+   ════════════════════════════════════════════════════════════ */
+const ALPHA = 'abcdefghijklmnopqrstuvwxyz'.split('');
+let RUN = null;   // { game, list, i, word }
+
+/* The digits are their own set rather than a third case, because
+   they are not a case of anything. They sit beside a b c / A B C
+   so they are found in the same place a child already looks.
+
+   Order is not 0–9: the round and straight ones come first, and
+   2 3 5 7 — the four that get written back to front — come once
+   the habit of starting on the yellow dot has stuck. */
+const NUMS = (typeof DIGITS !== 'undefined' && DIGITS) ? DIGITS
+           : ['1','0','4','7','2','3','5','6','9','8'];
+const isDigits = () => DB.case === 'digits';
+
+function setCase(c){ DB.case = c; save(); openPicker() }
+function openPicker(){
+  ['lower','upper','both','digits'].forEach((c, i) => {
+    $('caseSeg').children[i].classList.toggle('on', DB.case === c);
+  });
+  const list = isDigits() ? NUMS : ALPHA;
+  $('pickGrid').innerHTML = list.map(l => {
+    const show = isDigits() ? l
+      : DB.case === 'upper' ? l.toUpperCase() : DB.case === 'both' ? l.toUpperCase() + l : l;
+    const keys = casesFor(l);
+    const done = keys.every(k => DB.letters[k]);
+    return `<button class="pick${done ? ' done' : ''}" onclick="startTrace('${l}')">
+              ${show}<span class="tick">✅</span></button>`;
+  }).join('');
+  showScreen('pickScreen');
+}
+function casesFor(l){
+  if(isDigits()) return [l];
+  return DB.case === 'upper' ? [l.toUpperCase()] : DB.case === 'lower' ? [l] : [l.toUpperCase(), l];
+}
+function startTrace(l){
+  RUN = { game:'trace', list:[], i:0, digits: isDigits() };
+  const list = isDigits() ? NUMS : ALPHA;
+  list.slice(list.indexOf(l)).forEach(x => casesFor(x).forEach(k => RUN.list.push(k)));
+  openPad();
+}
+
+/* ════════════════════════════════════════════════════════════
+   GAME 2 · LISTEN AND WRITE
+   ════════════════════════════════════════════════════════════ */
+function startListen(){
+  const pool = (typeof landLetters === 'function' ? landLetters() : ['M','S','A','T','B','C','F','I'])
+    .map(l => DB.case === 'upper' ? l.toUpperCase() : l.toLowerCase());
+  RUN = { game:'listen', list:shuffle(pool.slice()), i:0 };
+  openPad();
+}
+function shuffle(a){ for(let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]] } return a }
+
+/* ════════════════════════════════════════════════════════════
+   GAME 3 · WRITE A WORD
+   ════════════════════════════════════════════════════════════ */
+function openWords(){
+  $('wordChips').innerHTML = allWords().map(w => {
+    const mine = DB.mine.includes(w);
+    return `<button class="chip${DB.words[w] ? ' done' : ''}${mine ? ' mine' : ''}"
+             onclick="startWord('${w.replace(/'/g, "\\'")}')">${w}</button>`;
+  }).join('');
+  showScreen('wordScreen');
+}
+function startWord(w){
+  const letters = w.split('').filter(c => /[a-z]/i.test(c))
+    .map(c => (c === c.toUpperCase() && w.indexOf(c) === 0) ? c : (DB.case === 'upper' ? c.toUpperCase() : c.toLowerCase()));
+  RUN = { game:'word', word:w, list:letters, i:0 };
+  openPad();
+  Say.word(w);
+}
+
+/* ════════════════════════════════════════════════════════════
+   THE PAD SCREEN — shared by all three games
+   ════════════════════════════════════════════════════════════ */
+function openPad(){
+  showScreen('padScreen');
+  renderPad();
+}
+function renderPad(){
+  teardown();
+  const ch = RUN.list[RUN.i];
+  const free = RUN.game === 'listen';
+
+  $('padTitle').textContent = RUN.game === 'word' ? RUN.word
+    : free ? 'Listen and write'
+    : NUMWORD[ch] ? 'Number ' + ch
+    : (ch === ch.toUpperCase() ? 'Big ' : 'Small ') + ch.toUpperCase();
+
+  /* the word across the top, with the letter we are on marked */
+  if(RUN.game === 'word'){
+    $('wordStrip').innerHTML = RUN.list.map((c, i) =>
+      `<span class="${i < RUN.i ? 'ok' : i === RUN.i ? 'now' : ''}">${c}</span>`).join('');
+  } else if(RUN.game === 'trace'){
+    $('wordStrip').innerHTML = `<span class="now">${ch}</span>`;
+  } else {
+    $('wordStrip').innerHTML = '<span>? ? ?</span>';
+  }
+
+  const built = buildPad(ch, free ? 'free' : 'trace');
+  renderTools();
+  if(!built) return;            // buildPad has already explained what went wrong
+
+  if(free){
+    tip('Listen, then write it. Tap 🔊 to hear it again.');
+    setTimeout(() => Say.sound(ch), 260);
+  } else {
+    tip('Start on the yellow dot ①, follow the arrow.');
+    setTimeout(() => Say.sound(ch), 260);
+  }
+}
+
+function renderTools(){
+  const free = RUN.game === 'listen';
+  let html = `<button class="tool" onclick="clearPad()">↺ Start again</button>`;
+  if(free){
+    html += `<button class="tool gold" onclick="revealModel()" id="revealBtn">👀 Show me</button>`;
+    html += `<button class="tool go" onclick="selfCheck()">I did it ✓</button>`;
+  } else {
+    html += `<button class="tool gold" onclick="demo()">👀 Watch it</button>`;
+    html += `<button class="tool" onclick="skip()">Skip →</button>`;
+  }
+  $('tools').innerHTML = html;
+}
+function clearPad(){
+  if(!P) return;
+  P.ink = []; P.reach = 0; P.tries = 0; P.last = null; P.finished = false;
+  if(P.mode === 'trace'){ P.strokes.forEach(s => s.done = false); P.cur = 0 }
+  tip(P.mode === 'trace' ? 'Start on the yellow dot ①.' : 'Have another go.');
+  paint(); paintPips();
+}
+function revealModel(){
+  if(!P) return;
+  P.showModel = !P.showModel;
+  const b = $('revealBtn'); if(b) b.textContent = P.showModel ? '🙈 Hide it' : '👀 Show me';
+  tip(P.showModel ? 'Is yours the same shape?' : '');
+  paint();
+}
+function selfCheck(){ letterDone() }
+function skip(){ RUN.i++; nextOrFinish() }
+function hearIt(){
+  if(!RUN) return;
+  if(RUN.game === 'word') Say.word(RUN.word);
+  else Say.sound(RUN.list[RUN.i]);
+}
+function quitPad(){
+  teardown(); Say.stop();
+  if(RUN && RUN.game === 'word') openWords();
+  else if(RUN && RUN.game === 'trace') openPicker();
+  else toHome();
+}
+
+/* one letter finished */
+function letterDone(){
+  const ch = RUN.list[RUN.i];
+  DB.letters[ch] = (DB.letters[ch] || 0) + 1; save();
+
+  if(RUN.game === 'word'){
+    RUN.i++;
+    if(RUN.i >= RUN.list.length){
+      DB.words[RUN.word] = (DB.words[RUN.word] || 0) + 1; save();
+      celebrate('🎉', 'You wrote it!', RUN.word, () => { Say.word(RUN.word); openWords() });
+    } else {
+      celebrate('👏', 'Next letter', RUN.list[RUN.i], renderPad, 900);
+    }
+    return;
+  }
+  celebrate('⭐', 'You wrote it!', ch, () => { RUN.i++; nextOrFinish() });
+}
+function nextOrFinish(){
+  if(!RUN || RUN.i >= RUN.list.length){
+    if(RUN && RUN.game === 'listen') return toHome();
+    return openPicker();
+  }
+  renderPad();
+}
+
+function celebrate(emoji, text, word, then, ms){
+  $('cheerE').textContent = emoji;
+  $('cheerT').textContent = text;
+  $('cheerW').textContent = word || '';
+  $('cheer').classList.add('on');
+  Say.praise(text, 0.85);
+  setTimeout(() => { $('cheer').classList.remove('on'); if(then) then() }, ms || 1250);
+}
+
+/* ════════════════════════════════════════════════════════════
+   GROWN-UPS
+   ════════════════════════════════════════════════════════════ */
+let gateAnswer = 0, gateThen = null;
+function askGrownUp(then){
+  const a = 4 + Math.floor(Math.random() * 7), b = 3 + Math.floor(Math.random() * 7);
+  gateAnswer = a + b; gateThen = then;
+  $('gateQ').textContent = `What is ${a} + ${b}?`;
+  $('gateIn').value = ''; $('gateMsg').textContent = '';
+  $('gateBg').classList.add('open');
+  setTimeout(() => $('gateIn').focus(), 80);
+}
+function closeGate(){ $('gateBg').classList.remove('open') }
+function submitGate(){
+  if(parseInt($('gateIn').value, 10) === gateAnswer){ closeGate(); if(gateThen) gateThen() }
+  else { $('gateMsg').textContent = 'Not quite — try that sum again.'; $('gateIn').value = '' }
+}
+
+function openDash(){
+  const letters = Object.keys(DB.letters).length;
+  const words = Object.keys(DB.words).length;
+  $('dashBody').innerHTML = `
+    <div class="panel">
+      <h3>How it's going</h3>
+      <p>${letters} of 52 letter shapes written, ${words} word${words === 1 ? '' : 's'} finished.</p>
+    </div>
+
+    <div class="panel">
+      <h3>Your own words</h3>
+      <p>Add a name, a pet, anything worth writing. Letters only — up to eight.</p>
+      <div class="row">
+        <input class="txt" id="newWord" placeholder="e.g. Nana" autocomplete="off"
+               autocapitalize="none" spellcheck="false" maxlength="8">
+        <button class="tool go" onclick="addWord()">Add</button>
+      </div>
+      <div class="mine-list" id="mineList">${
+        DB.mine.length
+          ? DB.mine.map(w => `<span class="m">${w}<button onclick="dropWord('${w.replace(/'/g, "\\'")}')" aria-label="Remove">✕</button></span>`).join('')
+          : '<p style="font-size:13px">Nothing added yet.</p>'
+      }</div>
+    </div>
+
+    <div class="panel">
+      <h3>Which letters</h3>
+      <p>Small letters are the ones children write first. This also sets what the
+         letter games offer.</p>
+      <div class="row">
+        <button class="tool${DB.case === 'lower' ? ' go' : ''}" onclick="setCaseFromDash('lower')">a b c</button>
+        <button class="tool${DB.case === 'upper' ? ' go' : ''}" onclick="setCaseFromDash('upper')">A B C</button>
+        <button class="tool${DB.case === 'both' ? ' go' : ''}" onclick="setCaseFromDash('both')">Both</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Recordings</h3>
+      <p>${HAS_WL
+          ? 'Letter sounds and words use the same recordings as Word Land, and fall back to the computer voice.'
+          : 'Word Land\'s audio files were not found, so the computer voice is used.'}</p>
+    </div>
+
+    <button class="big-btn quiet" onclick="wipe()">Start the writing over</button>`;
+  showScreen('dashScreen');
+}
+function setCaseFromDash(c){ DB.case = c; save(); openDash() }
+function addWord(){
+  const el = $('newWord');
+  const w = (el.value || '').trim().replace(/[^A-Za-z]/g, '');
+  if(!w) return;
+  if(typeof LETTERFORMS === 'undefined' || !LETTERFORMS) return;
+  const bad = w.split('').filter(c => !LETTERFORMS[c] && !LETTERFORMS[c.toLowerCase()]);
+  if(bad.length){ el.value = ''; return }
+  if(!DB.mine.includes(w)) DB.mine.push(w);
+  save(); openDash();
+}
+function dropWord(w){ DB.mine = DB.mine.filter(x => x !== w); save(); openDash() }
+function wipe(){ DB = fresh(); save(); toHome() }
+
+/* ════════════════════════════════════════════════════════════
+   START
+   ════════════════════════════════════════════════════════════ */
+function boot(){
+  $('gateIn').addEventListener('keydown', e => { if(e.key === 'Enter') submitGate() });
+  document.addEventListener('gesturestart', e => e.preventDefault());
+
+  /* iPad only lets sound start from a real tap — take the first one */
+  const un = () => {
+    if(HAS_WL) WLAudio.unlock();
+    window.removeEventListener('pointerdown', un);
+    window.removeEventListener('touchstart', un);
+  };
+  window.addEventListener('pointerdown', un);
+  window.addEventListener('touchstart', un);
+
+  /* redraw at the new size when the iPad is turned */
+  let rt = null;
+  const resize = () => {
+    if(!P || !RUN) return;
+    clearTimeout(rt);
+    rt = setTimeout(() => { if(P && RUN) renderPad() }, 250);
+  };
+  window.addEventListener('orientationchange', resize);
+  window.addEventListener('resize', resize);
+
+  if(HAS_WL) WLAudio.init();
+  toHome();
+}
+if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+</script>
+</body>
+</html>
